@@ -1,3 +1,5 @@
+require 'bootstrap-sass'
+
 http_path = "/"
 css_dir = "."
 sass_dir = "sass"
@@ -7,4 +9,3 @@ javascripts_dir = "js"
 output_style = :expanded
 
 relative_assets = true
-

@@ -23,27 +23,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 @import "compass";
 @import "compass/reset";
 @import "base";
-
-/* =Global Variables
------------------------------------------------ */
-
-$body-font-stack: 'Open Sans', Verdana, sans-serif;
-$body-font-color: #404040;
-$body-font-size: 16px;
-
-$header-font-stack: 'Libre Baskerville', Georgia, serif;
-
-$bright-cta-color: #fa7200;
-$dark-cta-color: #ff8000;
-
-$offset-bg: #f7f6f4;
-$base-bg: #f3f2f0;
-
-$text-color: #222;
-$link-color: #428BCA;
-$link-hover: #0072BC;
-$background: #f8f8f8;
-$background-alt: #0072BC;
+@import "bootstrap-compass";
+@import "variables";
+@import "bootstrap";
 
 /* =General
 ----------------------------------------------- */
@@ -57,21 +39,9 @@ h1, h2 {
   font-family: $header-font-stack;
 }
 
-#masthead {
-  background-color: $offset-bg;
-  height: 60px;
-  -moz-box-shadow: 0 5px 5px rgba(0, 0, 0,0.2);
-  -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0,0.2);
-  box-shadow: 0 5px 5px rgba(0, 0, 0,0.2);
-}
-
-#masthead nav {
-  height: 100%;
-  width: 100%;
-}
-
 #site-logo {
   margin-left: 25px;
+  margin-right: 15px;
   width: 75px;
   height: 50px;
   background-image: image-url('mto-logo.png');
@@ -79,14 +49,49 @@ h1, h2 {
   background-repeat: no-repeat;
 }
 
-.main-navigation div,
-.main-navigation a {
-  display: inline-block;
-  vertical-align: middle;
+.navbar {
+  background-color: $offset-bg;
+  -moz-box-shadow: 0 5px 5px rgba(0, 0, 0,0.2);
+  -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0,0.2);
+  box-shadow: 0 5px 5px rgba(0, 0, 0,0.2);
+  font-weight: 600;
+}
+.navbar-toggle span.icon-bar {
+  background-color: $brand-primary;
 }
 
-.main-navigation a {
-  margin: 0 25px;
-  color: $body-font-color;
-  font-weight: 600;
+.navbar .pull-right {
+  height: 50px;
+  padding: 0;
+}
+.navbar-form {
+  margin: 0;
+  padding: 0;
+}
+.navbar-form .input-group input {
+  padding-left: 15px;
+}
+.navbar-form,
+.navbar-form .input-group,
+.navbar-form .input-group input,
+.navbar-form .input-group .input-group-btn button {
+  height: 100%;
+  border-radius: 0;
+  border: none;
+}
+
+.navbar-form .input-group {
+  float: right;
+}
+
+.navbar-form .input-group .input-group-btn button {
+  background-color: $dark-cta-color;
+  width: 60px;
+}
+.navbar-form .input-group .input-group-btn button:hover {
+  background-color: $bright-cta-color;
+}
+.navbar-form .input-group .input-group-btn button i {
+  color: #FFF;
+  font-size: 22px;
 }
