@@ -1,0 +1,92 @@
+/*
+Theme Name: MTO Custom Theme
+Theme URI: https://tenants-rights.org/
+Author: MTO
+Author URI: https://tenants-rights.org/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: mto_custom
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+mto_custom is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
+*/
+
+@import "compass";
+@import "compass/reset";
+@import "base";
+
+/* =Global Variables
+----------------------------------------------- */
+
+$body-font-stack: 'Open Sans', Verdana, sans-serif;
+$body-font-color: #404040;
+$body-font-size: 16px;
+
+$header-font-stack: 'Libre Baskerville', Georgia, serif;
+
+$bright-cta-color: #fa7200;
+$dark-cta-color: #ff8000;
+
+$offset-bg: #f7f6f4;
+$base-bg: #f3f2f0;
+
+$text-color: #222;
+$link-color: #428BCA;
+$link-hover: #0072BC;
+$background: #f8f8f8;
+$background-alt: #0072BC;
+
+/* =General
+----------------------------------------------- */
+
+body {
+  font-family: $body-font-stack;
+  font-size: $body-font-size;
+}
+
+h1, h2 {
+  font-family: $header-font-stack;
+}
+
+#masthead {
+  background-color: $offset-bg;
+  height: 60px;
+  -moz-box-shadow: 0 5px 5px rgba(0, 0, 0,0.2);
+  -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0,0.2);
+  box-shadow: 0 5px 5px rgba(0, 0, 0,0.2);
+}
+
+#masthead nav {
+  height: 100%;
+  width: 100%;
+}
+
+#site-logo {
+  margin-left: 25px;
+  width: 75px;
+  height: 50px;
+  background-image: image-url('mto-logo.png');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main-navigation div,
+.main-navigation a {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.main-navigation a {
+  margin: 0 25px;
+  color: $body-font-color;
+  font-weight: 600;
+}
