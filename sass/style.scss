@@ -75,7 +75,7 @@ h1, h2 {
 .navbar-form .input-group,
 .navbar-form .input-group input,
 .navbar-form .input-group .input-group-btn button {
-  height: 100%;
+  height: 50px;
   border-radius: 0;
   border: none;
 }
@@ -83,6 +83,10 @@ h1, h2 {
 .navbar-form .input-group {
   float: right;
 }
+
+// #nav-collapse .pull-right {
+//   width: 100%;
+// }
 
 .navbar-form .input-group .input-group-btn button {
   background-color: $dark-cta-color;
@@ -94,4 +98,89 @@ h1, h2 {
 .navbar-form .input-group .input-group-btn button i {
   color: #FFF;
   font-size: 22px;
+}
+
+/* Home top content */
+
+.row {
+  margin: 10px;
+}
+.col-sm-5, .col-sm-7, .col-sm-12 {
+  padding: inherit;
+}
+.main-home-content .row:first-child {
+  height: 250px;
+}
+.left-section h1 {
+  width: 200px;
+}
+.left-section h2 {
+  width: 300px;
+}
+
+.right-section {
+  padding-left: 25px;
+  border-left: 1px solid $gray-base;
+  margin-top: 25px;
+  font-size: 20px;
+}
+
+.resolution-button {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+.resolution-button p {
+  margin-bottom: 20px;
+}
+
+.cta-button-link {
+  background-color: $bright-cta-color;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px;
+}
+.cta-button-link:active,
+.cta-button-link:visited,
+.cta-button-link:hover {
+  color: $gray-dark;
+}
+
+.cta-arrow-link i {
+  padding-right: 5px;
+}
+.cta-arrow-link a {
+  color: $bright-cta-color;
+}
+.cta-arrow-link a:active,
+.cta-arrow-link a:visited,
+.cta-arrow-link a:hover {
+  color: $dark-cta-color;
+}
+
+/* EVENTS POSTS */
+.events-posts {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+.events-posts a h5 {
+  font-family: $body-font-stack;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .left-section,
+  .left-section h1,
+  .left-section h2 {
+    width: inherit;
+  }
+  .right-section {
+    border: none;
+    padding-left: inherit;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  h1 {
+    font-size: 30px;
+  }
 }
