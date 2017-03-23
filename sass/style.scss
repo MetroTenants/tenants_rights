@@ -158,6 +158,9 @@ h1, h2 {
 }
 
 /* EVENTS POSTS */
+.events-posts-section {
+  padding-right: 25px;
+}
 .events-posts {
   margin-bottom: 20px;
   font-size: 14px;
@@ -167,7 +170,41 @@ h1, h2 {
   font-weight: bold;
 }
 
+.social-share {
+  border-bottom: 1px solid $gray-base;
+  margin-bottom: 25px;
+}
+.social-share a {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 100%;
+  color: #fff;
+  font-size: 24px;
+  opacity: 0.75;
+  text-align: center;
+}
+.social-share a:hover {
+  opacity: 1.0;
+}
+.social-share a i {
+	position: relative;
+	top: 20%;
+	transform: translateY(-20%);
+  margin: 0 auto;
+}
+.facebook {
+ 	background: #3b5998;
+}
+.twitter {
+	background: #55acee;
+}
+
 @media screen and (max-width: 768px) {
+  .main-home-content .row:first-child {
+    height: inherit;
+  }
   .left-section,
   .left-section h1,
   .left-section h2 {

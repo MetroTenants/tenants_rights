@@ -18,6 +18,7 @@
 <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
 <?php wp_head(); ?>
 <script type="text/javascript" src="/wp-content/themes/mto_custom/js/bootstrap.min.js"></script>
+<script src="https://use.fontawesome.com/d70ddbbdd8.js"></script>
 </head>
 
 <body <?php body_class(); ?>>
