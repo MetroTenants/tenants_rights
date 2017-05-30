@@ -44,7 +44,7 @@ h1, h2 {
   margin-right: 15px;
   width: 75px;
   height: 50px;
-  background-image: image-url('mto-logo.png');
+  background-image: image-url('mto-logo.svg');
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -84,10 +84,6 @@ h1, h2 {
   float: right;
 }
 
-// #nav-collapse .pull-right {
-//   width: 100%;
-// }
-
 .navbar-form .input-group .input-group-btn button {
   background-color: $dark-cta-color;
   width: 60px;
@@ -110,6 +106,9 @@ h1, h2 {
 }
 .main-home-content .row:first-child {
   height: 250px;
+}
+.main-home-content .row:last-child {
+  margin-bottom: 30px;
 }
 .left-section h1 {
   width: 200px;
@@ -169,6 +168,9 @@ h1, h2 {
   font-family: $body-font-stack;
   font-weight: bold;
 }
+.events-posts .center-items {
+  text-align: center;
+}
 
 .social-share {
   border-bottom: 1px solid $gray-base;
@@ -201,18 +203,160 @@ h1, h2 {
 	background: #55acee;
 }
 
+.what-were-about {
+  background-color: $body-bg-darker;
+}
+.what-were-about .row {
+  padding: 15px;
+}
+.what-were-about .row .title {
+  border-bottom: 1px solid $gray-base;
+}
+
+.row div div.inline-item {
+  display: inline-block;
+  width: 30%;
+  min-width: 200px;
+  margin: 10px;
+  text-align: center;
+  line-height: auto;
+}
+.row div div.inline-item i {
+  font-size: 200px;
+}
+
+.center-items {
+  text-align: center;
+}
+
+.img-thumb {
+  width: 100%;
+}
+
+.events-posts div .img-thumb {
+  max-width: 300px;
+}
+
+.image-bg {
+  background-image: image-url('gothamist_mto_protest_reduced.png');
+  background-attachment: fixed;
+  height: 450px;
+}
+
+.feature-images-section div h2,
+.feature-images-section div p {
+  font-family: $font-family-sans-serif;
+  color: #FFF;
+}
+.feature-images-section div {
+  background-color: rgba(209, 209, 209, 0.6);
+  width: 100%;
+  padding: 15px;
+}
+.feature-images-section div h2 {
+  font-weight: 700;
+}
+
+.squared-away-feature {
+  padding: 15px;
+}
+.squared-away-pic {
+  height: 400px;
+  background-image: image-url('squared_away_pic.png');
+  background-size: contain;
+}
+.squared-away-text {
+  min-height: 400px;
+}
+.squared-away-section {
+  height: 100%;
+}
+.squared-away-top {
+  border-bottom: 1px solid $gray-base;
+  padding-bottom: 45px;
+}
+.squared-away-top h1,
+.squared-away-top h3 {
+  font-family: $font-family-sans-serif;
+}
+.squared-away-top h1 {
+  font-weight: 700;
+}
+.squared-away-text {
+  padding: 15px;
+  background-color: $squared-away-light;
+}
+.squared-away-text p {
+  margin-top: 25px;
+}
+.squared-away-button {
+  margin-top: 25px;
+  max-width: 175px;
+  background-color: #fff;
+  color: $squared-away-dark;
+  font-weight: 600;
+  padding: 7px;
+  border: 5px solid $squared-away-dark;
+}
+
+.footer-container {
+  background-color: $gray-middle;
+  color: $body-bg;
+}
+.footer-container .row {
+  padding: 15px 0;
+}
+.footer-container .row .title {
+  border-bottom: 1px solid $body-bg;
+}
+div.footer-cta {
+  font-weight: 500;
+  padding: 10px;
+  border: 5px solid $dark-cta-color;
+  width: 175px;
+}
+a.footer-cta:visited,
+a.footer-cta:active,
+a.footer-cta:focus,
+a.footer-cta:hover,
+.footer-links a:visited,
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+  color: $body-bg-darker;
+}
+.footer-links a:first-child {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.footer-links a {
+  display: block;
+  font-weight: 300;
+  margin: 10px 0;
+  font-size: 12px;
+}
+.email-form div div button {
+  color: $brand-primary;
+}
+
 @media screen and (max-width: 768px) {
   .main-home-content .row:first-child {
     height: inherit;
+  }
+  .events-posts-section {
+    padding-right: 0;
+    margin: 0;
   }
   .left-section,
   .left-section h1,
   .left-section h2 {
     width: inherit;
+    padding: 0;
   }
   .right-section {
     border: none;
-    padding-left: inherit;
+    padding: 0;
   }
 }
 

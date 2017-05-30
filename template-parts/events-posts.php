@@ -9,7 +9,7 @@
 
 ?>
 
-<div class="events-posts-section">
+<div class="events-posts-section row">
   <div class="left-section col-sm-5">
     <h2>Upcoming Events and Updates</h2>
     <div class="social-share">
@@ -29,7 +29,7 @@
     foreach ( $postslist as $post ) :
       setup_postdata( $post ); ?>
     	<div class="events-posts row">
-        <div class="col-sm-3">
+        <div class="col-sm-3 center-items">
           <?php $width = get_settings ( "cp_thumbWidth_Column" );
         		$height = get_settings ( "cp_thumbHeight_Column" );
         		if ( $width == 0 ) { $width = 100; }
@@ -57,7 +57,7 @@
 
         	<?php if($image_src != '') { ?><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>">
         <img src="<?php echo $image_src; ?>"
-            alt="<?php the_title(); ?>" class="left" width="<?php echo $width; ?>px" height="<?php echo $height; ?>px"  /></a><?php } ?>
+            alt="<?php the_title(); ?>" class="left img-thumb" /></a><?php } ?>
 
         	<?php } ?>
         </div>

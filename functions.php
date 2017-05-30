@@ -99,6 +99,12 @@ function mto_custom_widgets_init() {
 		'after_title'   => '</h2>',
 	) );
 }
+
+function custom_excerpt_length( $length ) {
+	return 15;
+}
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+
 add_action( 'widgets_init', 'mto_custom_widgets_init' );
 
 /**
