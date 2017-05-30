@@ -12,6 +12,7 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+		<span class="post-time"><?php echo 'Last updated:'; ?> <?php the_time(get_option('date_format')); ?> &#150; <?php the_time(); ?></span>
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">

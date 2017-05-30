@@ -36,6 +36,10 @@ body {
   color: $gray-dark;
 }
 
+main {
+  margin-bottom: 15px;
+}
+
 h1, h2 {
   font-family: $header-font-stack;
 }
@@ -51,7 +55,7 @@ h1, h2 {
 }
 
 .navbar {
-  background-color: $offset-bg;
+  background-color: $body-bg-lighter;
   -moz-box-shadow: 0 5px 5px rgba(0, 0, 0,0.2);
   -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0,0.2);
   box-shadow: 0 5px 5px rgba(0, 0, 0,0.2);
@@ -96,6 +100,17 @@ h1, h2 {
   color: #FFF;
   font-size: 22px;
 }
+
+/* font-content */
+
+article,
+span,
+aside,
+.entry-content,
+.widget-title {
+  font-family: $font-family-sans-serif;
+}
+
 
 /* Home top content */
 
@@ -351,6 +366,49 @@ a.footer-cta:hover,
   color: $brand-primary;
 }
 
+.aside-col {
+   border-left: 1px solid $gray-base;
+   padding-left: 25px;
+}
+.content-col {
+  padding: 10px 25px;
+  background-color: $body-bg-lighter;
+  -moz-box-shadow: 0 5px 5px rgba(0, 0, 0,0.2);
+  -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0,0.2);
+  box-shadow: 0 5px 5px rgba(0, 0, 0,0.2);
+  margin-right: 25px;
+}
+.entry-content h1 {
+  font-size: 24px;
+}
+.entry-content h2 {
+  font-size: 20px;
+}
+.entry-content h3 {
+  font-size: 18px;
+}
+.entry-content h4 {
+  font-size: 16px;
+}
+.post-time {
+  font-size: 12px;
+}
+.widget-title {
+  font-weight: 600;
+}
+h1.widget-title {
+  font-size: 20px;
+}
+h2.widget-title {
+  font-size: 18px;
+}
+h3.widget-title {
+  font-size: 16px;
+}
+h4.widget-title {
+  font-size: 14px;
+}
+
 @media screen and (max-width: 768px) {
   .main-home-content .row:first-child {
     height: inherit;
@@ -368,6 +426,13 @@ a.footer-cta:hover,
   .right-section {
     border: none;
     padding: 0;
+  }
+  .content-col {
+    margin-right: 0;
+  }
+  .aside-col {
+    border-left: none;
+    padding-left: 0;
   }
 }
 

@@ -36,6 +36,7 @@ $squared-away-dark: #009F93;
 //** Background color for `<body>`.
 $body-bg: #f3f2f0;
 $body-bg-darker: darken($body-bg, 5%);
+$body-bg-lighter: lighten($body-bg, 5%);
 //** Global text color on `<body>`.
 $text-color: $gray-dark;
 $font-family-sans-serif: 'Open Sans', Verdana, sans-serif;
