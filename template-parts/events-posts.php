@@ -73,5 +73,10 @@
     endforeach;
     wp_reset_postdata();
     ?>
+    <div class="events-posts row">
+      <div class="cta-arrow-link">
+        <a href="#"><i class="glyphicon glyphicon-circle-arrow-right"></i> See more updates</a>
+      </div>
+    </div>
   </div>
 </div>

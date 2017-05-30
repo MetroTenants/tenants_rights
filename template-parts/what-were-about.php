@@ -18,12 +18,18 @@
   <div class="col-sm-10 col-sm-offset-1 center-items">
     <div class="inline-item">
       <i class="glyphicon glyphicon-picture"></i>
+      <h4>Our Mission</h4>
+      <p>Our goal is to educate, organize and empower tenants to have a voice in the affordability and availability of safe housing.</p>
     </div>
     <div class="inline-item">
       <i class="glyphicon glyphicon-picture"></i>
+      <h4>Our Advocacy</h4>
+      <p>Talk about ordinance, legislation, etc.</p>
     </div>
     <div class="inline-item">
       <i class="glyphicon glyphicon-picture"></i>
+      <h4>Us &amp; You</h4>
+      <p>D2T services</p>
     </div>
   </div>
 </div>
