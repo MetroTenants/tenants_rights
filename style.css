@@ -10382,19 +10382,36 @@ h4.widget-title {
   font-size: 14px;
 }
 
+/* line 412, sass/style.scss */
+h3.entry-title {
+  font-family: "Open Sans", Verdana, sans-serif;
+  font-weight: 600;
+}
+
+/* line 416, sass/style.scss */
+.entry-meta,
+.entry-footer {
+  font-size: 12px;
+}
+
+/* line 420, sass/style.scss */
+.entry-footer span {
+  margin-right: 10px;
+}
+
 @media screen and (max-width: 768px) {
-  /* line 413, sass/style.scss */
+  /* line 425, sass/style.scss */
   .main-home-content .row:first-child {
     height: inherit;
   }
 
-  /* line 416, sass/style.scss */
+  /* line 428, sass/style.scss */
   .events-posts-section {
     padding-right: 0;
     margin: 0;
   }
 
-  /* line 420, sass/style.scss */
+  /* line 432, sass/style.scss */
   .left-section,
   .left-section h1,
   .left-section h2 {
@@ -10402,25 +10419,25 @@ h4.widget-title {
     padding: 0;
   }
 
-  /* line 426, sass/style.scss */
+  /* line 438, sass/style.scss */
   .right-section {
     border: none;
     padding: 0;
   }
 
-  /* line 430, sass/style.scss */
+  /* line 442, sass/style.scss */
   .content-col {
     margin-right: 0;
   }
 
-  /* line 433, sass/style.scss */
+  /* line 445, sass/style.scss */
   .aside-col {
     border-left: none;
     padding-left: 0;
   }
 }
 @media screen and (max-width: 300px) {
-  /* line 440, sass/style.scss */
+  /* line 452, sass/style.scss */
   h1 {
     font-size: 30px;
   }

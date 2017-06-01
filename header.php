@@ -24,20 +24,6 @@
 <body <?php body_class(); ?>>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'mto_custom' ); ?></a>
-
-	<!-- <header id="masthead" class="site-header" role="banner">
-		<nav id="site-navigation" class="main-navigation" role="navigation">
-			<a id="site-logo" href="#"></a>
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'mto_custom' ); ?></button> -->
-			<?php //wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'primary-menu' ) ); ?>
-			<!-- <ul>
-				<li>Get Involved</li>
-				<li>Browse Topics</li>
-			</ul> -->
-			<!-- <a href="#">Get Involved</a>
-			<a href="#">Browse Topics</a>
-		</nav>
-	</header> -->
 	<div class="navbar navbar-static-top" role="navigation">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -48,16 +34,12 @@
       </button>
       <a class="navbar-brand" rel="home" href="/" id="site-logo" title="MTO Homepage"></a>
     </div>
-		<!-- Potentially add border here -->
     <div id="nav-collapse" class="navbar-collapse collapse navbar-ex1-collapse">
-      <ul class="nav navbar-nav">
-        <li><a href="#">Get Involved</a></li>
-        <li><a href="#">Browse Topics</a></li>
-      </ul>
+			<?php wp_nav_menu( array( 'menu' => 'TOP MENU', 'container' => false, 'menu_id' => 'primary-menu', 'menu_class' => 'nav navbar-nav' ) ); ?>
       <div class="col-sm-3 col-md-3 pull-right">
-        <form class="navbar-form" role="search">
+        <form class="navbar-form" role="search" method="get" action="<?php bloginfo('url'); ?>/">
 	        <div class="input-group">
-            <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
+            <input type="text" value="<?php the_search_query(); ?>" class="form-control" placeholder="Search" name="s" id="srch-term">
             <div class="input-group-btn">
                 <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
             </div>
