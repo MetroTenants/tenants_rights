@@ -29,17 +29,17 @@
           <a href="#" class="footer-cta">DONATE</a>
         </div>
         <div class="inline-item footer-cta">
-          <a href="#" class="footer-cta">MEMBERSHIP</a>
+          <a href="/get-involved/become-a-member/" class="footer-cta">MEMBERSHIP</a>
         </div>
         <div class="inline-item footer-cta">
-          <a href="#" class="footer-cta">VOLUNTEER</a>
+          <a href="/get-involved/volunteer/" class="footer-cta">VOLUNTEER</a>
         </div>
       </div>
     </div>
     <div class="row">
       <div class="col-sm-10 col-sm-offset-1">
         <div class="cta-arrow-link">
-          <a href="#"><i class="glyphicon glyphicon-circle-arrow-right"></i> Get involved</a>
+          <a href="/get-involved/"><i class="glyphicon glyphicon-circle-arrow-right"></i> Get involved</a>
         </div>
       </div>
     </div>

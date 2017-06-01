@@ -17,6 +17,7 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
 <?php wp_head(); ?>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script type="text/javascript" src="/wp-content/themes/mto_custom/js/bootstrap.min.js"></script>
 <script src="https://use.fontawesome.com/d70ddbbdd8.js"></script>
 </head>
@@ -36,7 +37,7 @@
     </div>
     <div id="nav-collapse" class="navbar-collapse collapse navbar-ex1-collapse">
 			<?php wp_nav_menu( array( 'menu' => 'TOP MENU', 'container' => false, 'menu_id' => 'primary-menu', 'menu_class' => 'nav navbar-nav' ) ); ?>
-      <div class="col-sm-3 col-md-3 pull-right">
+      <div class="col-md-3 pull-right">
         <form class="navbar-form" role="search" method="get" action="<?php bloginfo('url'); ?>/">
 	        <div class="input-group">
             <input type="text" value="<?php the_search_query(); ?>" class="form-control" placeholder="Search" name="s" id="srch-term">

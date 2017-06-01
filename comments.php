@@ -79,7 +79,7 @@ if ( post_password_required() ) {
 	<?php
 	endif;
 
-	comment_form();
+	comment_form( array( 'comment_field' => '<p class="comment-form-comment"><label for="comment">' . _x( 'Comment', 'noun' ) . '</label><textarea id="comment" name="comment" cols="45" rows="2" aria-required="true"></textarea></p>'));
 	?>
 
 </div><!-- #comments -->

@@ -39,7 +39,7 @@ get_header(); ?>
 							<div class="row">
 								<div class="col-sm-12 resolution-button">
 									<p>Get started on your housing resolution</p>
-									<a class="cta-button-link" href="#">Get Assistance</a>
+									<a class="cta-button-link" href="/get-assistance/">Get Assistance</a>
 								</div>
 							</div>
 						</div>
@@ -47,15 +47,7 @@ get_header(); ?>
 				</div>
 			</main>
 		</div>
-		<div class="image-bg">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-md-10 col-md-offset-1">
-						<?php get_template_part( 'template-parts/feature-images' ); ?>
-					</div>
-				</div>
-			</div>
-		</div>
+		<?php get_template_part( 'template-parts/feature-images' ); ?>
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
