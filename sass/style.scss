@@ -278,6 +278,7 @@ aside,
 }
 .tab-pane {
   background-attachment: fixed;
+  background-position: center;
 }
 .tab-pane .col-md-10 {
   margin-top: 25px;
@@ -325,6 +326,7 @@ aside,
   color: #FFF;
 }
 .feature-images-section div {
+  margin-top: 25px;
   background-color: rgba(209, 209, 209, 0.6);
   width: 100%;
   padding: 15px;
@@ -546,8 +548,11 @@ h3.entry-title {
   }
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 400px) {
   h1 {
     font-size: 30px;
+  }
+  .tab-pane {
+    background-attachment: inherit;
   }
 }
