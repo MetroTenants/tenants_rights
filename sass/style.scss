@@ -44,6 +44,16 @@ h1, h2 {
   font-family: $header-font-stack;
 }
 
+article,
+span,
+aside,
+.entry-content,
+.widget-title {
+  font-family: $font-family-sans-serif;
+}
+
+/* Nav */
+
 #site-logo {
   margin-left: 25px;
   margin-right: 15px;
@@ -101,18 +111,7 @@ h1, h2 {
   font-size: 22px;
 }
 
-/* font-content */
-
-article,
-span,
-aside,
-.entry-content,
-.widget-title {
-  font-family: $font-family-sans-serif;
-}
-
-
-/* Home top content */
+/* Layout, row sizes */
 
 .row {
   margin: 10px;
@@ -139,6 +138,25 @@ aside,
   margin-top: 25px;
   font-size: 20px;
 }
+
+.row div div.inline-item {
+  vertical-align: top;
+  display: inline-block;
+  width: 30%;
+  min-width: 200px;
+  margin: 10px;
+  text-align: center;
+  line-height: auto;
+}
+.inline-item h4 {
+  font-family: $font-family-sans-serif;
+  font-weight: 600;
+}
+.row div div.inline-item i {
+  font-size: 150px;
+}
+
+/* Buttons, CTAs */
 
 .resolution-button {
   font-size: 20px;
@@ -176,7 +194,8 @@ aside,
   margin-bottom: 25px;
 }
 
-/* EVENTS POSTS */
+/* Events-posts section */
+
 .events-posts-section {
   padding-right: 25px;
 }
@@ -222,6 +241,11 @@ aside,
 .twitter {
 	background: #55acee;
 }
+.events-posts div .img-thumb {
+  max-width: 300px;
+}
+
+/* What We're About Section */
 
 .what-were-about {
   background-color: $body-bg-darker;
@@ -232,37 +256,15 @@ aside,
 .what-were-about .row .title {
   border-bottom: 1px solid $gray-base;
 }
-
-.row div div.inline-item {
-  vertical-align: top;
-  display: inline-block;
-  width: 30%;
-  min-width: 200px;
-  margin: 10px;
-  text-align: center;
-  line-height: auto;
-}
-.inline-item h4 {
-  font-family: $font-family-sans-serif;
-  font-weight: 600;
-}
-.row div div.inline-item i {
-  font-size: 150px;
-}
-
 .center-items {
   text-align: center;
 }
-
 .img-thumb {
   width: 100%;
 }
 
-.events-posts div .img-thumb {
-  max-width: 300px;
-}
+/* Featured images section */
 
-/* HOME PAGE FEATURED IMAGES SECTION */
 .image-bg .container-fluid,
 .image-bg .container-fluid .row,
 .image-bg .container-fluid .row .tab-content,
@@ -335,6 +337,8 @@ aside,
   font-weight: 700;
 }
 
+/* Squared Away Feature section */
+
 .squared-away-feature {
   padding: 15px;
 }
@@ -376,6 +380,8 @@ aside,
   padding: 7px;
   border: 5px solid $squared-away-dark;
 }
+
+/* Footer */
 
 .footer-container {
   background-color: $gray-middle;
@@ -427,7 +433,7 @@ a.footer-cta:hover,
   color: $brand-primary;
 }
 
-/* GENERAL PAGES */
+/* General article, content pages */
 
 .aside-col {
    border-left: 1px solid $gray-base;
@@ -446,6 +452,12 @@ a.footer-cta:hover,
 }
 .entry-content h2 {
   font-size: 20px;
+}
+.entry-content h3,
+.entry-content h4,
+.entry-content h5,
+.entry-content h6 {
+  font-family: $font-family-sans-serif;
 }
 .entry-content h3 {
   font-size: 18px;
@@ -484,7 +496,8 @@ h3.entry-title {
   margin-right: 10px;
 }
 
-/* ARTICLE NAVIGATION */
+/* Article navigation */
+
 .posts-navigation {
   font-weight: 600;
 }
@@ -497,7 +510,8 @@ h3.entry-title {
   text-align: left;
 }
 
-/* COMMENTS */
+/* Comments */
+
 #comments {
   font-size: 14px;
   font-family: $font-family-sans-serif;
@@ -515,13 +529,11 @@ h3.entry-title {
   font-size: 12px;
 }
 
-@media screen and (max-width: 768px) {
-  .main-home-content .row:first-child {
-    height: inherit;
-  }
-  .events-posts-section {
-    padding-right: 0;
-    margin: 0;
+@media screen and (max-width: 992px) {
+  .aside-col,
+  .right-section {
+    border: none;
+    padding: 0;
   }
   .left-section,
   .left-section h1,
@@ -529,16 +541,17 @@ h3.entry-title {
     width: inherit;
     padding: 0;
   }
-  .right-section {
-    border: none;
-    padding: 0;
-  }
   .content-col {
     margin-right: 0;
   }
-  .aside-col {
-    border-left: none;
-    padding-left: 0;
+}
+@media screen and (max-width: 768px) {
+  .main-home-content .row:first-child {
+    height: inherit;
+  }
+  .events-posts-section {
+    padding-right: 0;
+    margin: 0;
   }
   .feature-images-tabs li {
     width: 100%;
