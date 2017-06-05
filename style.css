@@ -10285,7 +10285,7 @@ aside,
 .squared-away-pic {
   height: 400px;
   background-image: url('images/squared_away_pic.png?1496091467');
-  background-size: contain;
+  background-size: cover;
 }
 
 /* line 350, sass/style.scss */
