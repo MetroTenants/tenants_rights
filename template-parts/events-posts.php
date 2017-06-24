@@ -75,7 +75,13 @@
     ?>
     <div class="events-posts row">
       <div class="cta-arrow-link">
-        <a href="/category/latest-news/"><i class="glyphicon glyphicon-circle-arrow-right"></i> See more updates</a>
+        <a href="/category/latest-news/">
+          <svg class="arrow-icon medium right"
+             sversion="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+             viewBox="0 0 110 110" xml:space="preserve">
+            <circle cx="55" cy="55" r="50"/>
+            <path d="M74.3,52.9L55.1,30.1C55,30,55,30,54.9,30.1L35.7,52.9l19-22.7c0.1-0.1,0.2,0,0.2,0.1V80"/>
+          </svg> See more updates</a>
       </div>
     </div>
   </div>
