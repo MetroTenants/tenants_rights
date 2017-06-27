@@ -37,7 +37,7 @@
     </div>
     <div id="nav-collapse" class="navbar-collapse collapse navbar-ex1-collapse">
 			<?php wp_nav_menu( array( 'menu' => 'TOP MENU', 'container' => false, 'menu_id' => 'primary-menu', 'menu_class' => 'nav navbar-nav' ) ); ?>
-      <div class="col-md-3 pull-right">
+      <div class="col-md-3 pull-right search-form">
         <form class="navbar-form" role="search" method="get" action="<?php bloginfo('url'); ?>/">
 	        <div class="input-group">
             <input type="text" value="<?php the_search_query(); ?>" class="form-control" placeholder="Search" name="s" id="srch-term">

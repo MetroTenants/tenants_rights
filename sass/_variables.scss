@@ -34,8 +34,8 @@ $squared-away-dark: #009F93;
 //## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-$body-bg: #f3f2f0;
-// $body-bg: #ffffff;
+// $body-bg: #f3f2f0;
+$body-bg: #ffffff;
 $body-bg-darker: darken($body-bg, 5%);
 $body-bg-lighter: lighten($body-bg, 5%);
 //** Global text color on `<body>`.

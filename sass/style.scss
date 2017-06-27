@@ -58,26 +58,36 @@ aside,
   margin-left: 25px;
   margin-right: 15px;
   width: 75px;
-  height: 50px;
+  height: 70px;
   background-image: image-url('mto-logo.svg');
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .navbar {
-  background-color: $body-bg-lighter;
-  -moz-box-shadow: 0 5px 5px rgba(0, 0, 0,0.2);
-  -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0,0.2);
-  box-shadow: 0 5px 5px rgba(0, 0, 0,0.2);
+  // background-color: $body-bg-lighter;
+  background-color: $body-bg;
+  -moz-box-shadow: 0 2px 5px rgba(0, 0, 0,0.2);
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0,0.2);
+  box-shadow: 0 2px 5px rgba(0, 0, 0,0.2);
   font-weight: 600;
+  // padding-top:
+  // height: 70px;
+}
+.navbar-collapse {
+  background-color: $body-bg;
+  -moz-box-shadow: 0 2px 5px rgba(0, 0, 0,0.2);
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0,0.2);
+  box-shadow: 0 2px 5px rgba(0, 0, 0,0.2);
+}
+.navbar-nav {
+  margin-top: 10px;
+}
+.navbar-toggle {
+  margin-top: 18px;
 }
 .navbar-toggle span.icon-bar {
   background-color: $brand-primary;
-}
-
-.navbar .pull-right {
-  height: 50px;
-  padding: 0;
 }
 .navbar-form {
   margin: 0;
@@ -111,8 +121,23 @@ aside,
   font-size: 22px;
 }
 
+.navbar .pull-right.search-form {
+  padding: 0;
+  height: 70px;
+}
+.navbar .pull-right.search-form form,
+.navbar .pull-right.search-form form div.input-group,
+.navbar .pull-right.search-form form div input,
+.navbar .pull-right.search-form form div div.input-group-btn,
+.navbar .pull-right.search-form form div div.input-group-btn button {
+  height: 100%;
+}
+.navbar .pull-right.search-form form div input {
+  font-size: 16px;
+}
+
 #content {
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
 /* Layout, row sizes */
@@ -295,7 +320,7 @@ aside,
 /* What We're About Section */
 
 .what-were-about {
-  background-color: $body-bg-darker;
+  // background-color: $body-bg-darker;
 }
 .what-were-about .row {
   padding: 15px;
@@ -490,9 +515,9 @@ a.footer-cta:hover,
 .content-col {
   padding: 10px 25px;
   background-color: $body-bg-lighter;
-  -moz-box-shadow: 0 5px 5px rgba(0, 0, 0,0.2);
-  -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0,0.2);
-  box-shadow: 0 5px 5px rgba(0, 0, 0,0.2);
+  -moz-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
   margin-right: 25px;
 }
 .entry-content h1 {
