@@ -1,0 +1,186 @@
+/* Events-posts section */
+
+.events-posts-section {
+  padding-right: 25px;
+}
+.events-posts {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+.events-posts a h5 {
+  font-family: $body-font-stack;
+  font-weight: bold;
+}
+.events-posts .center-items {
+  text-align: center;
+}
+
+.social-share {
+  border-bottom: 1px solid $gray-base;
+  margin-bottom: 25px;
+}
+.social-share a {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 100%;
+  color: #fff;
+  font-size: 24px;
+  opacity: 0.75;
+  text-align: center;
+}
+.social-share a:hover {
+  opacity: 1.0;
+}
+.social-share a i {
+	position: relative;
+	top: 20%;
+	transform: translateY(-20%);
+  margin: 0 auto;
+}
+.facebook {
+ 	background: #3b5998;
+}
+.twitter {
+	background: #55acee;
+}
+.events-posts div .img-thumb {
+  max-width: 300px;
+}
+
+/* What We're About Section */
+
+.what-were-about {
+  // background-color: $body-bg-darker;
+}
+.what-were-about .row {
+  padding: 15px;
+}
+.what-were-about .row .title {
+  border-bottom: 1px solid $gray-base;
+}
+.center-items {
+  text-align: center;
+}
+.img-thumb {
+  width: 100%;
+}
+
+/* Featured images section */
+
+.image-bg .container-fluid,
+.image-bg .container-fluid .row,
+.image-bg .container-fluid .row .tab-content,
+.image-bg .container-fluid .row .tab-content .tab-pane {
+  padding: 0;
+  margin: 0;
+}
+.tab-pane {
+  height: 450px;
+}
+.image-bg {
+  height: 100%;
+}
+.tab-pane {
+  background-attachment: fixed;
+  background-position: center;
+}
+.tab-pane .col-md-10 {
+  margin-top: 25px;
+}
+.feature-images-tabs {
+  text-align: center;
+  margin-left: 0;
+}
+.feature-images-tabs li {
+  display: inline-block;
+  font-size: 12px;
+  width: 20%;
+  margin: 0;
+  -moz-box-shadow: 2px 7px 7px rgba(0, 0, 0,0.2);
+  -webkit-box-shadow: 2px 7px 7px rgba(0, 0, 0,0.2);
+  box-shadow: 2px 7px 7px rgba(0, 0, 0,0.2);
+}
+.feature-images-tabs li {
+  height: 65px;
+  vertical-align: top;
+}
+.feature-images-tabs li.active a,
+.feature-images-tabs li.active a:hover {
+  border-bottom: solid 5px $brand-primary;
+}
+.feature-images-tabs li a {
+  width: 100%;
+  height: 100%;
+}
+.feature-images-tabs li a h4 {
+  font-family: $font-family-sans-serif;
+  color: $brand-primary;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 0;
+  margin-bottom: 5px;
+}
+.feature-images-tabs li a p {
+  margin: 0;
+}
+
+.feature-images-section div h2,
+.feature-images-section div p {
+  font-family: $font-family-sans-serif;
+  color: #FFF;
+}
+.feature-images-section div {
+  margin-top: 25px;
+  background-color: rgba(209, 209, 209, 0.6);
+  width: 100%;
+  padding: 15px;
+}
+.feature-images-section div h2 {
+  font-weight: 700;
+}
+
+/* Squared Away Feature section */
+
+.squared-away-feature {
+  padding: 15px;
+}
+.squared-away-pic {
+  height: 400px;
+  background-image: image-url('squared_away_pic.png');
+  background-size: cover;
+}
+.squared-away-text {
+  min-height: 400px;
+}
+.squared-away-section {
+  height: 100%;
+}
+.squared-away-top {
+  border-bottom: 1px solid $gray-base;
+  padding-bottom: 45px;
+}
+.squared-away-top h1,
+.squared-away-top h3 {
+  font-family: $font-family-sans-serif;
+}
+.squared-away-top h1 {
+  font-weight: 700;
+}
+.squared-away-text {
+  padding: 15px;
+  background-color: $squared-away-light;
+}
+.squared-away-text p {
+  margin-top: 25px;
+}
+.squared-away-button {
+  margin-top: 25px;
+  max-width: 180px;
+  background-color: #fff;
+  color: $squared-away-dark;
+  font-weight: 600;
+  padding: 7px;
+  border: 5px solid $squared-away-dark;
+}

@@ -1,0 +1,40 @@
+@media screen and (max-width: 992px) {
+  .aside-col,
+  .right-section {
+    border: none;
+    padding: 0;
+  }
+  .left-section,
+  .left-section h1,
+  .left-section h2 {
+    width: inherit;
+    padding: 0;
+  }
+  .content-col {
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main-home-content .row:first-child {
+    height: inherit;
+  }
+  .events-posts-section {
+    padding-right: 0;
+    margin: 0;
+  }
+  .feature-images-tabs li {
+    width: 100%;
+  }
+  .squared-away-text {
+    min-height: inherit;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: 30px;
+  }
+  .tab-pane {
+    background-attachment: inherit;
+  }
+}

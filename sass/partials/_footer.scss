@@ -1,0 +1,50 @@
+.footer-container {
+  background-color: $gray-middle;
+  color: $body-bg;
+}
+.footer-container .row {
+  padding: 15px 0;
+}
+.footer-container .row:last-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+.footer-container .row .title {
+  border-bottom: 1px solid $body-bg;
+}
+div.footer-cta {
+  font-weight: 500;
+  padding: 10px;
+  border: 5px solid $dark-cta-color;
+  width: 175px;
+}
+a.footer-cta,
+.footer-links a {
+  color: $body-bg;
+}
+a.footer-cta:visited,
+a.footer-cta:active,
+a.footer-cta:focus,
+a.footer-cta:hover,
+.footer-links a:visited,
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+  color: $body-bg-darker;
+}
+.footer-links a {
+  display: block;
+  font-weight: 300;
+  margin: 10px 0;
+  font-size: 12px;
+}
+.footer-links a:first-child {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.email-form div div.input-group-btn button {
+  color: $brand-primary;
+  padding: 3px;
+}

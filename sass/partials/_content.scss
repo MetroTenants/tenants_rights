@@ -1,0 +1,83 @@
+.aside-col {
+   border-left: 1px solid $gray-base;
+   padding-left: 25px;
+}
+.content-col {
+  padding: 10px 25px;
+  background-color: $body-bg-lighter;
+  -moz-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+  margin-right: 25px;
+}
+.entry-content h1 {
+  font-size: 24px;
+}
+.entry-content h2 {
+  font-size: 20px;
+}
+.entry-content h3,
+.entry-content h4,
+.entry-content h5,
+.entry-content h6 {
+  font-family: $font-family-sans-serif;
+}
+.entry-content h3 {
+  font-size: 18px;
+}
+.entry-content h4 {
+  font-size: 16px;
+}
+.post-time {
+  font-size: 12px;
+}
+.widget-title {
+  font-weight: 600;
+}
+h1.widget-title {
+  font-size: 20px;
+}
+h2.widget-title {
+  font-size: 18px;
+}
+h3.widget-title {
+  font-size: 16px;
+}
+h4.widget-title {
+  font-size: 14px;
+}
+
+h3.entry-title {
+  font-family: $font-family-sans-serif;
+  font-weight: 600;
+}
+.entry-meta,
+.entry-footer {
+  font-size: 12px;
+}
+.entry-footer span {
+  margin-right: 10px;
+}
+.article-list .page-header {
+  border-bottom: 1px solid $gray-base;
+}
+.article-list .row {
+  margin: 0;
+}
+.article-list .row .content-col {
+  margin-bottom: 25px;
+}
+
+/* Article navigation */
+
+.posts-navigation {
+  font-weight: 600;
+}
+.posts-navigation .nav-previous {
+  float: right;
+  text-align: right;
+}
+.posts-navigation .nav-next {
+  float: left;
+  text-align: left;
+}

@@ -1,0 +1,21 @@
+body {
+  font-family: $body-font-stack;
+  font-size: $body-font-size;
+  color: $gray-dark;
+}
+
+main {
+  margin-bottom: 15px;
+}
+
+h1, h2 {
+  font-family: $header-font-stack;
+}
+
+article,
+span,
+aside,
+.entry-content,
+.widget-title {
+  font-family: $font-family-sans-serif;
+}

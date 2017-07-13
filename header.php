@@ -27,7 +27,7 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'mto_custom' ); ?></a>
 	<div class="navbar navbar-fixed-top" role="navigation">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-sub-collapse">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -35,9 +35,23 @@
       </button>
       <a class="navbar-brand" rel="home" href="/" id="site-logo" title="MTO Homepage"></a>
     </div>
-    <div id="nav-collapse" class="navbar-collapse collapse navbar-ex1-collapse">
+		<div class="navbar-collapse collapse">
 			<?php wp_nav_menu( array( 'menu' => 'TOP MENU', 'container' => false, 'menu_id' => 'primary-menu', 'menu_class' => 'nav navbar-nav' ) ); ?>
       <div class="col-md-3 pull-right search-form">
+        <form class="navbar-form" role="search" method="get" action="<?php bloginfo('url'); ?>/">
+	        <div class="input-group">
+            <input type="text" value="<?php the_search_query(); ?>" class="form-control" placeholder="Search" name="s" id="srch-term">
+            <div class="input-group-btn">
+                <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+            </div>
+	        </div>
+        </form>
+      </div>
+		</div>
+    <div id="nav-collapse" class="navbar-collapse collapse navbar-sub-collapse">
+			<?php wp_nav_menu( array( 'menu' => 'TOP MENU', 'container' => false, 'menu_id' => 'primary-menu', 'menu_class' => 'top-menu-nav nav navbar-nav hidden-lg hidden-md hidden-sm' ) ); ?>
+			<?php wp_nav_menu( array( 'menu' => 'SIDE MENU', 'container' => false, 'menu_id' => 'secondary-menu', 'menu_class' => 'top-menu-nav nav navbar-nav' ) ); ?>
+			<div class="col-md-3 pull-right search-form hidden-lg hidden-md hidden-sm">
         <form class="navbar-form" role="search" method="get" action="<?php bloginfo('url'); ?>/">
 	        <div class="input-group">
             <input type="text" value="<?php the_search_query(); ?>" class="form-control" placeholder="Search" name="s" id="srch-term">
