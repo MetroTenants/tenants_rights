@@ -69,3 +69,11 @@
 .title h2 {
   margin-bottom: 25px;
 }
+
+.read-link {
+  color: $brand-primary;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+}
