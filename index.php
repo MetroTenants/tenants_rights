@@ -20,31 +20,39 @@ get_header(); ?>
 		<?php
 		if ( is_home() ) { ?>
 				<div class="main-home-content">
-					<div class="row">
-						<div class="col-md-10 col-md-offset-1">
-							<div class="row">
-								<div class="left-section col-sm-5">
-									<h1>We are the Metropolitan Tenants Organization.</h1>
+					<div class="row hero-row">
+						<div class="col-md-10 col-md-offset-1 no-row-margins">
+							<div class="row title-row">
+								<div class="col-sm-6 hero-text-col no-row-margins">
+									<h1>We are the Metropolitan Tenants Organization.</h1><span width="50px"></span>
 								</div>
-								<div class="right-section col-sm-7">
-									<p>
-										We are tenants' rights advocates educating, organizing, and empowering
-										tenants to exercise their human right to affordable and safe housing.
-									</p>
-									<div class="cta-arrow-link">
-										<a href="#">
-											<svg class="arrow-icon medium down"
-												 sversion="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-												 viewBox="0 0 110 110" xml:space="preserve">
-												<circle cx="55" cy="55" r="50"/>
-												<path d="M74.3,52.9L55.1,30.1C55,30,55,30,54.9,30.1L35.7,52.9l19-22.7c0.1-0.1,0.2,0,0.2,0.1V80"/>
-											</svg> Get to know us
-										</a>
+								<div class="col-sm-5 col-sm-offset-1 no-row-margins">
+									<div class="row">
+										<div class="col-sm-12">
+											<p class="hero-teaser">
+												We are tenants' rights advocates educating, organizing, and empowering
+												tenants to exercise their human right to affordable and safe housing.
+											</p>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-sm-12">
+											<div class="cta-arrow-link">
+												<a href="#">
+													<svg class="arrow-icon medium down"
+														 sversion="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+														 viewBox="0 0 110 110" xml:space="preserve">
+														<circle cx="55" cy="55" r="50"/>
+														<path d="M74.3,52.9L55.1,30.1C55,30,55,30,54.9,30.1L35.7,52.9l19-22.7c0.1-0.1,0.2,0,0.2,0.1V80"/>
+													</svg> Get to know us
+												</a>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
-							<div class="row">
-								<div class="col-sm-12 resolution-button">
+							<div class="row hero-row-2">
+								<div class="col-sm-6 resolution-button">
 									<p>Get started on your housing resolution</p>
 									<a class="cta-button-link" href="/get-assistance/">Get Assistance</a>
 								</div>

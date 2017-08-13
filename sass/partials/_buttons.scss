@@ -1,11 +1,3 @@
-.resolution-button {
-  font-size: 20px;
-  margin-bottom: 25px;
-}
-.resolution-button p {
-  margin-bottom: 20px;
-}
-
 .cta-button-link {
   background-color: $bright-cta-color;
   color: #fff;
@@ -56,21 +48,22 @@
   width: 40px;
 }
 
-.cta-arrow-link svg,
-.cta-arrow-link a {
-  display: inline-block;
-  vertical-align: middle;
-}
-.cta-arrow-link svg.arrow-icon {
-  padding-right: 5px;
-}
-.cta-arrow-link a {
-  color: $bright-cta-color;
-}
-.cta-arrow-link a:active,
-.cta-arrow-link a:visited,
-.cta-arrow-link a:hover {
-  color: $dark-cta-color;
+.cta-arrow-link {
+  font-size: 20px;
+  svg, a {
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+  }
+  svg.arrow-icon {
+    padding-right: 5px;
+  }
+  a {
+    color: $bright-cta-color;
+  }
+  a:active, a:visited, a:hover {
+    color: $dark-cta-color;
+  }
 }
 
 .title h2 {

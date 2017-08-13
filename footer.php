@@ -12,7 +12,7 @@
 </div><!-- #content -->
 
 <footer id="colophon" class="site-footer" role="contentinfo">
-  <div class="footer-container container-fluid">
+  <div class="footer-container container-fluid no-row-margins">
     <div class="row">
       <div class="col-sm-6 col-sm-offset-1 title">
         <h2>Join the Cause</h2>
@@ -24,15 +24,17 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-sm-10 col-sm-offset-1 center-items">
-        <div class="inline-item footer-cta">
-          <a href="#" class="footer-cta">DONATE</a>
-        </div>
-        <div class="inline-item footer-cta">
-          <a href="/get-involved/become-a-member/" class="footer-cta">MEMBERSHIP</a>
-        </div>
-        <div class="inline-item footer-cta">
-          <a href="/get-involved/volunteer/" class="footer-cta">VOLUNTEER</a>
+      <div class="col-sm-10 col-sm-offset-2 center-items no-row-margins">
+        <div class="row">
+          <div class="footer-cta col-sm-3 col-sm-offset-1">
+            <a href="#" class="footer-cta">Donate</a>
+          </div>
+          <div class="footer-cta col-sm-3 col-sm-offset-1">
+            <a href="/get-involved/become-a-member/" class="footer-cta">Membership</a>
+          </div>
+          <div class="footer-cta col-sm-3 col-sm-offset-1">
+            <a href="/get-involved/volunteer/" class="footer-cta">Volunteer</a>
+          </div>
         </div>
       </div>
     </div>
@@ -50,9 +52,9 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-sm-12">
+      <div class="col-sm-10 col-sm-offset-1 no-row-margins">
         <div class="row">
-          <div class="col-sm-4">
+          <div class="col-sm-4 no-row-margins">
             <div class="row">
               Sign up to receive updates from the Metropolitan Tenants Organization
             </div>

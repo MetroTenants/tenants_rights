@@ -19,3 +19,13 @@ aside,
 .widget-title {
   font-family: $font-family-sans-serif;
 }
+
+.no-row-margins {
+  div.row {
+    margin: 0;
+  }
+}
+
+#page {
+  margin-top: 125px;
+}

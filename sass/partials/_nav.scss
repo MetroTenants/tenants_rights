@@ -9,14 +9,11 @@
 }
 
 .navbar {
-  // background-color: $body-bg-lighter;
   background-color: $body-bg;
   -moz-box-shadow: 0 2px 5px rgba(0, 0, 0,0.2);
   -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0,0.2);
   box-shadow: 0 2px 5px rgba(0, 0, 0,0.2);
   font-weight: 600;
-  // padding-top:
-  // height: 70px;
 }
 .navbar-collapse {
   background-color: $body-bg;
@@ -29,17 +26,12 @@
 }
 .navbar-toggle {
   margin-top: 18px;
+  
+  span.icon-bar {
+    background-color: $brand-primary;
+  }
 }
-.navbar-toggle span.icon-bar {
-  background-color: $brand-primary;
-}
-.navbar-form {
-  margin: 0;
-  padding: 0;
-}
-.navbar-form .input-group input {
-  padding-left: 15px;
-}
+
 .navbar-form,
 .navbar-form .input-group,
 .navbar-form .input-group input,
@@ -49,26 +41,47 @@
   border: none;
 }
 
-.navbar-form .input-group {
-  float: right;
-}
-
-.navbar-form .input-group .input-group-btn button {
-  background-color: $dark-cta-color;
-  width: 60px;
-}
-.navbar-form .input-group .input-group-btn button:hover {
-  background-color: $bright-cta-color;
-}
-.navbar-form .input-group .input-group-btn button i {
-  color: #FFF;
-  font-size: 22px;
-}
-
-.navbar .pull-right.search-form {
+.navbar-form {
+  margin: 0;
   padding: 0;
-  height: 70px;
+  .input-group {
+    float: right;
+    
+    input {
+      padding-left: 15px;
+    }
+    
+    .input-group-btn {
+      button {
+        background-color: $dark-cta-color;
+        width: 60px;
+        i {
+          color: #FFF;
+          font-size: 22px;
+        }
+      }
+      button:hover {
+        background-color: $bright-cta-color;
+      }
+    }
+  }
 }
+
+.navbar {
+  .pull-right.search-form {
+    padding: 0;
+    height: 70px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    .pull-right.search-form {
+      margin: 0 -15px;
+    }
+  }
+}
+
 .navbar .pull-right.search-form form,
 .navbar .pull-right.search-form form div.input-group,
 .navbar .pull-right.search-form form div input,
@@ -87,6 +100,10 @@
 .navbar-fixed-top {
   top: 0;
   border-width: 0 0 1px;
+  
+  .navbar-collapse {
+    max-height: 100%;
+  }
 }
 .navbar-collapse.navbar-sub-collapse.collapse {
   display: none !important;
@@ -110,11 +127,6 @@
   float: left;
   margin-left: 25px;
 }
-
-.navbar-fixed-top .navbar-collapse {
-  max-height: 100%;
-}
-
 
 #content {
   margin-top: 70px;

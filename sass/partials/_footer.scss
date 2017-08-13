@@ -1,47 +1,59 @@
 .footer-container {
   background-color: $gray-middle;
   color: $body-bg;
+  
+  .row {
+    padding: 15px 0;
+    
+    .title {
+      border-bottom: 1px solid $body-bg;
+      
+      h2 {
+        font-size: 48px;
+      }
+    }
+  }
+  .row:last-child {
+    margin-top: 0;
+    padding-top: 0;
+  }
 }
-.footer-container .row {
-  padding: 15px 0;
-}
-.footer-container .row:last-child {
-  margin-top: 0;
-  padding-top: 0;
-}
-.footer-container .row .title {
-  border-bottom: 1px solid $body-bg;
-}
+
 div.footer-cta {
   font-weight: 500;
   padding: 10px;
   border: 5px solid $dark-cta-color;
   width: 175px;
+  margin-bottom: 25px;
 }
-a.footer-cta,
-.footer-links a {
+
+.footer-links {
+  a {
+    color: $body-bg;
+    display: block;
+    font-weight: 300;
+    margin: 10px 0;
+    font-size: 12px;
+  }
+  a:visited, a:active, a:focus, a:hover {
+    color: $body-bg-darker;
+  }
+  a:first-child {
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+}
+
+a.footer-cta {
   color: $body-bg;
+  text-transform: capitalize;
 }
 a.footer-cta:visited,
 a.footer-cta:active,
 a.footer-cta:focus,
-a.footer-cta:hover,
-.footer-links a:visited,
-.footer-links a:active,
-.footer-links a:focus,
-.footer-links a:hover {
+a.footer-cta:hover {
   color: $body-bg-darker;
-}
-.footer-links a {
-  display: block;
-  font-weight: 300;
-  margin: 10px 0;
-  font-size: 12px;
-}
-.footer-links a:first-child {
-  font-weight: 600;
-  font-size: 14px;
-  margin-bottom: 10px;
 }
 
 .email-form div div.input-group-btn button {

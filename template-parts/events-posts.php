@@ -11,7 +11,7 @@
 
 <div class="events-posts-section row">
   <div class="left-section col-sm-5">
-    <h2>Upcoming Events and Updates</h2>
+    <h2>Upcoming Events &amp; Updates</h2>
     <div class="social-share">
       <a class="facebook" href="http://www.facebook.com/share.php?u=" target="blank"><i class="fa fa-facebook"></i></a>
       <a class="twitter" href="http://twitter.com/intent/tweet?status=title+url" target="blank"><i class="fa fa-twitter"></i></a>
@@ -67,13 +67,19 @@
           </a>
       		<p><?php the_date(); ?></p>
       		<?php the_excerpt(); ?>
+          <div class="read-link">
+            <a href="<?php the_permalink(); ?>">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/read.svg" />
+              <span>Read</span>
+            </a>
+          </div>
         </div>
     	</div>
     <?php
     endforeach;
     wp_reset_postdata();
     ?>
-    <div class="events-posts row">
+    <div class="row">
       <div class="cta-arrow-link">
         <a href="/category/latest-news/">
           <svg class="arrow-icon medium right"

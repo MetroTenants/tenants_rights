@@ -36,7 +36,7 @@
       <a class="navbar-brand" rel="home" href="/" id="site-logo" title="MTO Homepage"></a>
     </div>
 		<div class="navbar-collapse collapse">
-			<?php wp_nav_menu( array( 'menu' => 'TOP MENU', 'container' => false, 'menu_id' => 'primary-menu', 'menu_class' => 'nav navbar-nav' ) ); ?>
+			<?php wp_nav_menu( array( 'menu' => 'MAIN MENU', 'container' => false, 'menu_id' => 'primary-menu', 'menu_class' => 'nav navbar-nav' ) ); ?>
       <div class="col-md-3 pull-right search-form">
         <form class="navbar-form" role="search" method="get" action="<?php bloginfo('url'); ?>/">
 	        <div class="input-group">
@@ -49,8 +49,8 @@
       </div>
 		</div>
     <div id="nav-collapse" class="navbar-collapse collapse navbar-sub-collapse">
-			<?php wp_nav_menu( array( 'menu' => 'TOP MENU', 'container' => false, 'menu_id' => 'primary-menu', 'menu_class' => 'top-menu-nav nav navbar-nav hidden-lg hidden-md hidden-sm' ) ); ?>
-			<?php wp_nav_menu( array( 'menu' => 'SIDE MENU', 'container' => false, 'menu_id' => 'secondary-menu', 'menu_class' => 'top-menu-nav nav navbar-nav' ) ); ?>
+			<?php wp_nav_menu( array( 'menu' => 'MAIN DROPDOWN MENU', 'container' => false, 'menu_id' => 'primary-menu', 'menu_class' => 'top-menu-nav nav navbar-nav hidden-lg hidden-md hidden-sm' ) ); ?>
+			<?php wp_nav_menu( array( 'menu' => 'SUB DROPDOWN MENU', 'container' => false, 'menu_id' => 'secondary-menu', 'menu_class' => 'top-menu-nav nav navbar-nav hidden-xs' ) ); ?>
 			<div class="col-md-3 pull-right search-form hidden-lg hidden-md hidden-sm">
         <form class="navbar-form" role="search" method="get" action="<?php bloginfo('url'); ?>/">
 	        <div class="input-group">
