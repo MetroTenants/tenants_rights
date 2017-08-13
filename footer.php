@@ -24,22 +24,22 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-sm-10 col-sm-offset-2 center-items no-row-margins">
+      <div class="col-sm-11 col-sm-offset-1 center-items no-row-margins">
         <div class="row">
-          <div class="footer-cta col-sm-3 col-sm-offset-1">
+          <div class="footer-cta col-sm-3">
             <a href="#" class="footer-cta">Donate</a>
           </div>
-          <div class="footer-cta col-sm-3 col-sm-offset-1">
+          <div class="footer-cta col-sm-3 col-sm-offset-2">
             <a href="/get-involved/become-a-member/" class="footer-cta">Membership</a>
           </div>
-          <div class="footer-cta col-sm-3 col-sm-offset-1">
+          <div class="footer-cta col-sm-3 col-sm-offset-2">
             <a href="/get-involved/volunteer/" class="footer-cta">Volunteer</a>
           </div>
         </div>
       </div>
     </div>
     <div class="row">
-      <div class="col-sm-10 col-sm-offset-1">
+      <div class="col-sm-11 col-sm-offset-1">
         <div class="cta-arrow-link">
           <a href="/get-involved/">
             <svg class="arrow-icon medium right"
@@ -52,7 +52,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-sm-10 col-sm-offset-1 no-row-margins">
+      <div class="col-sm-11 col-sm-offset-1 no-row-margins">
         <div class="row">
           <div class="col-sm-4 no-row-margins">
             <div class="row">

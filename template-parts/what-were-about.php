@@ -10,12 +10,12 @@
 ?>
 
 <div class="row">
-  <div class="col-sm-10 col-sm-offset-1 title">
+  <div class="col-sm-11 col-sm-offset-1 title">
     <h2>What We're About</h2>
   </div>
 </div>
 <div class="row">
-  <div class="col-sm-10 col-sm-offset-1 center-items">
+  <div class="col-sm-11 col-sm-offset-1 center-items">
     <div class="inline-item">
       <img src="<?php echo get_template_directory_uri(); ?>/images/hand.gif" />
       <h4>Our Mission</h4>
@@ -34,7 +34,7 @@
   </div>
 </div>
 <div class="row">
-  <div class="col-sm-10 col-sm-offset-1">
+  <div class="col-sm-11 col-sm-offset-1">
     <div class="cta-arrow-link">
       <a href="#">
         <svg class="arrow-icon medium right"
