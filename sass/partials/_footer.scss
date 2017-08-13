@@ -12,6 +12,12 @@
         font-size: 48px;
       }
     }
+    .col-sm-10, .col-md-10 {
+      padding: 0;
+    }
+    .col-sm-offset-1, .col-md-offset-1 {
+      padding-left: 0;
+    }
   }
   .row:last-child {
     margin-top: 0;
@@ -51,7 +57,7 @@ div.footer-cta {
 
 a.footer-cta {
   color: $body-bg;
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 a.footer-cta:visited,
 a.footer-cta:active,
@@ -63,4 +69,36 @@ a.footer-cta:hover {
 .email-form div div.input-group-btn button {
   color: $brand-primary;
   padding: 3px;
+}
+
+#footer-contact {
+  h4 {
+    font-family: $font-family-sans-serif;
+    font-weight: 600;
+  }
+  p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  div.footer-cta {
+    width: inherit;
+    border: none;
+    margin-bottom: 10px;
+    text-align: left;
+    font-weight: 600;
+    padding-left: 0;
+    
+    a.footer-cta {
+      color: $brand-primary;
+      text-transform: none;
+    }
+    a.footer-cta:visited,
+    a.footer-cta:active,
+    a.footer-cta:focus,
+    a.footer-cta:hover {
+      color: $brand-sucess;
+    }
+  }
 }

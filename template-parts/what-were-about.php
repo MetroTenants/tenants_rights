@@ -10,31 +10,36 @@
 ?>
 
 <div class="row">
-  <div class="col-sm-11 col-sm-offset-1 title">
+  <div class="col-md-10 col-md-offset-1 title">
     <h2>What We're About</h2>
   </div>
 </div>
 <div class="row">
-  <div class="col-sm-11 col-sm-offset-1 center-items">
-    <div class="inline-item">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/hand.gif" />
-      <h4>Our Mission</h4>
-      <p>Our goal is to educate, organize and empower tenants to have a voice in the affordability and availability of safe housing.</p>
-    </div>
-    <div class="inline-item">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/fist.gif" />
-      <h4>Our Advocacy</h4>
-      <p>Talk about ordinance, legislation, etc.</p>
-    </div>
-    <div class="inline-item">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/grab.gif" />
-      <h4>Us &amp; You</h4>
-      <p>D2T services</p>
+  <div class="col-md-10 col-md-offset-1 center-items no-row-margins">
+    <div class="row">
+      <div class="col-sm-4">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/hand.gif" />
+        <h4>Our Mission</h4>
+        <p>
+          Our goal is to educate, organize and empower tenants to have a voice 
+          in the affordability and availability of safe housing.
+        </p>
+      </div>
+      <div class="col-sm-4">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/fist.gif" />
+        <h4>Our Advocacy</h4>
+        <p>Talk about ordinance, legislation, etc.</p>
+      </div>
+      <div class="col-sm-4">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/grab.gif" />
+        <h4>Us &amp; You</h4>
+        <p>D2T services</p>
+      </div>
     </div>
   </div>
 </div>
 <div class="row">
-  <div class="col-sm-11 col-sm-offset-1">
+  <div class="col-md-10 col-md-offset-1">
     <div class="cta-arrow-link">
       <a href="#">
         <svg class="arrow-icon medium right"

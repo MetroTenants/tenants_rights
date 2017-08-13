@@ -21,7 +21,7 @@ get_header(); ?>
 		if ( is_home() ) { ?>
 				<div class="main-home-content">
 					<div class="row hero-row">
-						<div class="col-md-11 col-md-offset-1 no-row-margins">
+						<div class="col-md-10 col-md-offset-1 no-row-margins">
 							<div class="row title-row">
 								<div class="col-sm-6 hero-text-col no-row-margins">
 									<h1>We are the Metropolitan Tenants Organization.</h1><span width="50px"></span>
@@ -64,16 +64,12 @@ get_header(); ?>
 		</div>
 		<?php get_template_part( 'template-parts/feature-images' ); ?>
 		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-11 col-md-offset-1">
-					<?php get_template_part( 'template-parts/events-posts' ); ?>
-				</div>
-			</div>
+			<?php get_template_part( 'template-parts/events-posts' ); ?>
 		</div>
-		<div class="what-were-about container-fluid">
+		<div class="what-were-about container-fluid no-row-margins">
 			<?php get_template_part( 'template-parts/what-were-about' ); ?>
 		</div>
-		<div class="squared-away-feature container-fluid"
+		<div class="squared-away-feature container-fluid no-row-margins"
 			<?php get_template_part ('template-parts/squared-away-feature' );
 		}
 		else { ?>

@@ -22,28 +22,3 @@
   margin-top: 25px;
   font-size: 20px;
 }
-
-.row {
-  div {
-    div.inline-item {
-      vertical-align: top;
-      display: inline-block;
-      width: 30%;
-      min-width: 200px;
-      margin: 10px;
-      text-align: center;
-      line-height: auto;
-      
-      i {
-        font-size: 150px;
-      }
-    }
-  }
-}
-
-.inline-item {
-  h4 {
-    font-family: $font-family-sans-serif;
-    font-weight: 600;
-  }
-}

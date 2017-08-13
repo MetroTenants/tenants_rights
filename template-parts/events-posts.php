@@ -10,7 +10,7 @@
 ?>
 
 <div class="events-posts-section row">
-  <div class="left-section col-sm-5">
+  <div class="left-section col-md-4 col-md-offset-1">
     <h2>Upcoming Events &amp; Updates</h2>
     <div class="social-share">
       <a class="facebook" href="http://www.facebook.com/share.php?u=" target="blank"><i class="fa fa-facebook"></i></a>
@@ -21,7 +21,7 @@
       tenants, and many more. Check here for the lastest updates from us.
     </p>
   </div>
-  <div class="right-section col-sm-7">
+  <div class="right-section col-md-6">
     <?php
     global $post;
     $args = array( 'posts_per_page' => 4 );
@@ -29,7 +29,7 @@
     foreach ( $postslist as $post ) :
       setup_postdata( $post ); ?>
     	<div class="events-posts row">
-        <div class="col-sm-3 center-items">
+        <div class="col-md-3 hidden-sm hidden-xs center-items no-row-margins">
           <?php $width = get_settings ( "cp_thumbWidth_Column" );
         		$height = get_settings ( "cp_thumbHeight_Column" );
         		if ( $width == 0 ) { $width = 100; }
@@ -61,17 +61,23 @@
 
         	<?php } ?>
         </div>
-        <div class="col-sm-9">
-          <a href="<?php the_permalink(); ?>">
-            <h5><?php the_title(); ?></h5>
-          </a>
-      		<p><?php the_date(); ?></p>
-      		<?php the_excerpt(); ?>
-          <div class="read-link">
-            <a href="<?php the_permalink(); ?>">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/read.svg" />
-              <span>Read</span>
-            </a>
+        <div class="col-md-9 event-post-content no-row-margins">
+          <div class="row">
+            <div class="col-md-12 col-sm-9 col-xs-9">
+              <a href="<?php the_permalink(); ?>">
+                <h5><?php the_title(); ?></h5>
+              </a>
+              <p><?php the_date(); ?></p>
+          		<?php the_excerpt(); ?>
+            </div>
+            <div class="col-md-12 col-sm-3 col-xs-3">
+              <div class="read-link">
+                <a href="<?php the_permalink(); ?>">
+                  <img src="<?php echo get_template_directory_uri(); ?>/images/read.svg" />
+                  <span>Read</span>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
     	</div>
