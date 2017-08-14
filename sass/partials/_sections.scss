@@ -1,10 +1,14 @@
 /* Hero section */
 div.hero-row {
-  background-size: 500px;
+  background-size: 600px;
   background-position-x: right;
   background-position-y: bottom;
   background-repeat: no-repeat;
   background-image: image-url('main_header.png');
+  
+  div {
+    padding: 0;
+  }
 }
 div.title-row {
   div {
@@ -373,6 +377,7 @@ div.hero-row-2 {
   height: 450px;
   background-image: image-url('squared_away_pic.png');
   background-size: cover;
+  background-position: top;
 }
 .squared-away-section {
   height: 100%;

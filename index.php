@@ -19,7 +19,7 @@ get_header(); ?>
 
 		<?php
 		if ( is_home() ) { ?>
-				<div class="main-home-content">
+				<div class="main-home-content no-row-margins">
 					<div class="row hero-row">
 						<div class="col-md-10 col-md-offset-1 no-row-margins">
 							<div class="row title-row">
@@ -69,6 +69,9 @@ get_header(); ?>
 		<div class="what-were-about container-fluid no-row-margins">
 			<?php get_template_part( 'template-parts/what-were-about' ); ?>
 		</div>
+		<!-- <div class="funders container-fluid no-row-margins">
+			<?php get_template_part( 'template-parts/funders' ); ?>
+		</div> -->
 		<div class="squared-away-feature container-fluid no-row-margins"
 			<?php get_template_part ('template-parts/squared-away-feature' );
 		}

@@ -27,5 +27,10 @@ aside,
 }
 
 #page {
-  margin-top: 125px;
+  margin-top: 100px;
+}
+
+/* Hide smiley face */
+img#wpstats{
+  display: none;
 }

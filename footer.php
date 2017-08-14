@@ -64,7 +64,7 @@
                   <input type="text" class="form-control" placeholder="Your email address" name="newsletter-email" id="newsletter-email" />
                   <div class="input-group-btn">
                     <button class="btn btn-default" type="submit">
-                      <svg class="arrow-icon small right"
+                      <svg class="arrow-icon medium right"
 												 sversion="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
 												 viewBox="0 0 110 110" xml:space="preserve">
 												<circle cx="55" cy="55" r="50"/>
