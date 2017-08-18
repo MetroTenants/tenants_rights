@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
  *
- * @package mto_custom
+ * @package tenants_rights
  */
 
  get_header(); ?>

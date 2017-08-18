@@ -4,7 +4,7 @@
  *
  * @link https://codex.wordpress.org/Creating_an_Error_404_Page
  *
- * @package mto_custom
+ * @package tenants_rights
  */
 
 get_header(); ?>
@@ -16,11 +16,11 @@ get_header(); ?>
 				<div class="col-md-7 col-md-offset-1 content-col">
 					<section class="error-404 not-found">
 						<header class="page-header">
-							<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'mto_custom' ); ?></h1>
+							<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'tenants_rights' ); ?></h1>
 						</header><!-- .page-header -->
 
 						<div class="page-content">
-							<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'mto_custom' ); ?></p>
+							<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'tenants_rights' ); ?></p>
 
 							<?php
 								get_search_form();
@@ -28,11 +28,11 @@ get_header(); ?>
 								the_widget( 'WP_Widget_Recent_Posts' );
 
 								// Only show the widget if site has multiple categories.
-								if ( mto_custom_categorized_blog() ) :
+								if ( tenants_rights_categorized_blog() ) :
 							?>
 
 							<div class="widget widget_categories">
-								<h2 class="widget-title"><?php esc_html_e( 'Most Used Categories', 'mto_custom' ); ?></h2>
+								<h2 class="widget-title"><?php esc_html_e( 'Most Used Categories', 'tenants_rights' ); ?></h2>
 								<ul>
 								<?php
 									wp_list_categories( array(
@@ -50,7 +50,7 @@ get_header(); ?>
 								endif;
 
 								/* translators: %1$s: smiley */
-								$archive_content = '<p>' . sprintf( esc_html__( 'Try looking in the monthly archives. %1$s', 'mto_custom' ), convert_smilies( ':)' ) ) . '</p>';
+								$archive_content = '<p>' . sprintf( esc_html__( 'Try looking in the monthly archives. %1$s', 'tenants_rights' ), convert_smilies( ':)' ) ) . '</p>';
 								the_widget( 'WP_Widget_Archives', 'dropdown=1', "after_title=</h2>$archive_content" );
 
 								the_widget( 'WP_Widget_Tag_Cloud' );

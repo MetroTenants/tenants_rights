@@ -4,7 +4,7 @@
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
- * @package mto_custom
+ * @package tenants_rights
  */
 
 ?>
@@ -15,7 +15,7 @@
 
 		<?php if ( 'post' === get_post_type() ) : ?>
 		<div class="entry-meta">
-			<?php mto_custom_posted_on(); ?>
+			<?php tenants_rights_posted_on(); ?>
 		</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
@@ -25,6 +25,6 @@
 	</div><!-- .entry-summary -->
 
 	<footer class="entry-footer">
-		<?php mto_custom_entry_footer(); ?>
+		<?php tenants_rights_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->

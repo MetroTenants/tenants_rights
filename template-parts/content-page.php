@@ -4,7 +4,7 @@
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
- * @package mto_custom
+ * @package tenants_rights
  */
 
 ?>
@@ -20,7 +20,7 @@
 			the_content();
 
 			wp_link_pages( array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'mto_custom' ),
+				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'tenants_rights' ),
 				'after'  => '</div>',
 			) );
 		?>
@@ -32,7 +32,7 @@
 				edit_post_link(
 					sprintf(
 						/* translators: %s: Name of current post */
-						esc_html__( 'Edit %s', 'mto_custom' ),
+						esc_html__( 'Edit %s', 'tenants_rights' ),
 						the_title( '<span class="screen-reader-text">"', '"</span>', false )
 					),
 					'<span class="edit-link">',

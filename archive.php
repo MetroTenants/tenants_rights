@@ -4,7 +4,7 @@
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
- * @package mto_custom
+ * @package tenants_rights
  */
 
 get_header(); ?>

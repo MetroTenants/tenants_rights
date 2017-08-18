@@ -8,33 +8,33 @@
  *
  * @link https://developer.wordpress.org/themes/functionality/custom-headers/
  *
- * @package mto_custom
+ * @package tenants_rights
  */
 
 /**
  * Set up the WordPress core custom header feature.
  *
- * @uses mto_custom_header_style()
+ * @uses tenants_rights_header_style()
  */
-function mto_custom_custom_header_setup() {
-	add_theme_support( 'custom-header', apply_filters( 'mto_custom_custom_header_args', array(
+function tenants_rights_custom_header_setup() {
+	add_theme_support( 'custom-header', apply_filters( 'tenants_rights_custom_header_args', array(
 		'default-image'          => '',
 		'default-text-color'     => '000000',
 		'width'                  => 1000,
 		'height'                 => 250,
 		'flex-height'            => true,
-		'wp-head-callback'       => 'mto_custom_header_style',
+		'wp-head-callback'       => 'tenants_rights_header_style',
 	) ) );
 }
-add_action( 'after_setup_theme', 'mto_custom_custom_header_setup' );
+add_action( 'after_setup_theme', 'tenants_rights_custom_header_setup' );
 
-if ( ! function_exists( 'mto_custom_header_style' ) ) :
+if ( ! function_exists( 'tenants_rights_header_style' ) ) :
 /**
  * Styles the header image and text displayed on the blog.
  *
- * @see mto_custom_custom_header_setup().
+ * @see tenants_rights_custom_header_setup().
  */
-function mto_custom_header_style() {
+function tenants_rights_header_style() {
 	$header_text_color = get_header_textcolor();
 
 	/*

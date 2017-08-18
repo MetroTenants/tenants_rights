@@ -1,8 +1,8 @@
 <?php
 /**
- * mto_custom Theme Customizer
+ * tenants_rights Theme Customizer
  *
- * @package mto_custom
+ * @package tenants_rights
  */
 
 /**
@@ -10,17 +10,17 @@
  *
  * @param WP_Customize_Manager $wp_customize Theme Customizer object.
  */
-function mto_custom_customize_register( $wp_customize ) {
+function tenants_rights_customize_register( $wp_customize ) {
 	$wp_customize->get_setting( 'blogname' )->transport         = 'postMessage';
 	$wp_customize->get_setting( 'blogdescription' )->transport  = 'postMessage';
 	$wp_customize->get_setting( 'header_textcolor' )->transport = 'postMessage';
 }
-add_action( 'customize_register', 'mto_custom_customize_register' );
+add_action( 'customize_register', 'tenants_rights_customize_register' );
 
 /**
  * Binds JS handlers to make Theme Customizer preview reload changes asynchronously.
  */
-function mto_custom_customize_preview_js() {
-	wp_enqueue_script( 'mto_custom_customizer', get_template_directory_uri() . '/js/customizer.js', array( 'customize-preview' ), '20151215', true );
+function tenants_rights_customize_preview_js() {
+	wp_enqueue_script( 'tenants_rights_customizer', get_template_directory_uri() . '/js/customizer.js', array( 'customize-preview' ), '20151215', true );
 }
-add_action( 'customize_preview_init', 'mto_custom_customize_preview_js' );
+add_action( 'customize_preview_init', 'tenants_rights_customize_preview_js' );

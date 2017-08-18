@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#search-result
  *
- * @package mto_custom
+ * @package tenants_rights
  */
 
 get_header(); ?>
@@ -18,7 +18,7 @@ get_header(); ?>
 							if ( have_posts() ) : ?>
 
 								<header class="page-header">
-									<h2 class="page-title"><?php printf( esc_html__( 'Search Results for: %s', 'mto_custom' ), '<span>' . get_search_query() . '</span>' ); ?></h2>
+									<h2 class="page-title"><?php printf( esc_html__( 'Search Results for: %s', 'tenants_rights' ), '<span>' . get_search_query() . '</span>' ); ?></h2>
 								</header><!-- .page-header -->
 
 								<?php

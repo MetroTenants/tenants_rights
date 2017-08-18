@@ -6,7 +6,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package mto_custom
+ * @package tenants_rights
  */
 
 ?><!DOCTYPE html>
@@ -19,13 +19,13 @@
 <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
 <?php wp_head(); ?>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script type="text/javascript" src="/wp-content/themes/mto_custom/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/wp-content/themes/tenants_rights/js/bootstrap.min.js"></script>
 <script src="https://use.fontawesome.com/d70ddbbdd8.js"></script>
 </head>
 
 <body <?php body_class(); ?>>
 <div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'mto_custom' ); ?></a>
+	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'tenants_rights' ); ?></a>
 	<div class="navbar navbar-fixed-top" role="navigation">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-sub-collapse">
