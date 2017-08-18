@@ -25,7 +25,7 @@ Hi. I'm a starter theme called tenants_rights, or underscores, if you like. I'm 
 
 = Does this theme support any plugins? =
 
-mto_custom includes support for Infinite Scroll in Jetpack.
+tenants_rights includes support for Infinite Scroll in Jetpack.
 
 == Changelog ==
 
