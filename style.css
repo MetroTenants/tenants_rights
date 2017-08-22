@@ -10358,7 +10358,7 @@ div.hero-row-2 .resolution-button p {
 }
 /* line 156, sass/partials/_sections.scss */
 .feature-images-tabs li.active a, .feature-images-tabs li.active a:hover {
-  border-bottom: solid 5px #ff8000;
+  border-bottom: solid 4px #ff8000;
 }
 
 /* line 163, sass/partials/_sections.scss */
@@ -10637,6 +10637,68 @@ div.hero-row-2 .resolution-button p {
     padding: 15px 15px 75px 15px;
   }
 }
+/* Funder section */
+/* line 425, sass/partials/_sections.scss */
+.funders {
+  padding-bottom: 50px;
+}
+/* line 428, sass/partials/_sections.scss */
+.funders .row .left-section {
+  padding-right: 25px;
+}
+/* line 430, sass/partials/_sections.scss */
+.funders .row .left-section h2 {
+  margin-bottom: 100px;
+  font-size: 48px;
+}
+/* line 434, sass/partials/_sections.scss */
+.funders .row .left-section p {
+  border-top: 1px solid #8d8d8d;
+  padding-top: 25px;
+  margin-bottom: 25px;
+}
+/* line 441, sass/partials/_sections.scss */
+.funders .row .right-section .row:first-child {
+  margin-bottom: 25px;
+}
+/* line 445, sass/partials/_sections.scss */
+.funders .row .right-section .row ul.nav {
+  margin-left: 0;
+}
+/* line 448, sass/partials/_sections.scss */
+.funders .row .right-section .row ul.nav li {
+  width: 32%;
+  display: inline-block;
+  text-align: center;
+}
+/* line 455, sass/partials/_sections.scss */
+.funders .row .right-section .row ul.nav li.active a,
+.funders .row .right-section .row ul.nav li:hover a {
+  color: #ff8000;
+  border-bottom: solid 4px #ff8000;
+}
+/* line 463, sass/partials/_sections.scss */
+.funders .row .right-section .row .tab-content .tab-pane {
+  height: inherit;
+}
+/* line 470, sass/partials/_sections.scss */
+.funders .row:nth-child(2) {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* line 476, sass/partials/_sections.scss */
+.funder-img div {
+  text-align: center;
+  max-width: 200px;
+  padding: 15px;
+  display: inline-block;
+}
+/* line 482, sass/partials/_sections.scss */
+.funder-img div img {
+  max-width: 150px;
+}
+
 /* line 1, sass/partials/_footer.scss */
 .footer-container {
   background-color: #666666;
@@ -10672,8 +10734,9 @@ div.hero-row-2 .resolution-button p {
   padding-left: 0;
 }
 
-/* line 32, sass/partials/_footer.scss */
-div.footer-cta {
+/* line 33, sass/partials/_footer.scss */
+div.footer-cta a.footer-cta {
+  font-size: 20px;
   font-weight: 500;
   padding: 10px;
   border: 5px solid #fa7200;
@@ -10681,7 +10744,7 @@ div.footer-cta {
   margin-bottom: 25px;
 }
 
-/* line 41, sass/partials/_footer.scss */
+/* line 44, sass/partials/_footer.scss */
 .footer-links a {
   color: #ffffff;
   display: block;
@@ -10689,24 +10752,24 @@ div.footer-cta {
   margin: 10px 0;
   font-size: 12px;
 }
-/* line 48, sass/partials/_footer.scss */
+/* line 51, sass/partials/_footer.scss */
 .footer-links a:visited, .footer-links a:active, .footer-links a:focus, .footer-links a:hover {
   color: #f2f2f2;
 }
-/* line 51, sass/partials/_footer.scss */
+/* line 54, sass/partials/_footer.scss */
 .footer-links a:first-child {
   font-weight: 600;
   font-size: 14px;
   margin-bottom: 10px;
 }
 
-/* line 58, sass/partials/_footer.scss */
+/* line 61, sass/partials/_footer.scss */
 a.footer-cta {
   color: #ffffff;
   text-transform: uppercase;
 }
 
-/* line 62, sass/partials/_footer.scss */
+/* line 65, sass/partials/_footer.scss */
 a.footer-cta:visited,
 a.footer-cta:active,
 a.footer-cta:focus,
@@ -10714,11 +10777,11 @@ a.footer-cta:hover {
   color: #f2f2f2;
 }
 
-/* line 71, sass/partials/_footer.scss */
+/* line 74, sass/partials/_footer.scss */
 .email-form div.input-group input.form-control {
   border-radius: 0;
 }
-/* line 75, sass/partials/_footer.scss */
+/* line 78, sass/partials/_footer.scss */
 .email-form div.input-group div.input-group-btn button {
   color: #ff8000;
   padding: 3px;
@@ -10727,32 +10790,34 @@ a.footer-cta:hover {
   border: none;
 }
 
-/* line 87, sass/partials/_footer.scss */
+/* line 90, sass/partials/_footer.scss */
 #footer-contact h4 {
   font-family: "Open Sans", Verdana, sans-serif;
   font-weight: 600;
 }
-/* line 91, sass/partials/_footer.scss */
+/* line 94, sass/partials/_footer.scss */
 #footer-contact p {
   font-size: 14px;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 97, sass/partials/_footer.scss */
+  /* line 100, sass/partials/_footer.scss */
   div.footer-cta {
-    width: inherit;
-    border: none;
-    margin-bottom: 0;
     text-align: left;
-    font-weight: 600;
     padding-left: 0;
+    margin-bottom: 15px;
   }
   /* line 105, sass/partials/_footer.scss */
   div.footer-cta a.footer-cta {
+    width: inherit;
+    padding-left: 0;
+    border: none;
+    text-align: left;
+    font-weight: 600;
     color: #ff8000;
     text-transform: none;
   }
-  /* line 109, sass/partials/_footer.scss */
+  /* line 114, sass/partials/_footer.scss */
   div.footer-cta a.footer-cta:visited,
   div.footer-cta a.footer-cta:active,
   div.footer-cta a.footer-cta:focus,

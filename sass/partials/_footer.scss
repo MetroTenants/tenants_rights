@@ -30,11 +30,14 @@
 }
 
 div.footer-cta {
-  font-weight: 500;
-  padding: 10px;
-  border: 5px solid $dark-cta-color;
-  width: 175px;
-  margin-bottom: 25px;
+  a.footer-cta {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+    border: 5px solid $dark-cta-color;
+    width: 175px;
+    margin-bottom: 25px;
+  }
 }
 
 .footer-links {
@@ -95,14 +98,16 @@ a.footer-cta:hover {
 
 @media screen and (max-width: 768px) {
   div.footer-cta {
-    width: inherit;
-    border: none;
-    margin-bottom: 0;
     text-align: left;
-    font-weight: 600;
     padding-left: 0;
+    margin-bottom: 15px;
     
     a.footer-cta {
+      width: inherit;
+      padding-left: 0;
+      border: none;
+      text-align: left;
+      font-weight: 600;
       color: $brand-primary;
       text-transform: none;
     }

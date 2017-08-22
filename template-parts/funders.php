@@ -29,17 +29,69 @@
     </div>
     <div class="right-section col-md-6 no-row-margins">
       <div class="row">
-        <div class="col-sm-4">
-          Funding
-        </div>
-        <div class="col-sm-4">
-          Corporate
-        </div>
-        <div class="col-sm-4">
-          Partners
+        <ul class="nav st-nav-tabs">
+          <li class="active">
+            <a href="#funder-tab1" data-toggle="tab">Funding</a>
+          </li>
+          <li>
+            <a href="#funder-tab2" data-toggle="tab">Corporate</a>
+          </li>
+          <li>
+            <a href="#funder-tab3" data-toggle="tab">Partners</a>
+          </li>
+        </ul>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+            tempor incididunt ut labore dolore magna aliqua.</p>
         </div>
       </div>
       <div class="row">
+        <div class="col-sm-12 tab-content">
+          <div class="tab-pane active funder-img" id="funder-tab1">
+            <div>
+              <img src="<?php echo get_template_directory_uri(); ?>/images/logos/albert.jpg" />
+            </div>
+            <div>
+              <img src="<?php echo get_template_directory_uri(); ?>/images/logos/ChicagoCommTrust.png" />
+            </div>
+            <div>
+              <img src="<?php echo get_template_directory_uri(); ?>/images/logos/ChiFndWomen.png" />
+            </div>
+            <div>
+              <img src="<?php echo get_template_directory_uri(); ?>/images/logos/PierceFamilyFnd.png" />
+            </div>
+            <div>
+              <img src="<?php echo get_template_directory_uri(); ?>/images/logos/WoodsFund.png" />
+            </div>
+          </div>
+          <div class="tab-pane funder-img" id="funder-tab2">
+            <div>
+              <img src="<?php echo get_template_directory_uri(); ?>/images/logos/mv2.png" />
+            </div>
+            <div>
+              <img src="<?php echo get_template_directory_uri(); ?>/images/logos/northern_trust2.png" />
+            </div>
+            <div>
+              <img src="<?php echo get_template_directory_uri(); ?>/images/logos/polk-bros-stacked.png" />
+            </div>
+          </div>
+          <div class="tab-pane funder-img" id="funder-tab3">
+            <div>
+              <img src="<?php echo get_template_directory_uri(); ?>/images/logos/chicago.png" />
+            </div>
+            <div>
+              <img src="<?php echo get_template_directory_uri(); ?>/images/logos/cook.png" />
+            </div>
+            <div>
+              <img src="<?php echo get_template_directory_uri(); ?>/images/logos/epa.png" />
+            </div>
+            <div>
+              <img src="<?php echo get_template_directory_uri(); ?>/images/logos/ihda.png" />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>

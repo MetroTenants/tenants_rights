@@ -65,7 +65,7 @@ get_header(); ?>
 		<?php get_template_part( 'template-parts/feature-images' ); ?>
 		<?php get_template_part( 'template-parts/events-posts' ); ?>
 		<?php get_template_part( 'template-parts/what-were-about' ); ?>
-		<?php /*get_template_part( 'template-parts/funders' ); */?>
+		<?php get_template_part( 'template-parts/funders' ); ?>
 		<?php get_template_part ('template-parts/squared-away-feature' );
 		}
 		else { ?>
