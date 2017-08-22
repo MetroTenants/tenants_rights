@@ -63,17 +63,10 @@ get_header(); ?>
 			</main>
 		</div>
 		<?php get_template_part( 'template-parts/feature-images' ); ?>
-		<div class="container-fluid">
-			<?php get_template_part( 'template-parts/events-posts' ); ?>
-		</div>
-		<div class="what-were-about container-fluid no-row-margins">
-			<?php get_template_part( 'template-parts/what-were-about' ); ?>
-		</div>
-		<!-- <div class="funders container-fluid no-row-margins">
-			<?php get_template_part( 'template-parts/funders' ); ?>
-		</div> -->
-		<div class="squared-away-feature container-fluid no-row-margins"
-			<?php get_template_part ('template-parts/squared-away-feature' );
+		<?php get_template_part( 'template-parts/events-posts' ); ?>
+		<?php get_template_part( 'template-parts/what-were-about' ); ?>
+		<?php /*get_template_part( 'template-parts/funders' ); */?>
+		<?php get_template_part ('template-parts/squared-away-feature' );
 		}
 		else { ?>
 		</div>
