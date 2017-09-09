@@ -1,0 +1,46 @@
+.what-were-about {  
+  .row {    
+    .title {
+      border-bottom: 1px solid $gray-base;
+      padding: 0;
+      
+      h2 {
+        font-size: 48px;
+      }
+    }
+    
+    .center-items {
+      text-align: center;
+      padding: 0;
+      margin-bottom: 25px;
+      
+      .row {
+        .col-sm-4 {
+          padding: 0 25px;
+          
+          h4 {
+            font-family: $font-family-sans-serif;
+            font-weight: 600;
+          }
+          img {
+            height: 200px;
+            width: 200px;
+          }
+        }
+      }
+    }
+    .col-md-10 {
+      padding: 0;
+    }
+  }
+  .row:last-of-type {
+    margin-bottom: 50px;
+  }
+}
+
+.center-items {
+  text-align: center;
+}
+.img-thumb {
+  width: 100%;
+}

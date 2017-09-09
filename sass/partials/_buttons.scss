@@ -4,9 +4,11 @@
   font-size: 14px;
   padding: 10px;
 }
-.cta-button-link:active,
-.cta-button-link:visited,
 .cta-button-link:hover {
+  color: $dark-cta-color;
+}
+.cta-button-link:active,
+.cta-button-link:visited {
   color: $gray-dark;
 }
 
@@ -70,10 +72,24 @@
   margin-bottom: 25px;
 }
 
-.read-link {
-  color: $brand-primary;
+.read-link, .read-link a {
+  color: $bright-cta-color;
   font-size: 16px;
   font-weight: 600;
   margin-bottom: 25px;
   text-transform: uppercase;
+}
+.read-link:hover {
+  color: $dark-cta-color;
+}
+.read-link:active, .read-link:visited {
+  color: darken($dark-cta-color, 20%);
+}
+.read-link {
+  a:hover {
+    color: $dark-cta-color;
+  }
+  a:active, a:visited {
+    color: darken($dark-cta-color, 20%);
+  }
 }

@@ -94,7 +94,7 @@
         </div>
       </div>
     </div>
-    <div class="row">
+    <div class="row tab-row">
       <div class="col-md-10 col-md-offset-1">
         <ul class="nav st-nav-tabs feature-images-tabs">
           <li class="active">
