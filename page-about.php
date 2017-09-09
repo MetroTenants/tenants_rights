@@ -16,7 +16,7 @@ get_header(); ?>
 
 <div id="primary" class="content-area container-fluid">
 	<main id="main" class="site-main about" role="main">
-		<div class="row">
+		<div class="row about-hero">
 			<div class="col-md-7 col-md-offset-1 text">
 				<h1>We <span>educate</span>, <span>organize</span>, and <span>empower</span> 
 				tenants to have a voice in the decisions that affect the affordability and 
@@ -53,29 +53,42 @@ get_header(); ?>
 					</ol>
 					<div class="carousel-inner">
 						<div class="item active">
-							<img src="la.jpg" alt="Chania">
+							<img src="<?php echo get_template_directory_uri(); ?>/images/mto-hist-01.png" alt="MTO organizers">
 							<div class="carousel-caption">
-								<h3>Los Angeles</h3>
-								<p>LA is always so much fun!</p>
+								<h3>Chicago's need for an organization to represent tenants</h3>
+								<p>The Metropolitan Tenants Organization (MTO) is rooted in a 1981 Community Congress convened to find workable solutions to the affordable housing crisis at the time. The Congress recognized that Chicago needed a citywide organization to represent tenants.</p>
 							</div>
 						</div>
-
 						<div class="item">
-							<img src="chicago.jpg" alt="Chicago">
+							<img src="<?php echo get_template_directory_uri(); ?>/images/mto-hist-02.png" alt="Carousel 2">
 							<div class="carousel-caption">
-								<h3>Chicago</h3>
-								<p>Thank you, Chicago!</p>
+								<h3>Establishment of Residential Landlord and Tenant Ordinance</h3>
+								<p>It led to a 5-year campaign to pass Chicago's landmark Residential Landlord and Tenant Ordinance (RLTO) and the founding of MTO. Passage of the RLTO is a watershed event in MTO's history.</p>
 							</div>
 						</div>
-
 						<div class="item">
-							<img src="ny.jpg" alt="New York">
+							<img src="<?php echo get_template_directory_uri(); ?>/images/mto-hist-03.png" alt="Carousel 3">
 							<div class="carousel-caption">
-								<h3>New York</h3>
-								<p>We love the Big Apple!</p>
+								<h3>MTO's commitment to empower tenants</h3>
+								<p>Since the passage of the RLTO, MTO has remained committed to the mission of educating, organizing and empowering tenants to have a voice in the decisions that effect the availability and affordability of safe and decent housing.</p>
+							</div>
+						</div>
+						<div class="item">
+							<img src="<?php echo get_template_directory_uri(); ?>/images/mto-hist-04.png" alt="Carousel 4">
+							<div class="carousel-caption">
+								<h3>Our primary goals for tenants</h3>
+								<p>Our primary goals are to better tenants' living conditions and preserve housing, stabilize tenancies and prevent homelessness and improve communication between landlords and tenants.</p>
 							</div>
 						</div>
 					</div>
+					<a class="left carousel-control" href="#history-carousel" role="button" data-slide="prev">
+						<img class="chevron chevron-left" aria-hidden="true" src="<?php echo get_template_directory_uri(); ?>/images/chevron.svg"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control" href="#history-carousel" role="button" data-slide="next">
+						<img class="chevron chevron-right" aria-hidden="true" src="<?php echo get_template_directory_uri(); ?>/images/chevron.svg"></span>
+						<span class="sr-only">Next</span>
+					</a>
 				</div>
 			</div>
 		</div>

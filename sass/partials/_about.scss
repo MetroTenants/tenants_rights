@@ -1,23 +1,21 @@
-.about {
-  .row:first-child {
-    height: 500px;
-    margin: 0;
-    padding: 0;
-    background-size: 600px;
-    background-position-x: right;
-    background-position-y: bottom;
-    background-repeat: no-repeat;
-    background-image: image-url('about_header.png');
+.about-hero {
+  min-height: 500px;
+  margin: 0;
+  padding: 0;
+  background-size: contain;
+  background-position-x: center;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  background-image: image-url('chi-bg-02.png');
 
-    .text {
-      h1 {
-        font-size: 36px;
-        line-height: inherit;
+  .text {
+    h1 {
+      font-size: 36px;
+      line-height: inherit;
 
-        span {
-          font-family: $font-family-serif;
-          color: $bright-cta-color;
-        }
+      span {
+        font-family: $font-family-serif;
+        color: $bright-cta-color;
       }
     }
   }
@@ -34,6 +32,64 @@
       p {
         margin-bottom: 70px;
       }
+    }
+  }
+}
+
+#history-carousel {
+  min-height: 540px;
+  margin-top: 75px;
+
+  .carousel-indicators {
+    li {
+      background-color: $gray-base;
+    }
+    li.active {
+      background-color: $bright-cta-color;
+    }
+  }
+
+  .carousel-inner {
+    .item {
+      img {
+        max-height: 450px;
+      }
+      .carousel-caption {
+        top: 0;
+        // left: 35%;
+        left: 450px;
+        right: 10%;
+        text-align: left;
+        text-shadow: none;
+
+        h3 {
+          font-size: 36px;
+          margin-bottom: 100px;
+          color: $gray-dark;
+        }
+        p {
+          font-size: 20px;
+          color: $gray-dark;
+        }
+      }
+    }
+  }
+  .carousel-control.left, .carousel-control.right {
+    background-image: none;
+    top: 35%;
+    bottom: auto; 
+
+    img {
+      height: 60px;
+    }
+  }
+  .carousel-control.left {
+    // left: 25%;
+    left: 300px;
+  }
+  .carousel-control.right {
+    img {
+      transform: rotate(180deg);
     }
   }
 }

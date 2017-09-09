@@ -10731,41 +10731,95 @@ div.hero-row-2 .resolution-button p {
   max-width: 150px;
 }
 
-/* line 2, sass/partials/_about.scss */
-.about .row:first-child {
-  height: 500px;
+/* line 1, sass/partials/_about.scss */
+.about-hero {
+  min-height: 500px;
   margin: 0;
   padding: 0;
-  background-size: 600px;
-  background-position-x: right;
+  background-size: contain;
+  background-position-x: center;
   background-position-y: bottom;
   background-repeat: no-repeat;
-  background-image: url('images/about_header.png');
+  background-image: url('images/chi-bg-02.png?1504994229');
 }
-/* line 13, sass/partials/_about.scss */
-.about .row:first-child .text h1 {
+/* line 12, sass/partials/_about.scss */
+.about-hero .text h1 {
   font-size: 36px;
   line-height: inherit;
 }
-/* line 17, sass/partials/_about.scss */
-.about .row:first-child .text h1 span {
+/* line 16, sass/partials/_about.scss */
+.about-hero .text h1 span {
   font-family: "Libre Baskerville", Georgia, serif;
   color: #ff8000;
 }
 
-/* line 28, sass/partials/_about.scss */
+/* line 26, sass/partials/_about.scss */
 .who-we-are .row div {
   font-size: 24px;
 }
-/* line 30, sass/partials/_about.scss */
+/* line 28, sass/partials/_about.scss */
 .who-we-are .row div h2 {
   font-size: 48px;
   margin-bottom: 45px;
 }
-/* line 34, sass/partials/_about.scss */
+/* line 32, sass/partials/_about.scss */
 .who-we-are .row div p {
   margin-bottom: 70px;
-  font-size: 24px;
+}
+
+/* line 39, sass/partials/_about.scss */
+#history-carousel {
+  min-height: 540px;
+  margin-top: 75px;
+}
+/* line 44, sass/partials/_about.scss */
+#history-carousel .carousel-indicators li {
+  background-color: #8d8d8d;
+}
+/* line 47, sass/partials/_about.scss */
+#history-carousel .carousel-indicators li.active {
+  background-color: #ff8000;
+}
+/* line 54, sass/partials/_about.scss */
+#history-carousel .carousel-inner .item img {
+  max-height: 450px;
+}
+/* line 57, sass/partials/_about.scss */
+#history-carousel .carousel-inner .item .carousel-caption {
+  top: 0;
+  left: 450px;
+  right: 10%;
+  text-align: left;
+  text-shadow: none;
+}
+/* line 65, sass/partials/_about.scss */
+#history-carousel .carousel-inner .item .carousel-caption h3 {
+  font-size: 36px;
+  margin-bottom: 100px;
+  color: #404040;
+}
+/* line 70, sass/partials/_about.scss */
+#history-carousel .carousel-inner .item .carousel-caption p {
+  font-size: 20px;
+  color: #404040;
+}
+/* line 77, sass/partials/_about.scss */
+#history-carousel .carousel-control.left, #history-carousel .carousel-control.right {
+  background-image: none;
+  top: 35%;
+  bottom: auto;
+}
+/* line 82, sass/partials/_about.scss */
+#history-carousel .carousel-control.left img, #history-carousel .carousel-control.right img {
+  height: 60px;
+}
+/* line 86, sass/partials/_about.scss */
+#history-carousel .carousel-control.left {
+  left: 300px;
+}
+/* line 91, sass/partials/_about.scss */
+#history-carousel .carousel-control.right img {
+  transform: rotate(180deg);
 }
 
 /* line 1, sass/partials/_footer.scss */
