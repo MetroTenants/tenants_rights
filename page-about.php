@@ -151,6 +151,171 @@ get_header(); ?>
 				</div>
 			</div>
 		</div>
+		<div class="thirteen-point-plan no-row-margins">
+			<div class="row">
+				<div class="col-md-4 col-md-offset-1">
+					<div class="thirteen-circle">
+						<h2>13</h2>
+						<div class="cta-arrow-link">
+							<a href="#" data-toggle="collapse">
+								<svg class="arrow-icon medium right"
+									sversion="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+									viewBox="0 0 110 110" xml:space="preserve">
+									<circle cx="55" cy="55" r="50"/>
+									<path d="M74.3,52.9L55.1,30.1C55,30,55,30,54.9,30.1L35.7,52.9l19-22.7c0.1-0.1,0.2,0,0.2,0.1V80"/>
+								</svg> View our plan
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<h3>13-point Plan to Make Housing a Human Right</h3>
+					<p>Housing stability is crucial to any efforts to stabilize our communities and our workforce. Thus rental housing must be a key element of any affordable housing plan.</p>
+				</div>
+			</div>
+		</div>
+		<div class="our-programs no-row-margins">
+			<div class="row">
+				<div class="col-md-4 description pull-right">
+					<h3>Our Programs</h3>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
+					<div class="details-button">
+						<a href="#">Program details</a>
+					</div>
+				</div>
+				<div class="col-md-6 col-md-offset-1 program-list pull-left">
+					<div class="row">
+						<div class="col-xs-3">
+							<div class="feature"></div>
+						</div>
+						<div class="col-xs-9 program-description">
+							<h4>Legislation</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-3">
+							<div class="feature"></div>
+						</div>
+						<div class="col-xs-9 program-description">
+							<h4>Building Organizing</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-3">
+							<div class="feature"></div>
+						</div>
+						<div class="col-xs-9 program-description">
+							<h4>Healthy Homes Program</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-3">
+							<div class="feature"></div>
+						</div>
+						<div class="col-xs-9 program-description">
+							<h4>Direct Tenant Services</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="our-team no-row-margins">
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<div class="team-intro">
+						<h3>Meet Your Team</h3>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
+					</div>
+					<div class="team-member">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/person.png">
+						<h5>John Bartlett</h5>
+						<p>Executive Director</p>
+						<p>johnb@tenants-rights.org</p>
+						<p>773-292-4980 x 226</p>
+					</div>
+					<div class="team-member">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/person.png">
+						<h5>John Bartlett</h5>
+						<p>Executive Director</p>
+						<p>johnb@tenants-rights.org</p>
+						<p>773-292-4980 x 226</p>
+					</div>
+					<div class="team-member">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/person.png">
+						<h5>John Bartlett</h5>
+						<p>Executive Director</p>
+						<p>johnb@tenants-rights.org</p>
+						<p>773-292-4980 x 226</p>
+					</div>
+					<div class="team-member">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/person.png">
+						<h5>John Bartlett</h5>
+						<p>Executive Director</p>
+						<p>johnb@tenants-rights.org</p>
+						<p>773-292-4980 x 226</p>
+					</div>
+					<div class="team-member">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/person.png">
+						<h5>John Bartlett</h5>
+						<p>Executive Director</p>
+						<p>johnb@tenants-rights.org</p>
+						<p>773-292-4980 x 226</p>
+					</div>
+					<div class="team-member">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/person.png">
+						<h5>John Bartlett</h5>
+						<p>Executive Director</p>
+						<p>johnb@tenants-rights.org</p>
+						<p>773-292-4980 x 226</p>
+					</div>
+					<div class="team-member">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/person.png">
+						<h5>John Bartlett</h5>
+						<p>Executive Director</p>
+						<p>johnb@tenants-rights.org</p>
+						<p>773-292-4980 x 226</p>
+					</div>
+					<div class="team-member">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/person.png">
+						<h5>John Bartlett</h5>
+						<p>Executive Director</p>
+						<p>johnb@tenants-rights.org</p>
+						<p>773-292-4980 x 226</p>
+					</div>
+					<div class="team-member">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/person.png">
+						<h5>John Bartlett</h5>
+						<p>Executive Director</p>
+						<p>johnb@tenants-rights.org</p>
+						<p>773-292-4980 x 226</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="board-of-directors no-row-margins">
+			<div class="row">
+				<div class="col-md-4 col-md-offset-1 board-intro">
+					<h3>2016-2017 Board of Directors</h3>
+				</div>
+				<div class="col-md-3">
+					<p>Ismael Enriquez, President</p>
+					<p>H. Demetrius Bonner, Vice-President</p>
+					<p>Hillory Walker, Treasurer</p>
+					<p>Loreen Targos, Secretary</p>
+					<p>Patricia Hightower</p>
+				</div>
+				<div class="col-md-3">
+					<p>Cynthia Reed-Pearson</p>
+					<p>Betsy Shuman-Moore</p>
+					<p>Mark Swartz</p>
+					<p>Suzanne Niemoth</p>
+				</div>
+			</div>
+		</div>
 	</main><!-- #main -->
 </div><!-- #primary -->
 <?php

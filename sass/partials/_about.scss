@@ -230,6 +230,7 @@
   }
   
 }
+
 @media screen and (max-width: 992px) {
   .our-principles {
     .row {
@@ -255,6 +256,153 @@
         .tab-pane {
           height: auto;
         }
+      }
+    }
+  }
+}
+
+.thirteen-point-plan {
+  .row {
+    padding: 50px 0;
+    .thirteen-circle {
+      height: 450px;
+      width: 450px;
+      border-radius: 50%;
+      background-color: $brand-primary;
+      color: #fff;
+      h2 {
+        font-family: $font-family-serif;
+        font-size: 325px;
+        padding-top: 15px;
+        margin-left: 25px;
+      }
+      .cta-arrow-link {
+        text-align: center;
+        a, a:visited, a:active, a:hover {
+          color: #fff;
+        }
+        svg {
+          stroke: #fff;
+        }
+      }
+    }
+    .col-md-6 {
+      margin-top: 45px;
+      h3 {
+        font-size: 48px;
+        margin-bottom: 35px;
+      }
+    }
+  }
+}
+
+.our-programs {
+  .row {
+    padding: 50px 0;
+    .program-list {
+      .row {
+        padding: 15px 0;
+        div {
+          .feature {
+            background-color: $gray-base;
+            height: 145px;
+            width: 100%;
+            // width: 145px;
+          }
+        }
+        .program-description {
+          padding-left: 35px;
+          padding-right: 50px;
+
+          h4 {
+            font-size: 24px;
+            padding-bottom: 15px;
+            border-bottom: solid 1px $gray-dark;
+          }
+        }
+      }
+    }
+    .description {
+      border-left: solid 1px $gray-dark;
+      padding-left: 50px;
+      margin-right: 8.3333%;
+      h3 {
+        font-size: 48px;
+        padding-bottom: 36px;
+        border-bottom: solid 1px $gray-dark;
+      }
+      p {
+        margin-top: 50px;
+      }
+      .details-button {
+        margin: 50px 0;
+        text-align: center;
+        a {
+          border-radius: 50px;
+          border: solid 5px $gray-base;
+          color: $gray-base;
+          padding: 15px 45px;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1000px) {
+  .our-programs {
+    .row {
+      .description {
+        border-left: none;
+        margin: auto 0;
+        float: none !important;
+        padding-left: 15px;
+        // margin-right: 0;
+      }
+    }
+  }
+}
+
+.our-team {
+  .row {
+    padding: 15px;
+    display: inline-block;
+    div {
+      .team-intro {
+        max-width: 450px;
+        min-width: 300px;
+        display: inline-block;
+        vertical-align: top;
+        padding-right: 50px;
+        h3 {
+          font-size: 48px;
+          padding-bottom: 36px;
+          border-bottom: solid 1px $gray-dark;
+        }
+        p {
+          margin-top: 30px;
+        }
+      }
+      .team-member {
+        max-width: 240px;
+        display: inline-block;
+        margin: 25px 25px 25px 0;
+        img {
+          height: 240px;
+          // width: 240px;
+        }
+      }
+    }
+  }
+}
+
+.board-of-directors {
+  .row {
+    padding-bottom: 50px;
+    .board-intro {
+      border-right: solid 1px $gray-dark;
+      padding-right: 50px;
+      h3 {
+        font-size: 48px;
       }
     }
   }

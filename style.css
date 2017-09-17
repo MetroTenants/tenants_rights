@@ -10978,30 +10978,183 @@ div.hero-row-2 .resolution-button p {
   }
 }
 @media screen and (max-width: 992px) {
-  /* line 235, sass/partials/_about.scss */
+  /* line 236, sass/partials/_about.scss */
   .our-principles .row {
     height: auto;
   }
-  /* line 237, sass/partials/_about.scss */
+  /* line 238, sass/partials/_about.scss */
   .our-principles .row .left {
     min-height: 1px;
     height: auto;
     padding-bottom: 50px;
   }
-  /* line 249, sass/partials/_about.scss */
+  /* line 250, sass/partials/_about.scss */
   .our-principles .row .right {
     height: auto;
   }
-  /* line 251, sass/partials/_about.scss */
+  /* line 252, sass/partials/_about.scss */
   .our-principles .row .right ul.nav, .our-principles .row .right .tab-pane {
     padding-right: 15px;
     padding-left: 15px;
   }
-  /* line 255, sass/partials/_about.scss */
+  /* line 256, sass/partials/_about.scss */
   .our-principles .row .right .tab-pane {
     height: auto;
   }
 }
+/* line 265, sass/partials/_about.scss */
+.thirteen-point-plan .row {
+  padding: 50px 0;
+}
+/* line 267, sass/partials/_about.scss */
+.thirteen-point-plan .row .thirteen-circle {
+  height: 450px;
+  width: 450px;
+  border-radius: 50%;
+  background-color: #ff8000;
+  color: #fff;
+}
+/* line 273, sass/partials/_about.scss */
+.thirteen-point-plan .row .thirteen-circle h2 {
+  font-family: "Libre Baskerville", Georgia, serif;
+  font-size: 325px;
+  padding-top: 15px;
+  margin-left: 25px;
+}
+/* line 279, sass/partials/_about.scss */
+.thirteen-point-plan .row .thirteen-circle .cta-arrow-link {
+  text-align: center;
+}
+/* line 281, sass/partials/_about.scss */
+.thirteen-point-plan .row .thirteen-circle .cta-arrow-link a, .thirteen-point-plan .row .thirteen-circle .cta-arrow-link a:visited, .thirteen-point-plan .row .thirteen-circle .cta-arrow-link a:active, .thirteen-point-plan .row .thirteen-circle .cta-arrow-link a:hover {
+  color: #fff;
+}
+/* line 284, sass/partials/_about.scss */
+.thirteen-point-plan .row .thirteen-circle .cta-arrow-link svg {
+  stroke: #fff;
+}
+/* line 289, sass/partials/_about.scss */
+.thirteen-point-plan .row .col-md-6 {
+  margin-top: 45px;
+}
+/* line 291, sass/partials/_about.scss */
+.thirteen-point-plan .row .col-md-6 h3 {
+  font-size: 48px;
+  margin-bottom: 35px;
+}
+
+/* line 300, sass/partials/_about.scss */
+.our-programs .row {
+  padding: 50px 0;
+}
+/* line 303, sass/partials/_about.scss */
+.our-programs .row .program-list .row {
+  padding: 15px 0;
+}
+/* line 306, sass/partials/_about.scss */
+.our-programs .row .program-list .row div .feature {
+  background-color: #8d8d8d;
+  height: 145px;
+  width: 100%;
+}
+/* line 313, sass/partials/_about.scss */
+.our-programs .row .program-list .row .program-description {
+  padding-left: 35px;
+  padding-right: 50px;
+}
+/* line 317, sass/partials/_about.scss */
+.our-programs .row .program-list .row .program-description h4 {
+  font-size: 24px;
+  padding-bottom: 15px;
+  border-bottom: solid 1px #404040;
+}
+/* line 325, sass/partials/_about.scss */
+.our-programs .row .description {
+  border-left: solid 1px #404040;
+  padding-left: 50px;
+  margin-right: 8.3333%;
+}
+/* line 329, sass/partials/_about.scss */
+.our-programs .row .description h3 {
+  font-size: 48px;
+  padding-bottom: 36px;
+  border-bottom: solid 1px #404040;
+}
+/* line 334, sass/partials/_about.scss */
+.our-programs .row .description p {
+  margin-top: 50px;
+}
+/* line 337, sass/partials/_about.scss */
+.our-programs .row .description .details-button {
+  margin: 50px 0;
+  text-align: center;
+}
+/* line 340, sass/partials/_about.scss */
+.our-programs .row .description .details-button a {
+  border-radius: 50px;
+  border: solid 5px #8d8d8d;
+  color: #8d8d8d;
+  padding: 15px 45px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1000px) {
+  /* line 354, sass/partials/_about.scss */
+  .our-programs .row .description {
+    border-left: none;
+    margin: auto 0;
+    float: none !important;
+    padding-left: 15px;
+  }
+}
+/* line 366, sass/partials/_about.scss */
+.our-team .row {
+  padding: 15px;
+  display: inline-block;
+}
+/* line 370, sass/partials/_about.scss */
+.our-team .row div .team-intro {
+  max-width: 450px;
+  min-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 50px;
+}
+/* line 376, sass/partials/_about.scss */
+.our-team .row div .team-intro h3 {
+  font-size: 48px;
+  padding-bottom: 36px;
+  border-bottom: solid 1px #404040;
+}
+/* line 381, sass/partials/_about.scss */
+.our-team .row div .team-intro p {
+  margin-top: 30px;
+}
+/* line 385, sass/partials/_about.scss */
+.our-team .row div .team-member {
+  max-width: 240px;
+  display: inline-block;
+  margin: 25px 25px 25px 0;
+}
+/* line 389, sass/partials/_about.scss */
+.our-team .row div .team-member img {
+  height: 240px;
+}
+
+/* line 399, sass/partials/_about.scss */
+.board-of-directors .row {
+  padding-bottom: 50px;
+}
+/* line 401, sass/partials/_about.scss */
+.board-of-directors .row .board-intro {
+  border-right: solid 1px #404040;
+  padding-right: 50px;
+}
+/* line 404, sass/partials/_about.scss */
+.board-of-directors .row .board-intro h3 {
+  font-size: 48px;
+}
+
 /* line 1, sass/partials/_footer.scss */
 .footer-container {
   background-color: #666666;
