@@ -1,3 +1,7 @@
+#primary.about {
+  padding: 0;
+}
+
 .about-hero {
   min-height: 500px;
   margin: 0;
@@ -22,6 +26,7 @@
 }
 
 .who-we-are {
+  padding-bottom: 50px;
   .row {
     div {
       font-size: 24px;
@@ -32,6 +37,18 @@
       p {
         margin-bottom: 70px;
       }
+      .cta-arrow-link {
+        a svg {
+          padding: 0;
+          transition: transform 0.2s linear;
+        }
+        a[aria-expanded="false"] svg {
+          transform: rotate(180deg);
+        }
+        a[aria-expanded="true"] svg {
+          transform: rotate(0deg);
+        }
+      }
     }
   }
 }
@@ -41,6 +58,8 @@
   margin-top: 75px;
 
   .carousel-indicators {
+    position: absolute;
+    left: 65%;
     li {
       background-color: $gray-base;
     }
@@ -51,14 +70,14 @@
 
   .carousel-inner {
     .item {
-      img {
+      img.carousel {
         max-height: 450px;
+        margin-left: 10%;
       }
       .carousel-caption {
         top: 0;
-        // left: 35%;
-        left: 450px;
-        right: 10%;
+        left: 45%;
+        right: 15%;
         text-align: left;
         text-shadow: none;
 
@@ -72,24 +91,171 @@
           color: $gray-dark;
         }
       }
-    }
-  }
-  .carousel-control.left, .carousel-control.right {
-    background-image: none;
-    top: 35%;
-    bottom: auto; 
+      .carousel-control.left, .carousel-control.right {
+        position: absolute;
+        background-image: none;
+        top: 35%;
+        bottom: auto; 
 
-    img {
-      height: 60px;
+        img {
+          height: 60px;
+        }
+      }
+      .carousel-control.left {
+        // left: 40%;
+        left: 37.5%;
+      }
+      .carousel-control.right {
+        right: -2.5%;
+        img {
+          transform: rotate(180deg);
+        }
+      }
     }
   }
-  .carousel-control.left {
-    // left: 25%;
-    left: 300px;
+}
+
+.our-principles {
+  margin-bottom: -15px;
+  .row {
+    height: 720px;
+    .left {
+      background-color: $gray-base;
+      color: #fff;
+      // height: 500px;
+      height: 100%;
+      // min-height: 450px;
+      // max-height: 500px;
+      .row {
+        div {
+          // padding: 100px 100px 0 0;
+          padding-top: 80px;
+          padding-right: 100px;
+          h2 {
+            font-size: 48px;
+            padding-bottom: 45px;
+            border-bottom: solid 1px #fff;
+          }
+          p {
+            margin-top: 50px;
+          }
+        }
+      }
+    }
+    .right {
+      padding: 0;
+      margin: 0;
+      // height: 450px;
+      height: 100%;
+      // min-height: 450px;
+      // max-height: 500px;
+      ul.nav {
+        margin-left: 0;
+        height: 130px;
+        // margin-top: 80px;
+        padding: 80px 15% 0 15%;
+        
+        li {
+          width: 32%;
+          display: inline-block;
+          text-align: center;
+        }
+        li.active,
+        li:hover {
+          a {
+            color: $brand-primary;
+            border-bottom: solid 4px $brand-primary;
+          }
+          a, a:hover {
+            background-color: inherit;
+          }
+        }
+      }
+      .tab-pane {
+        // height: inherit;
+        margin-top: -130px;
+        margin-bottom: -15px;
+        // padding-top: 175px;
+        padding: 175px 15% 80px 15%;
+        height: 720px;
+      }
+    }
   }
-  .carousel-control.right {
-    img {
-      transform: rotate(180deg);
+}
+
+#principles-tab1 {
+  background-color: #c6e5e3;
+}
+#principles-tab2 {
+  background-color: #faecc3;
+}
+#principles-tab3 {
+  background-color: #dceac5;
+}
+
+@media screen and (max-width: 900px) {
+  #history-carousel {
+    .carousel-inner {
+      .item {
+        height: 100%;
+        img.carousel {
+          visibility: hidden;
+        }
+        .carousel-caption {
+          left: 75px;
+          right: 75px;
+
+          h3 {
+            font-size: 26px;
+            margin-bottom: 50px;
+          }
+          p {
+            font-size: 18px;
+          }
+        }
+        .carousel-control {
+          width: 60px;
+        }
+        .carousel-control.left {
+          left: 15px;
+        }
+        .carousel-control.right {
+          right: -15px;
+        }
+      }
+    }
+    .carousel-indicators {
+      left: 50%;
+    }
+  }
+  
+}
+@media screen and (max-width: 992px) {
+  .our-principles {
+    .row {
+      height: auto;
+      .left {
+        // min-height: inherit;
+        // max-height: inherit;
+        min-height: 1px;
+        height: auto;
+        padding-bottom: 50px;
+        // .cta-arrow-link {
+        //   // min-height: 1px;
+        //   height: auto;
+        //   // max-height: inherit;
+        // }
+      }
+      .right {
+        height: auto;
+        ul.nav, .tab-pane {
+          padding-right: 15px;
+          padding-left: 15px;
+        }
+        .tab-pane {
+          height: auto;
+        }
+      }
     }
   }
 }
