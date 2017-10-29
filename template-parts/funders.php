@@ -12,7 +12,7 @@
 <div class="funders container-fluid no-row-margins">
   <div class="row">
     <div class="left-section col-md-4 col-md-offset-1">
-      <h2>Funders &amp; Partners Support</h2>
+      <h2>Sponsors &amp; Partners Support</h2>
       <p>
         If your organization have interest in becoming a partner or supporter, 
         feel free to reach out to us.
@@ -31,10 +31,10 @@
       <div class="row">
         <ul class="nav st-nav-tabs">
           <li class="active">
-            <a href="#funder-tab1" data-toggle="tab">Funding</a>
+            <a href="#funder-tab1" data-toggle="tab">Sponsors</a>
           </li>
           <li>
-            <a href="#funder-tab2" data-toggle="tab">Corporate</a>
+            <a href="#funder-tab2" data-toggle="tab">Funders</a>
           </li>
           <li>
             <a href="#funder-tab3" data-toggle="tab">Partners</a>

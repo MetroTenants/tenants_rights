@@ -133,6 +133,33 @@ function tenants_rights_scripts() {
 add_action( 'wp_enqueue_scripts', 'tenants_rights_scripts' );
 
 /**
+ * Pulls posts with related tags, or categories if no tags available
+ */
+function tenants_rights_related_posts( $post_id ) {
+	$type = 'tags';
+	$items = get_the_tags( $post_id );
+	if ( !$items && is_wp_error( $items ) ) {
+		$type = 'category';
+		$items = get_the_categories( $post_id );
+	}
+	$item_ids = array();
+
+	if ( $items && !is_wp_error( $items ) ) {
+		foreach ( $items as $item ) {
+			array_push( $item_ids, $item->term_id );
+		}
+	}
+
+	$current_post_type = get_post_type( $post_id );
+	return array(
+		$type . '__in' => $item_ids,
+		'post_type' => $current_post_type,
+		'posts_per_page' => '5',
+		'post__not_in' => array( $post_id )
+	);
+}
+
+/**
  * Implement the Custom Header feature.
  */
 require get_template_directory() . '/inc/custom-header.php';
