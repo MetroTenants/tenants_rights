@@ -38,29 +38,31 @@
     </div>
 		<div class="navbar-collapse collapse">
 			<?php wp_nav_menu( array( 'menu' => 'MAIN MENU', 'container' => false, 'menu_id' => 'primary-menu', 'menu_class' => 'nav navbar-nav' ) ); ?>
-      <div class="col-md-3 pull-right search-form">
+      <div class="col-md-4 pull-right search-form">
         <form class="navbar-form" role="search" method="get" action="<?php bloginfo('url'); ?>/">
 	        <div class="input-group">
+            <button class="search-submit" type="submit"><i class="glyphicon glyphicon-search"></i></button>
             <input type="text" value="<?php the_search_query(); ?>" class="form-control" placeholder="Search" name="s" id="srch-term">
-            <div class="input-group-btn">
-                <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
-            </div>
 	        </div>
         </form>
+        <button class="donate-button">
+          <a href="#">♥ Donate</a>
+        </button>
       </div>
 		</div>
     <div id="nav-collapse" class="navbar-collapse collapse navbar-sub-collapse">
 			<?php wp_nav_menu( array( 'menu' => 'MAIN DROPDOWN MENU', 'container' => false, 'menu_id' => 'primary-menu', 'menu_class' => 'top-menu-nav nav navbar-nav hidden-lg hidden-md hidden-sm' ) ); ?>
 			<?php wp_nav_menu( array( 'menu' => 'SUB DROPDOWN MENU', 'container' => false, 'menu_id' => 'secondary-menu', 'menu_class' => 'top-menu-nav nav navbar-nav hidden-xs' ) ); ?>
-			<div class="col-md-3 pull-right search-form hidden-lg hidden-md hidden-sm">
+			<div class="col-md-4 pull-right search-form hidden-lg hidden-md hidden-sm">
         <form class="navbar-form" role="search" method="get" action="<?php bloginfo('url'); ?>/">
 	        <div class="input-group">
+            <button class="search-submit" type="submit"><i class="glyphicon glyphicon-search"></i></button>
             <input type="text" value="<?php the_search_query(); ?>" class="form-control" placeholder="Search" name="s" id="srch-term">
-            <div class="input-group-btn">
-                <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
-            </div>
 	        </div>
         </form>
+        <button class="donate-button">
+          <a href="#">♥ Donate</a>
+        </button>
       </div>
     </div>
 	</div>

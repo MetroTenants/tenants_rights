@@ -3084,13 +3084,13 @@ mark,
 
 /* line 5, ../../../.rvm/gems/ruby-2.2.4/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
 .text-primary {
-  color: #ff8000;
+  color: #F26E35;
 }
 
 /* line 8, ../../../.rvm/gems/ruby-2.2.4/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
 a.text-primary:hover,
 a.text-primary:focus {
-  color: #cc6600;
+  color: #e54f0f;
 }
 
 /* line 5, ../../../.rvm/gems/ruby-2.2.4/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
@@ -3144,13 +3144,13 @@ a.text-danger:focus {
 
 /* line 5, ../../../.rvm/gems/ruby-2.2.4/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
 .bg-primary {
-  background-color: #ff8000;
+  background-color: #F26E35;
 }
 
 /* line 8, ../../../.rvm/gems/ruby-2.2.4/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
 a.bg-primary:hover,
 a.bg-primary:focus {
-  background-color: #cc6600;
+  background-color: #e54f0f;
 }
 
 /* line 5, ../../../.rvm/gems/ruby-2.2.4/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
@@ -5595,32 +5595,32 @@ a.btn.disabled, fieldset[disabled] a.btn {
 /* line 71, ../../../.rvm/gems/ruby-2.2.4/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-primary {
   color: #fff;
-  background-color: #ff8000;
-  border-color: #e67300;
+  background-color: #F26E35;
+  border-color: #f05d1d;
 }
 /* line 11, ../../../.rvm/gems/ruby-2.2.4/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-  background-color: #cc6600;
-  border-color: #663300;
+  background-color: #e54f0f;
+  border-color: #852e09;
 }
 /* line 17, ../../../.rvm/gems/ruby-2.2.4/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-primary:hover {
   color: #fff;
-  background-color: #cc6600;
-  border-color: #a85400;
+  background-color: #e54f0f;
+  border-color: #c4440d;
 }
 /* line 22, ../../../.rvm/gems/ruby-2.2.4/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #cc6600;
-  border-color: #a85400;
+  background-color: #e54f0f;
+  border-color: #c4440d;
 }
 /* line 29, ../../../.rvm/gems/ruby-2.2.4/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-primary:active:hover, .btn-primary:active:focus, .btn-primary:active.focus, .btn-primary.active:hover, .btn-primary.active:focus, .btn-primary.active.focus, .open > .btn-primary.dropdown-toggle:hover, .open > .btn-primary.dropdown-toggle:focus, .open > .btn-primary.dropdown-toggle.focus {
   color: #fff;
-  background-color: #a85400;
-  border-color: #663300;
+  background-color: #c4440d;
+  border-color: #852e09;
 }
 /* line 37, ../../../.rvm/gems/ruby-2.2.4/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
@@ -5628,12 +5628,12 @@ a.btn.disabled, fieldset[disabled] a.btn {
 }
 /* line 45, ../../../.rvm/gems/ruby-2.2.4/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled.focus, .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled].focus, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary.focus {
-  background-color: #ff8000;
-  border-color: #e67300;
+  background-color: #F26E35;
+  border-color: #f05d1d;
 }
 /* line 53, ../../../.rvm/gems/ruby-2.2.4/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-primary .badge {
-  color: #ff8000;
+  color: #F26E35;
   background-color: #fff;
 }
 
@@ -5685,32 +5685,32 @@ a.btn.disabled, fieldset[disabled] a.btn {
 /* line 79, ../../../.rvm/gems/ruby-2.2.4/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-info {
   color: #fff;
-  background-color: #fa7200;
-  border-color: #e16600;
+  background-color: #F26E35;
+  border-color: #f05d1d;
 }
 /* line 11, ../../../.rvm/gems/ruby-2.2.4/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-info:focus, .btn-info.focus {
   color: #fff;
-  background-color: #c75b00;
-  border-color: #612c00;
+  background-color: #e54f0f;
+  border-color: #852e09;
 }
 /* line 17, ../../../.rvm/gems/ruby-2.2.4/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-info:hover {
   color: #fff;
-  background-color: #c75b00;
-  border-color: #a34a00;
+  background-color: #e54f0f;
+  border-color: #c4440d;
 }
 /* line 22, ../../../.rvm/gems/ruby-2.2.4/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-info:active, .btn-info.active, .open > .btn-info.dropdown-toggle {
   color: #fff;
-  background-color: #c75b00;
-  border-color: #a34a00;
+  background-color: #e54f0f;
+  border-color: #c4440d;
 }
 /* line 29, ../../../.rvm/gems/ruby-2.2.4/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-info:active:hover, .btn-info:active:focus, .btn-info:active.focus, .btn-info.active:hover, .btn-info.active:focus, .btn-info.active.focus, .open > .btn-info.dropdown-toggle:hover, .open > .btn-info.dropdown-toggle:focus, .open > .btn-info.dropdown-toggle.focus {
   color: #fff;
-  background-color: #a34a00;
-  border-color: #612c00;
+  background-color: #c4440d;
+  border-color: #852e09;
 }
 /* line 37, ../../../.rvm/gems/ruby-2.2.4/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-info:active, .btn-info.active, .open > .btn-info.dropdown-toggle {
@@ -5718,12 +5718,12 @@ a.btn.disabled, fieldset[disabled] a.btn {
 }
 /* line 45, ../../../.rvm/gems/ruby-2.2.4/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-info.disabled:hover, .btn-info.disabled:focus, .btn-info.disabled.focus, .btn-info[disabled]:hover, .btn-info[disabled]:focus, .btn-info[disabled].focus, fieldset[disabled] .btn-info:hover, fieldset[disabled] .btn-info:focus, fieldset[disabled] .btn-info.focus {
-  background-color: #fa7200;
-  border-color: #e16600;
+  background-color: #F26E35;
+  border-color: #f05d1d;
 }
 /* line 53, ../../../.rvm/gems/ruby-2.2.4/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-info .badge {
-  color: #fa7200;
+  color: #F26E35;
   background-color: #fff;
 }
 
@@ -6012,7 +6012,7 @@ tbody.collapse.in {
   color: #fff;
   text-decoration: none;
   outline: 0;
-  background-color: #ff8000;
+  background-color: #F26E35;
 }
 
 /* line 103, ../../../.rvm/gems/ruby-2.2.4/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_dropdowns.scss */
@@ -6597,7 +6597,7 @@ tbody.collapse.in {
 /* line 131, ../../../.rvm/gems/ruby-2.2.4/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_navs.scss */
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
   color: #fff;
-  background-color: #ff8000;
+  background-color: #F26E35;
 }
 
 /* line 144, ../../../.rvm/gems/ruby-2.2.4/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_navs.scss */
@@ -7403,8 +7403,8 @@ tbody.collapse.in {
 .pagination > .active > span:focus {
   z-index: 3;
   color: #fff;
-  background-color: #ff8000;
-  border-color: #ff8000;
+  background-color: #F26E35;
+  border-color: #F26E35;
   cursor: default;
 }
 /* line 64, ../../../.rvm/gems/ruby-2.2.4/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_pagination.scss */
@@ -7556,11 +7556,11 @@ a.label:hover, a.label:focus {
 
 /* line 48, ../../../.rvm/gems/ruby-2.2.4/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_labels.scss */
 .label-primary {
-  background-color: #ff8000;
+  background-color: #F26E35;
 }
 /* line 7, ../../../.rvm/gems/ruby-2.2.4/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_labels.scss */
 .label-primary[href]:hover, .label-primary[href]:focus {
-  background-color: #cc6600;
+  background-color: #e54f0f;
 }
 
 /* line 52, ../../../.rvm/gems/ruby-2.2.4/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_labels.scss */
@@ -7574,11 +7574,11 @@ a.label:hover, a.label:focus {
 
 /* line 56, ../../../.rvm/gems/ruby-2.2.4/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_labels.scss */
 .label-info {
-  background-color: #fa7200;
+  background-color: #F26E35;
 }
 /* line 7, ../../../.rvm/gems/ruby-2.2.4/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_labels.scss */
 .label-info[href]:hover, .label-info[href]:focus {
-  background-color: #c75b00;
+  background-color: #e54f0f;
 }
 
 /* line 60, ../../../.rvm/gems/ruby-2.2.4/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_labels.scss */
@@ -7875,7 +7875,7 @@ a.thumbnail.active {
   line-height: 20px;
   color: #fff;
   text-align: center;
-  background-color: #ff8000;
+  background-color: #F26E35;
   -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   -webkit-transition: width 0.6s ease;
@@ -7913,7 +7913,7 @@ a.thumbnail.active {
 
 /* line 77, ../../../.rvm/gems/ruby-2.2.4/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_progress-bars.scss */
 .progress-bar-info {
-  background-color: #fa7200;
+  background-color: #F26E35;
 }
 /* line 7, ../../../.rvm/gems/ruby-2.2.4/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_progress-bar.scss */
 .progress-striped .progress-bar-info {
@@ -8086,8 +8086,8 @@ button.list-group-item {
 .list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
   z-index: 2;
   color: #fff;
-  background-color: #ff8000;
-  border-color: #ff8000;
+  background-color: #F26E35;
+  border-color: #F26E35;
 }
 /* line 96, ../../../.rvm/gems/ruby-2.2.4/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_list-group.scss */
 .list-group-item.active .list-group-item-heading,
@@ -8101,7 +8101,7 @@ button.list-group-item {
 }
 /* line 101, ../../../.rvm/gems/ruby-2.2.4/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_list-group.scss */
 .list-group-item.active .list-group-item-text, .list-group-item.active:hover .list-group-item-text, .list-group-item.active:focus .list-group-item-text {
-  color: #ffe6cc;
+  color: #fef8f5;
 }
 
 /* line 4, ../../../.rvm/gems/ruby-2.2.4/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_list-group.scss */
@@ -8567,26 +8567,26 @@ button.list-group-item-danger.active:focus {
 
 /* line 257, ../../../.rvm/gems/ruby-2.2.4/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_panels.scss */
 .panel-primary {
-  border-color: #ff8000;
+  border-color: #F26E35;
 }
 /* line 6, ../../../.rvm/gems/ruby-2.2.4/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-primary > .panel-heading {
   color: #fff;
-  background-color: #ff8000;
-  border-color: #ff8000;
+  background-color: #F26E35;
+  border-color: #F26E35;
 }
 /* line 11, ../../../.rvm/gems/ruby-2.2.4/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-primary > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #ff8000;
+  border-top-color: #F26E35;
 }
 /* line 14, ../../../.rvm/gems/ruby-2.2.4/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-primary > .panel-heading .badge {
-  color: #ff8000;
+  color: #F26E35;
   background-color: #fff;
 }
 /* line 20, ../../../.rvm/gems/ruby-2.2.4/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-primary > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #ff8000;
+  border-bottom-color: #F26E35;
 }
 
 /* line 260, ../../../.rvm/gems/ruby-2.2.4/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_panels.scss */
@@ -9951,7 +9951,7 @@ img#wpstats {
 }
 /* line 30, sass/partials/_nav.scss */
 .navbar-toggle span.icon-bar {
-  background-color: #ff8000;
+  background-color: #F26E35;
 }
 
 /* line 35, sass/partials/_nav.scss */
@@ -9969,17 +9969,13 @@ img#wpstats {
   margin: 0;
   padding: 0;
 }
-/* line 47, sass/partials/_nav.scss */
-.navbar-form .input-group {
-  float: right;
-}
 /* line 50, sass/partials/_nav.scss */
 .navbar-form .input-group input {
   padding-left: 15px;
 }
 /* line 55, sass/partials/_nav.scss */
 .navbar-form .input-group .input-group-btn button {
-  background-color: #fa7200;
+  background-color: #F26E35;
   width: 60px;
 }
 /* line 58, sass/partials/_nav.scss */
@@ -9989,81 +9985,138 @@ img#wpstats {
 }
 /* line 63, sass/partials/_nav.scss */
 .navbar-form .input-group .input-group-btn button:hover {
-  background-color: #ff8000;
+  background-color: #F26E35;
 }
 
 /* line 71, sass/partials/_nav.scss */
 .navbar .pull-right.search-form {
   padding: 0;
   height: 70px;
+  background-color: #F26E35;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 79, sass/partials/_nav.scss */
+  /* line 80, sass/partials/_nav.scss */
   .navbar .pull-right.search-form {
     margin: 0 -15px;
+    width: 100%;
+  }
+  /* line 84, sass/partials/_nav.scss */
+  .navbar .pull-right.search-form form .input-group {
+    margin-left: -30px;
   }
 }
-/* line 85, sass/partials/_nav.scss */
+/* line 91, sass/partials/_nav.scss */
 .navbar .pull-right.search-form form,
 .navbar .pull-right.search-form form div.input-group,
 .navbar .pull-right.search-form form div input,
 .navbar .pull-right.search-form form div div.input-group-btn,
-.navbar .pull-right.search-form form div div.input-group-btn button {
+.navbar .pull-right.search-form form div div.input-group-btn button,
+.navbar .pull-right.search-form .donate-button {
   height: 100%;
 }
 
-/* line 92, sass/partials/_nav.scss */
-.navbar .pull-right.search-form form div input {
-  font-size: 16px;
+/* line 99, sass/partials/_nav.scss */
+.navbar .pull-right.search-form form {
+  width: 60%;
+  display: inline-table;
+}
+/* line 103, sass/partials/_nav.scss */
+.navbar .pull-right.search-form form .input-group:first-of-type {
+  width: 100%;
 }
 
+/* line 107, sass/partials/_nav.scss */
+.navbar .pull-right.search-form form div input {
+  font-size: 16px;
+  padding-left: 45px;
+  border-left: solid 1px #8d8d8d;
+}
+
+/* line 113, sass/partials/_nav.scss */
+.navbar .search-submit {
+  position: absolute;
+  background: none;
+  border: none;
+  top: 25%;
+  left: 10px;
+  color: #F26E35;
+  padding: 0;
+  font-size: 26px;
+  z-index: 4;
+}
+
+/* line 125, sass/partials/_nav.scss */
+.donate-button {
+  display: inline-table;
+  vertical-align: top;
+  text-align: center;
+  background: transparent;
+  border-radius: 0;
+  width: 35%;
+  border: none;
+}
+/* line 134, sass/partials/_nav.scss */
+.donate-button a {
+  color: #fff;
+}
+/* line 137, sass/partials/_nav.scss */
+.donate-button a:active, .donate-button a:hover {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 143, sass/partials/_nav.scss */
+  .navbar .pull-right.search-form form div input {
+    border-left: none;
+  }
+}
 /* OVERRIDE BOOTSTRAP COLLAPSE CSS */
-/* line 100, sass/partials/_nav.scss */
+/* line 152, sass/partials/_nav.scss */
 .navbar-fixed-top {
   top: 0;
   border-width: 0 0 1px;
 }
-/* line 104, sass/partials/_nav.scss */
+/* line 156, sass/partials/_nav.scss */
 .navbar-fixed-top .navbar-collapse {
   max-height: 100%;
 }
 
-/* line 108, sass/partials/_nav.scss */
+/* line 160, sass/partials/_nav.scss */
 .navbar-collapse.navbar-sub-collapse.collapse {
   display: none !important;
 }
 
-/* line 111, sass/partials/_nav.scss */
+/* line 163, sass/partials/_nav.scss */
 .navbar-collapse.navbar-sub-collapse.navbar-nav {
   float: none;
   margin-top: 7.5px;
 }
 
-/* line 115, sass/partials/_nav.scss */
+/* line 167, sass/partials/_nav.scss */
 .navbar-collapse.navbar-sub-collapse.navbar-nav > li {
   float: none;
 }
 
-/* line 118, sass/partials/_nav.scss */
+/* line 170, sass/partials/_nav.scss */
 .navbar-collapse.navbar-sub-collapse.navbar-nav > li > a {
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-/* line 122, sass/partials/_nav.scss */
+/* line 174, sass/partials/_nav.scss */
 .navbar-collapse.navbar-sub-collapse.collapse.in {
   display: block !important;
 }
 
-/* line 125, sass/partials/_nav.scss */
+/* line 177, sass/partials/_nav.scss */
 .navbar-toggle {
   display: block;
   float: left;
   margin-left: 25px;
 }
 
-/* line 131, sass/partials/_nav.scss */
+/* line 183, sass/partials/_nav.scss */
 #content {
   margin-top: 150px;
 }
@@ -10102,7 +10155,7 @@ img#wpstats {
 
 /* line 1, sass/partials/_buttons.scss */
 .cta-button-link {
-  background-color: #ff8000;
+  background-color: #F26E35;
   color: #fff;
   font-size: 14px;
   padding: 10px;
@@ -10110,7 +10163,7 @@ img#wpstats {
 
 /* line 7, sass/partials/_buttons.scss */
 .cta-button-link:hover {
-  color: #fa7200;
+  color: #F26E35;
 }
 
 /* line 10, sass/partials/_buttons.scss */
@@ -10122,7 +10175,7 @@ img#wpstats {
 /* line 15, sass/partials/_buttons.scss */
 .arrow-icon {
   fill: none;
-  stroke: #fa7200;
+  stroke: #F26E35;
   stroke-width: 6;
   stroke-miterlimit: 10;
 }
@@ -10185,11 +10238,11 @@ img#wpstats {
 }
 /* line 63, sass/partials/_buttons.scss */
 .cta-arrow-link a {
-  color: #ff8000;
+  color: #F26E35;
 }
 /* line 66, sass/partials/_buttons.scss */
 .cta-arrow-link a:active, .cta-arrow-link a:visited, .cta-arrow-link a:hover {
-  color: #fa7200;
+  color: #F26E35;
 }
 
 /* line 71, sass/partials/_buttons.scss */
@@ -10199,7 +10252,7 @@ img#wpstats {
 
 /* line 75, sass/partials/_buttons.scss */
 .read-link, .read-link a {
-  color: #ff8000;
+  color: #F26E35;
   font-size: 16px;
   font-weight: 600;
   margin-bottom: 25px;
@@ -10208,21 +10261,21 @@ img#wpstats {
 
 /* line 82, sass/partials/_buttons.scss */
 .read-link:hover {
-  color: #fa7200;
+  color: #F26E35;
 }
 
 /* line 85, sass/partials/_buttons.scss */
 .read-link:active, .read-link:visited {
-  color: #944300;
+  color: #b53f0c;
 }
 
 /* line 89, sass/partials/_buttons.scss */
 .read-link a:hover {
-  color: #fa7200;
+  color: #F26E35;
 }
 /* line 92, sass/partials/_buttons.scss */
 .read-link a:active, .read-link a:visited {
-  color: #944300;
+  color: #b53f0c;
 }
 
 /* line 1, sass/partials/_hero.scss */
@@ -10272,40 +10325,41 @@ div.hero-row-2 .resolution-button a.cta-button-link {
   font-size: 20px;
   border-radius: 50px;
   padding: 15px 45px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
 }
-/* line 47, sass/partials/_hero.scss */
+/* line 48, sass/partials/_hero.scss */
 div.hero-row-2 .resolution-button p {
   margin-bottom: 40px;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 54, sass/partials/_hero.scss */
+  /* line 55, sass/partials/_hero.scss */
   div.hero-row {
     background-image: none;
   }
 
-  /* line 58, sass/partials/_hero.scss */
+  /* line 59, sass/partials/_hero.scss */
   div.title-row div.hero-text-col {
     border-right: none;
   }
 
-  /* line 63, sass/partials/_hero.scss */
+  /* line 64, sass/partials/_hero.scss */
   div.hero-row-2 .resolution-button {
     margin-top: inherit;
     margin-bottom: 15px;
   }
-  /* line 67, sass/partials/_hero.scss */
+  /* line 68, sass/partials/_hero.scss */
   div.hero-row-2 .resolution-button p {
     margin-bottom: 30px;
   }
 
-  /* line 72, sass/partials/_hero.scss */
+  /* line 73, sass/partials/_hero.scss */
   p.hero-teaser {
     display: none;
   }
 }
 @media screen and (max-width: 500px) {
-  /* line 80, sass/partials/_hero.scss */
+  /* line 81, sass/partials/_hero.scss */
   div.title-row div.hero-text-col h1 {
     font-size: 44px;
   }
@@ -10390,11 +10444,11 @@ div.hero-row-2 .resolution-button p {
 }
 /* line 73, sass/partials/_featured-images.scss */
 .feature-images-tabs li.active a h4 {
-  color: #ff8000;
+  color: #F26E35;
 }
 /* line 77, sass/partials/_featured-images.scss */
 .feature-images-tabs li.active a, .feature-images-tabs li.active a:hover {
-  border-bottom: solid 4px #ff8000;
+  border-bottom: solid 4px #F26E35;
 }
 
 /* line 84, sass/partials/_featured-images.scss */
@@ -10480,23 +10534,27 @@ div.hero-row-2 .resolution-button p {
   text-align: center;
   padding: 0;
 }
+/* line 33, sass/partials/_events-posts.scss */
+.events-posts .row div p:nth-child(2) {
+  font-style: italic;
+}
 
-/* line 34, sass/partials/_events-posts.scss */
+/* line 38, sass/partials/_events-posts.scss */
 .events-posts:first-of-type {
   margin-top: inherit;
 }
 
-/* line 37, sass/partials/_events-posts.scss */
+/* line 41, sass/partials/_events-posts.scss */
 .events-posts:nth-of-type(4) {
   border-bottom: none;
 }
 
-/* line 41, sass/partials/_events-posts.scss */
+/* line 45, sass/partials/_events-posts.scss */
 .social-share {
   border-bottom: 1px solid #8d8d8d;
   margin-bottom: 30px;
 }
-/* line 45, sass/partials/_events-posts.scss */
+/* line 49, sass/partials/_events-posts.scss */
 .social-share a {
   width: 50px;
   height: 50px;
@@ -10508,47 +10566,47 @@ div.hero-row-2 .resolution-button p {
   opacity: 0.75;
   text-align: center;
 }
-/* line 56, sass/partials/_events-posts.scss */
+/* line 60, sass/partials/_events-posts.scss */
 .social-share a i {
   position: relative;
   top: 25%;
   transform: translateY(-25%);
   margin: 0 auto;
 }
-/* line 63, sass/partials/_events-posts.scss */
+/* line 67, sass/partials/_events-posts.scss */
 .social-share a:hover {
   opacity: 1.0;
 }
-/* line 68, sass/partials/_events-posts.scss */
+/* line 72, sass/partials/_events-posts.scss */
 .social-share div .img-thumb {
   max-width: 300px;
 }
 
-/* line 73, sass/partials/_events-posts.scss */
+/* line 77, sass/partials/_events-posts.scss */
 .facebook {
   background: #3b5998;
 }
 
-/* line 76, sass/partials/_events-posts.scss */
+/* line 80, sass/partials/_events-posts.scss */
 .twitter {
   background: #55acee;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 81, sass/partials/_events-posts.scss */
+  /* line 85, sass/partials/_events-posts.scss */
   .events-posts.row {
     margin: 10px 0;
   }
-  /* line 84, sass/partials/_events-posts.scss */
+  /* line 88, sass/partials/_events-posts.scss */
   .events-posts.row .event-post-content {
     padding-left: 0;
     padding-right: 0;
   }
-  /* line 89, sass/partials/_events-posts.scss */
+  /* line 93, sass/partials/_events-posts.scss */
   .events-posts.row .event-post-content .row div {
     padding: 0;
   }
-  /* line 92, sass/partials/_events-posts.scss */
+  /* line 96, sass/partials/_events-posts.scss */
   .events-posts.row .event-post-content .row div .read-link {
     margin-left: 15px;
     margin-top: 25px;
@@ -10710,8 +10768,8 @@ div.hero-row-2 .resolution-button p {
 /* line 31, sass/partials/_funders.scss */
 .funders .row .right-section .row ul.nav li.active a,
 .funders .row .right-section .row ul.nav li:hover a {
-  color: #ff8000;
-  border-bottom: solid 4px #ff8000;
+  color: #F26E35;
+  border-bottom: solid 4px #F26E35;
 }
 /* line 39, sass/partials/_funders.scss */
 .funders .row .right-section .row .tab-content .tab-pane {
@@ -10759,7 +10817,7 @@ div.hero-row-2 .resolution-button p {
 /* line 20, sass/partials/_about.scss */
 .about-hero .text h1 span {
   font-family: "Libre Baskerville", Georgia, serif;
-  color: #ff8000;
+  color: #F26E35;
 }
 
 /* line 28, sass/partials/_about.scss */
@@ -10809,7 +10867,7 @@ div.hero-row-2 .resolution-button p {
 }
 /* line 66, sass/partials/_about.scss */
 #history-carousel .carousel-indicators li.active {
-  background-color: #ff8000;
+  background-color: #F26E35;
 }
 /* line 73, sass/partials/_about.scss */
 #history-carousel .carousel-inner .item img.carousel {
@@ -10909,8 +10967,8 @@ div.hero-row-2 .resolution-button p {
 /* line 165, sass/partials/_about.scss */
 .our-principles .row .right ul.nav li.active a,
 .our-principles .row .right ul.nav li:hover a {
-  color: #ff8000;
-  border-bottom: solid 4px #ff8000;
+  color: #F26E35;
+  border-bottom: solid 4px #F26E35;
 }
 /* line 169, sass/partials/_about.scss */
 .our-principles .row .right ul.nav li.active a, .our-principles .row .right ul.nav li.active a:hover,
@@ -11015,7 +11073,7 @@ div.hero-row-2 .resolution-button p {
   height: 450px;
   width: 450px;
   border-radius: 50%;
-  background-color: #ff8000;
+  background-color: #F26E35;
   color: #fff;
 }
 /* line 273, sass/partials/_about.scss */
@@ -11199,7 +11257,7 @@ div.footer-cta a.footer-cta {
   font-size: 20px;
   font-weight: 500;
   padding: 10px;
-  border: 5px solid #fa7200;
+  border: 5px solid #F26E35;
   width: 175px;
   margin-bottom: 25px;
 }
@@ -11243,7 +11301,7 @@ a.footer-cta:hover {
 }
 /* line 78, sass/partials/_footer.scss */
 .email-form div.input-group div.input-group-btn button {
-  color: #ff8000;
+  color: #F26E35;
   padding: 3px;
   padding-left: 10px;
   background: transparent;
@@ -11274,7 +11332,7 @@ a.footer-cta:hover {
     border: none;
     text-align: left;
     font-weight: 600;
-    color: #ff8000;
+    color: #F26E35;
     text-transform: none;
   }
   /* line 114, sass/partials/_footer.scss */
@@ -11282,7 +11340,7 @@ a.footer-cta:hover {
   div.footer-cta a.footer-cta:active,
   div.footer-cta a.footer-cta:focus,
   div.footer-cta a.footer-cta:hover {
-    color: #fa7200;
+    color: #F26E35;
   }
 }
 /* line 1, sass/partials/_content.scss */
@@ -11298,7 +11356,7 @@ a.footer-cta:hover {
 
 /* line 8, sass/partials/_content.scss */
 .sidebar-header {
-  background-color: #ff8000;
+  background-color: #F26E35;
   color: #fff;
   padding: 10px;
   padding-left: 50px;
