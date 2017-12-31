@@ -1,21 +1,23 @@
 .funders {
-  padding-bottom: 50px;
+  padding-bottom: grid(6);
+  min-height: grid(75);
+
   .row {
     .left-section {
-      padding-right: 25px;
+      padding-right: grid(4);
       h2 {
-        margin-bottom: 100px;
+        margin-bottom: grid(12);
         font-size: 48px;
       }
       p {
         border-top: 1px solid $gray-base;
-        padding-top: 25px;
-        margin-bottom: 25px;
+        padding-top: grid(3);
+        margin-bottom: grid(3);
       }
     }
     .right-section {
       .row:first-child {
-        margin-bottom: 25px;
+        margin-bottom: grid(3);
       }
       .row {
         ul.nav {
@@ -44,19 +46,19 @@
     }
   }
   .row:nth-child(2) {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: grid(4);
+    margin-bottom: grid(4);
   }
 }
 .funder-img {
   div {
     text-align: center;
-    max-width: 200px;
-    padding: 15px;
+    max-width: grid(25);
+    padding: grid(2);
     display: inline-block;
     
     img {
-      max-width: 150px;
+      max-width: grid(20);
     }
   }
 }

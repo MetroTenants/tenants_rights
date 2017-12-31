@@ -1,4 +1,4 @@
-@media screen and (max-width: 992px) {
+@media screen and (max-width: $desktopWidth) {
   .aside-col,
   .right-section {
     border: none;
@@ -14,7 +14,7 @@
     margin-right: 0;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: $tabletWidth) {
   .main-home-content .row:first-child {
     height: inherit;
   }
@@ -30,7 +30,7 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: $mobileWidth) {
   h1 {
     font-size: 30px;
   }

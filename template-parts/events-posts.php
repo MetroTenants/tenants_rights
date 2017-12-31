@@ -64,17 +64,16 @@
           </div>
           <div class="col-md-9 event-post-content no-row-margins">
             <div class="row">
-              <div class="col-md-12 col-sm-9 col-xs-9">
+              <div class="col-md-12">
                 <a href="<?php the_permalink(); ?>">
                   <h5><?php the_title(); ?></h5>
                 </a>
                 <p><?php the_date(); ?></p>
             		<?php the_excerpt(); ?>
               </div>
-              <div class="col-md-12 col-sm-3 col-xs-3">
+              <div class="col-md-12 hidden-sm hidden-xs">
                 <div class="read-link">
                   <a href="<?php the_permalink(); ?>">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/read.svg" />
                     <span>Read</span>
                   </a>
                 </div>

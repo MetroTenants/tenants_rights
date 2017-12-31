@@ -8,17 +8,8 @@ Description: Description
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: LICENSE
-Text Domain: tenants_rights
+Text Domain: tenants-rights-theme
 Tags:
-
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned with others.
-
-tenants_rights is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
-Underscores is distributed under the terms of the GNU GPL v2 or later.
-
-Normalizing styles have been helped along thanks to the fine work of
-Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 */
 /* line 5, ../../../.rvm/gems/ruby-2.2.4/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
@@ -9914,9 +9905,9 @@ img#wpstats {
 
 /* line 1, sass/partials/_nav.scss */
 #site-logo {
-  margin-left: 25px;
-  margin-right: 15px;
-  width: 75px;
+  margin-left: 24px;
+  margin-right: 16px;
+  width: 72px;
   height: 70px;
   background-image: url('images/mto-logo.svg?1496091271');
   background-position: center;
@@ -9932,7 +9923,7 @@ img#wpstats {
   font-weight: 600;
 }
 
-/* line 18, sass/partials/_nav.scss */
+/* line 16, sass/partials/_nav.scss */
 .navbar-collapse {
   background-color: #ffffff;
   -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -9940,59 +9931,63 @@ img#wpstats {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-/* line 24, sass/partials/_nav.scss */
+/* line 20, sass/partials/_nav.scss */
 .navbar-nav {
-  margin-top: 10px;
+  margin-top: 8px;
 }
 
-/* line 27, sass/partials/_nav.scss */
+/* line 23, sass/partials/_nav.scss */
 .navbar-toggle {
-  margin-top: 18px;
+  margin-top: 16px;
 }
-/* line 30, sass/partials/_nav.scss */
+/* line 26, sass/partials/_nav.scss */
 .navbar-toggle span.icon-bar {
   background-color: #F26E35;
 }
 
-/* line 35, sass/partials/_nav.scss */
+/* line 31, sass/partials/_nav.scss */
 .navbar-form,
 .navbar-form .input-group,
 .navbar-form .input-group input,
 .navbar-form .input-group .input-group-btn button {
-  height: 50px;
+  height: 48px;
   border-radius: 0;
   border: none;
 }
 
-/* line 44, sass/partials/_nav.scss */
+/* line 40, sass/partials/_nav.scss */
 .navbar-form {
   margin: 0;
   padding: 0;
 }
-/* line 50, sass/partials/_nav.scss */
+/* line 46, sass/partials/_nav.scss */
 .navbar-form .input-group input {
-  padding-left: 15px;
+  padding-left: 16px;
 }
-/* line 55, sass/partials/_nav.scss */
+/* line 51, sass/partials/_nav.scss */
 .navbar-form .input-group .input-group-btn button {
   background-color: #F26E35;
-  width: 60px;
+  width: 56px;
 }
-/* line 58, sass/partials/_nav.scss */
+/* line 54, sass/partials/_nav.scss */
 .navbar-form .input-group .input-group-btn button i {
   color: #FFF;
   font-size: 22px;
 }
-/* line 63, sass/partials/_nav.scss */
+/* line 59, sass/partials/_nav.scss */
 .navbar-form .input-group .input-group-btn button:hover {
   background-color: #F26E35;
 }
 
-/* line 71, sass/partials/_nav.scss */
+/* line 67, sass/partials/_nav.scss */
 .navbar .pull-right.search-form {
   padding: 0;
   height: 70px;
   background-color: #F26E35;
+}
+/* line 72, sass/partials/_nav.scss */
+.navbar .pull-right.search-form input.form-control {
+  height: 70px;
 }
 
 @media screen and (max-width: 768px) {
@@ -10003,7 +9998,7 @@ img#wpstats {
   }
   /* line 84, sass/partials/_nav.scss */
   .navbar .pull-right.search-form form .input-group {
-    margin-left: -30px;
+    margin-left: -32px;
   }
 }
 /* line 91, sass/partials/_nav.scss */
@@ -10029,11 +10024,10 @@ img#wpstats {
 /* line 107, sass/partials/_nav.scss */
 .navbar .pull-right.search-form form div input {
   font-size: 16px;
-  padding-left: 45px;
-  border-left: solid 1px #8d8d8d;
+  padding-left: 48px;
 }
 
-/* line 113, sass/partials/_nav.scss */
+/* line 112, sass/partials/_nav.scss */
 .navbar .search-submit {
   position: absolute;
   background: none;
@@ -10046,7 +10040,7 @@ img#wpstats {
   z-index: 4;
 }
 
-/* line 125, sass/partials/_nav.scss */
+/* line 124, sass/partials/_nav.scss */
 .donate-button {
   display: inline-table;
   vertical-align: top;
@@ -10056,71 +10050,77 @@ img#wpstats {
   width: 35%;
   border: none;
 }
-/* line 134, sass/partials/_nav.scss */
+/* line 133, sass/partials/_nav.scss */
 .donate-button a {
   color: #fff;
 }
-/* line 137, sass/partials/_nav.scss */
+/* line 136, sass/partials/_nav.scss */
 .donate-button a:active, .donate-button a:hover {
   text-decoration: none;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 143, sass/partials/_nav.scss */
+  /* line 142, sass/partials/_nav.scss */
   .navbar .pull-right.search-form form div input {
     border-left: none;
   }
 }
 /* OVERRIDE BOOTSTRAP COLLAPSE CSS */
-/* line 152, sass/partials/_nav.scss */
+/* line 151, sass/partials/_nav.scss */
 .navbar-fixed-top {
   top: 0;
   border-width: 0 0 1px;
 }
-/* line 156, sass/partials/_nav.scss */
+/* line 155, sass/partials/_nav.scss */
 .navbar-fixed-top .navbar-collapse {
   max-height: 100%;
 }
 
-/* line 160, sass/partials/_nav.scss */
+/* line 159, sass/partials/_nav.scss */
 .navbar-collapse.navbar-sub-collapse.collapse {
   display: none !important;
 }
 
-/* line 163, sass/partials/_nav.scss */
+/* line 162, sass/partials/_nav.scss */
 .navbar-collapse.navbar-sub-collapse.navbar-nav {
   float: none;
   margin-top: 7.5px;
 }
 
-/* line 167, sass/partials/_nav.scss */
+/* line 166, sass/partials/_nav.scss */
 .navbar-collapse.navbar-sub-collapse.navbar-nav > li {
   float: none;
 }
 
-/* line 170, sass/partials/_nav.scss */
+/* line 169, sass/partials/_nav.scss */
 .navbar-collapse.navbar-sub-collapse.navbar-nav > li > a {
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-/* line 174, sass/partials/_nav.scss */
+/* line 173, sass/partials/_nav.scss */
 .navbar-collapse.navbar-sub-collapse.collapse.in {
   display: block !important;
 }
 
-/* line 177, sass/partials/_nav.scss */
+/* line 176, sass/partials/_nav.scss */
 .navbar-toggle {
   display: block;
   float: left;
   margin-left: 25px;
 }
 
-/* line 183, sass/partials/_nav.scss */
+/* line 182, sass/partials/_nav.scss */
 #content {
   margin-top: 150px;
 }
 
+@media screen and (max-width: 768px) {
+  /* line 187, sass/partials/_nav.scss */
+  #content {
+    margin-top: 0;
+  }
+}
 /* line 1, sass/partials/_rows.scss */
 .row {
   margin: 10px;
@@ -10148,7 +10148,6 @@ img#wpstats {
 /* line 19, sass/partials/_rows.scss */
 .right-section {
   padding-left: 25px;
-  border-left: 1px solid #8d8d8d;
   margin-top: 25px;
   font-size: 20px;
 }
@@ -10280,86 +10279,93 @@ img#wpstats {
 
 /* line 1, sass/partials/_hero.scss */
 div.hero-row {
-  background-size: 600px;
+  height: 624px;
+  background-size: 960px;
   background-position-x: right;
   background-position-y: bottom;
   background-repeat: no-repeat;
-  background-image: url('images/main_header.png?1502592280');
+  background-image: url('images/hero-img.png?1514740878');
 }
-/* line 8, sass/partials/_hero.scss */
+/* line 5, sass/partials/_hero.scss */
 div.hero-row div {
   padding: 0;
 }
 
-/* line 13, sass/partials/_hero.scss */
+/* line 10, sass/partials/_hero.scss */
 div.title-row div {
   padding: 0;
 }
-/* line 17, sass/partials/_hero.scss */
+/* line 14, sass/partials/_hero.scss */
 div.title-row div div div.col-sm-12 div.cta-arrow-link {
   margin-top: 15px;
 }
-/* line 23, sass/partials/_hero.scss */
-div.title-row div.hero-text-col {
-  border-right: 1px solid #8d8d8d;
-}
-/* line 25, sass/partials/_hero.scss */
+/* line 21, sass/partials/_hero.scss */
 div.title-row div.hero-text-col h1 {
   margin-top: 0;
   font-size: 54px;
 }
-/* line 30, sass/partials/_hero.scss */
+/* line 26, sass/partials/_hero.scss */
 div.title-row div.col-sm-offset-1 {
   font-size: 20px;
 }
 
-/* line 36, sass/partials/_hero.scss */
+/* line 32, sass/partials/_hero.scss */
 div.hero-row-2 .resolution-button {
   margin-top: 50px;
   font-size: 20px;
   margin-bottom: 25px;
 }
-/* line 41, sass/partials/_hero.scss */
+/* line 37, sass/partials/_hero.scss */
 div.hero-row-2 .resolution-button a.cta-button-link {
   margin-top: 15px;
   font-size: 20px;
   border-radius: 50px;
   padding: 15px 45px;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
-/* line 48, sass/partials/_hero.scss */
+/* line 44, sass/partials/_hero.scss */
 div.hero-row-2 .resolution-button p {
   margin-bottom: 40px;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 55, sass/partials/_hero.scss */
+  /* line 51, sass/partials/_hero.scss */
   div.hero-row {
-    background-image: none;
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: 60%;
+    background-repeat: no-repeat;
+    background-image: url('images/hero-img.png?1514740878');
   }
 
-  /* line 59, sass/partials/_hero.scss */
-  div.title-row div.hero-text-col {
+  /* line 54, sass/partials/_hero.scss */
+  .no-row-margins div.title-row {
+    margin-bottom: 160px;
+  }
+  /* line 57, sass/partials/_hero.scss */
+  .no-row-margins div.title-row div.hero-text-col {
     border-right: none;
   }
 
-  /* line 64, sass/partials/_hero.scss */
+  /* line 62, sass/partials/_hero.scss */
   div.hero-row-2 .resolution-button {
     margin-top: inherit;
-    margin-bottom: 15px;
+    margin-bottom: 16px;
   }
-  /* line 68, sass/partials/_hero.scss */
+  /* line 66, sass/partials/_hero.scss */
   div.hero-row-2 .resolution-button p {
-    margin-bottom: 30px;
+    margin-bottom: 32px;
   }
 
-  /* line 73, sass/partials/_hero.scss */
+  /* line 71, sass/partials/_hero.scss */
   p.hero-teaser {
     display: none;
   }
 }
 @media screen and (max-width: 500px) {
-  /* line 81, sass/partials/_hero.scss */
+  /* line 79, sass/partials/_hero.scss */
   div.title-row div.hero-text-col h1 {
     font-size: 44px;
   }
@@ -10395,18 +10401,15 @@ div.hero-row-2 .resolution-button p {
 }
 /* line 24, sass/partials/_featured-images.scss */
 .tab-pane .col-md-10 {
-  margin-top: 25px;
+  margin-top: 24px;
 }
 
 /* line 28, sass/partials/_featured-images.scss */
 .feature-images-tabs {
   text-align: center;
   margin-left: 0;
-  -moz-box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.2);
-  -webkit-box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.2);
-  box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.2);
 }
-/* line 35, sass/partials/_featured-images.scss */
+/* line 33, sass/partials/_featured-images.scss */
 .feature-images-tabs li {
   display: inline-block;
   font-size: 12px;
@@ -10416,16 +10419,16 @@ div.hero-row-2 .resolution-button p {
   vertical-align: top;
   border-right: 1px solid #8d8d8d;
 }
-/* line 44, sass/partials/_featured-images.scss */
+/* line 42, sass/partials/_featured-images.scss */
 .feature-images-tabs li:last-of-type {
   border-right: none;
 }
-/* line 49, sass/partials/_featured-images.scss */
+/* line 47, sass/partials/_featured-images.scss */
 .feature-images-tabs li a, .feature-images-tabs li.active a {
   width: 100%;
   height: 100%;
 }
-/* line 53, sass/partials/_featured-images.scss */
+/* line 51, sass/partials/_featured-images.scss */
 .feature-images-tabs li a h4, .feature-images-tabs li.active a h4 {
   font-family: "Open Sans", Verdana, sans-serif;
   font-weight: 600;
@@ -10434,49 +10437,48 @@ div.hero-row-2 .resolution-button p {
   margin-bottom: 5px;
   text-transform: uppercase;
 }
-/* line 62, sass/partials/_featured-images.scss */
+/* line 60, sass/partials/_featured-images.scss */
 .feature-images-tabs li a p, .feature-images-tabs li.active a p {
   margin: 0;
 }
-/* line 66, sass/partials/_featured-images.scss */
+/* line 64, sass/partials/_featured-images.scss */
 .feature-images-tabs li a:hover, .feature-images-tabs li.active a:hover {
   background-color: inherit;
 }
-/* line 73, sass/partials/_featured-images.scss */
+/* line 71, sass/partials/_featured-images.scss */
 .feature-images-tabs li.active a h4 {
   color: #F26E35;
 }
-/* line 77, sass/partials/_featured-images.scss */
+/* line 75, sass/partials/_featured-images.scss */
 .feature-images-tabs li.active a, .feature-images-tabs li.active a:hover {
   border-bottom: solid 4px #F26E35;
 }
 
-/* line 84, sass/partials/_featured-images.scss */
+/* line 82, sass/partials/_featured-images.scss */
 .feature-images-section div.row {
-  margin-top: 75px;
   background-color: rgba(0, 0, 0, 0.8);
   max-width: 800px;
   padding: 25px 25px 25px 125px;
   display: inline-block;
 }
-/* line 91, sass/partials/_featured-images.scss */
+/* line 89, sass/partials/_featured-images.scss */
 .feature-images-section div.row h2, .feature-images-section div.row p {
   font-family: "Open Sans", Verdana, sans-serif;
   color: #FFF;
 }
-/* line 95, sass/partials/_featured-images.scss */
+/* line 93, sass/partials/_featured-images.scss */
 .feature-images-section div.row h2 {
   font-weight: 700;
   margin-top: 0;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 103, sass/partials/_featured-images.scss */
+  /* line 101, sass/partials/_featured-images.scss */
   .feature-images-tabs {
     text-align: center;
     margin-left: 0;
   }
-  /* line 107, sass/partials/_featured-images.scss */
+  /* line 105, sass/partials/_featured-images.scss */
   .feature-images-tabs li {
     width: 100%;
     -moz-box-shadow: none;
@@ -10485,18 +10487,18 @@ div.hero-row-2 .resolution-button p {
     height: 65px;
     border-right: none;
   }
-  /* line 115, sass/partials/_featured-images.scss */
+  /* line 113, sass/partials/_featured-images.scss */
   .feature-images-tabs li a {
     border-bottom: solid 1px #8d8d8d;
   }
 
-  /* line 121, sass/partials/_featured-images.scss */
+  /* line 119, sass/partials/_featured-images.scss */
   .feature-images-section div.row {
     margin-top: 0;
     padding: 15px;
     display: inline-block;
   }
-  /* line 126, sass/partials/_featured-images.scss */
+  /* line 124, sass/partials/_featured-images.scss */
   .feature-images-section div.row h2 {
     font-size: 36px;
     font-weight: 600;
@@ -10612,6 +10614,11 @@ div.hero-row-2 .resolution-button p {
     margin-top: 25px;
   }
 }
+/* line 3, sass/partials/_tenant-advocacy-board.scss */
+.tenant-advocacy-board .left-section h2 {
+  font-size: 48px;
+}
+
 /* line 3, sass/partials/_what-were-about.scss */
 .what-were-about .row .title {
   border-bottom: 1px solid #8d8d8d;
@@ -10677,7 +10684,7 @@ div.hero-row-2 .resolution-button p {
 
 /* line 10, sass/partials/_squared-away-feature.scss */
 .squared-away-pic {
-  height: 450px;
+  height: 500px;
   background-image: url('images/squared_away_pic.png?1496091467');
   background-size: cover;
   background-position: top;
@@ -10704,93 +10711,94 @@ div.hero-row-2 .resolution-button p {
 
 /* line 30, sass/partials/_squared-away-feature.scss */
 .squared-away-text {
-  min-height: 450px;
-  padding: 15px 50px 15px 75px;
+  min-height: 500px;
+  padding: 16px 48px 16px 72px;
   background-color: #C8E5E3;
 }
 /* line 35, sass/partials/_squared-away-feature.scss */
 .squared-away-text p {
-  margin-top: 25px;
-  margin-bottom: 35px;
+  margin-top: 24px;
+  margin-bottom: 32px;
 }
 
 /* line 40, sass/partials/_squared-away-feature.scss */
 .squared-away-button {
-  margin-top: 45px;
+  margin-top: 40px;
   text-align: center;
   font-size: 20px;
   color: #fff;
   font-weight: 600;
   background-color: #009F93;
-  border-radius: 50px;
-  padding: 15px 45px;
+  border-radius: 48px;
+  padding: 16px 48px;
 }
 
 @media screen and (max-width: 768px) {
   /* line 52, sass/partials/_squared-away-feature.scss */
   .squared-away-text {
-    padding: 15px 15px 75px 15px;
+    padding: 16px 16px 72px 16px;
   }
 }
 /* line 1, sass/partials/_funders.scss */
 .funders {
-  padding-bottom: 50px;
-}
-/* line 4, sass/partials/_funders.scss */
-.funders .row .left-section {
-  padding-right: 25px;
+  padding-bottom: 48px;
+  min-height: 600px;
 }
 /* line 6, sass/partials/_funders.scss */
+.funders .row .left-section {
+  padding-right: 32px;
+}
+/* line 8, sass/partials/_funders.scss */
 .funders .row .left-section h2 {
-  margin-bottom: 100px;
+  margin-bottom: 96px;
   font-size: 48px;
 }
-/* line 10, sass/partials/_funders.scss */
+/* line 12, sass/partials/_funders.scss */
 .funders .row .left-section p {
   border-top: 1px solid #8d8d8d;
-  padding-top: 25px;
-  margin-bottom: 25px;
+  padding-top: 24px;
+  margin-bottom: 24px;
 }
-/* line 17, sass/partials/_funders.scss */
+/* line 19, sass/partials/_funders.scss */
 .funders .row .right-section .row:first-child {
-  margin-bottom: 25px;
+  margin-bottom: 24px;
 }
-/* line 21, sass/partials/_funders.scss */
+/* line 23, sass/partials/_funders.scss */
 .funders .row .right-section .row ul.nav {
   margin-left: 0;
 }
-/* line 24, sass/partials/_funders.scss */
+/* line 26, sass/partials/_funders.scss */
 .funders .row .right-section .row ul.nav li {
   width: 32%;
   display: inline-block;
   text-align: center;
 }
-/* line 31, sass/partials/_funders.scss */
+/* line 33, sass/partials/_funders.scss */
 .funders .row .right-section .row ul.nav li.active a,
 .funders .row .right-section .row ul.nav li:hover a {
   color: #F26E35;
   border-bottom: solid 4px #F26E35;
 }
-/* line 39, sass/partials/_funders.scss */
+/* line 41, sass/partials/_funders.scss */
 .funders .row .right-section .row .tab-content .tab-pane {
   height: inherit;
 }
-/* line 46, sass/partials/_funders.scss */
+/* line 48, sass/partials/_funders.scss */
 .funders .row:nth-child(2) {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
-/* line 52, sass/partials/_funders.scss */
+/* line 54, sass/partials/_funders.scss */
 .funder-img div {
   text-align: center;
   max-width: 200px;
-  padding: 15px;
+  padding: 16px;
   display: inline-block;
 }
-/* line 58, sass/partials/_funders.scss */
+/* line 60, sass/partials/_funders.scss */
 .funder-img div img {
-  max-width: 150px;
+  max-width: 160px;
 }
 
 /* line 1, sass/partials/_about.scss */
@@ -10809,72 +10817,72 @@ div.hero-row-2 .resolution-button p {
   background-repeat: no-repeat;
   background-image: url('images/chi-bg-02.png?1504998001');
 }
-/* line 16, sass/partials/_about.scss */
+/* line 12, sass/partials/_about.scss */
 .about-hero .text h1 {
   font-size: 36px;
   line-height: inherit;
 }
-/* line 20, sass/partials/_about.scss */
+/* line 16, sass/partials/_about.scss */
 .about-hero .text h1 span {
   font-family: "Libre Baskerville", Georgia, serif;
   color: #F26E35;
 }
 
-/* line 28, sass/partials/_about.scss */
+/* line 24, sass/partials/_about.scss */
 .who-we-are {
-  padding-bottom: 50px;
+  padding-bottom: 48px;
 }
-/* line 31, sass/partials/_about.scss */
+/* line 27, sass/partials/_about.scss */
 .who-we-are .row div {
   font-size: 24px;
 }
-/* line 33, sass/partials/_about.scss */
+/* line 29, sass/partials/_about.scss */
 .who-we-are .row div h2 {
   font-size: 48px;
-  margin-bottom: 45px;
+  margin-bottom: 40px;
+}
+/* line 33, sass/partials/_about.scss */
+.who-we-are .row div p {
+  margin-bottom: 56px;
 }
 /* line 37, sass/partials/_about.scss */
-.who-we-are .row div p {
-  margin-bottom: 70px;
-}
-/* line 41, sass/partials/_about.scss */
 .who-we-are .row div .cta-arrow-link a svg {
   padding: 0;
   transition: transform 0.2s linear;
 }
-/* line 45, sass/partials/_about.scss */
+/* line 41, sass/partials/_about.scss */
 .who-we-are .row div .cta-arrow-link a[aria-expanded="false"] svg {
   transform: rotate(180deg);
 }
-/* line 48, sass/partials/_about.scss */
+/* line 44, sass/partials/_about.scss */
 .who-we-are .row div .cta-arrow-link a[aria-expanded="true"] svg {
   transform: rotate(0deg);
 }
 
-/* line 56, sass/partials/_about.scss */
+/* line 52, sass/partials/_about.scss */
 #history-carousel {
   min-height: 540px;
-  margin-top: 75px;
+  margin-top: 56px;
 }
-/* line 60, sass/partials/_about.scss */
+/* line 56, sass/partials/_about.scss */
 #history-carousel .carousel-indicators {
   position: absolute;
   left: 65%;
 }
-/* line 63, sass/partials/_about.scss */
+/* line 59, sass/partials/_about.scss */
 #history-carousel .carousel-indicators li {
   background-color: #8d8d8d;
 }
-/* line 66, sass/partials/_about.scss */
+/* line 62, sass/partials/_about.scss */
 #history-carousel .carousel-indicators li.active {
   background-color: #F26E35;
 }
-/* line 73, sass/partials/_about.scss */
+/* line 69, sass/partials/_about.scss */
 #history-carousel .carousel-inner .item img.carousel {
   max-height: 450px;
   margin-left: 10%;
 }
-/* line 77, sass/partials/_about.scss */
+/* line 73, sass/partials/_about.scss */
 #history-carousel .carousel-inner .item .carousel-caption {
   top: 0;
   left: 45%;
@@ -10882,101 +10890,101 @@ div.hero-row-2 .resolution-button p {
   text-align: left;
   text-shadow: none;
 }
-/* line 84, sass/partials/_about.scss */
+/* line 80, sass/partials/_about.scss */
 #history-carousel .carousel-inner .item .carousel-caption h3 {
   font-size: 36px;
   margin-bottom: 100px;
   color: #404040;
 }
-/* line 89, sass/partials/_about.scss */
+/* line 85, sass/partials/_about.scss */
 #history-carousel .carousel-inner .item .carousel-caption p {
   font-size: 20px;
   color: #404040;
 }
-/* line 94, sass/partials/_about.scss */
+/* line 90, sass/partials/_about.scss */
 #history-carousel .carousel-inner .item .carousel-control.left, #history-carousel .carousel-inner .item .carousel-control.right {
   position: absolute;
   background-image: none;
   top: 35%;
   bottom: auto;
 }
-/* line 100, sass/partials/_about.scss */
+/* line 96, sass/partials/_about.scss */
 #history-carousel .carousel-inner .item .carousel-control.left img, #history-carousel .carousel-inner .item .carousel-control.right img {
   height: 60px;
 }
-/* line 104, sass/partials/_about.scss */
+/* line 100, sass/partials/_about.scss */
 #history-carousel .carousel-inner .item .carousel-control.left {
   left: 37.5%;
 }
-/* line 108, sass/partials/_about.scss */
+/* line 104, sass/partials/_about.scss */
 #history-carousel .carousel-inner .item .carousel-control.right {
   right: -2.5%;
 }
-/* line 110, sass/partials/_about.scss */
+/* line 106, sass/partials/_about.scss */
 #history-carousel .carousel-inner .item .carousel-control.right img {
   transform: rotate(180deg);
 }
 
-/* line 118, sass/partials/_about.scss */
+/* line 114, sass/partials/_about.scss */
 .our-principles {
   margin-bottom: -15px;
 }
-/* line 120, sass/partials/_about.scss */
+/* line 116, sass/partials/_about.scss */
 .our-principles .row {
   height: 720px;
 }
-/* line 122, sass/partials/_about.scss */
+/* line 118, sass/partials/_about.scss */
 .our-principles .row .left {
   background-color: #8d8d8d;
   color: #fff;
   height: 100%;
 }
-/* line 130, sass/partials/_about.scss */
+/* line 126, sass/partials/_about.scss */
 .our-principles .row .left .row div {
   padding-top: 80px;
   padding-right: 100px;
 }
-/* line 134, sass/partials/_about.scss */
+/* line 130, sass/partials/_about.scss */
 .our-principles .row .left .row div h2 {
   font-size: 48px;
   padding-bottom: 45px;
   border-bottom: solid 1px #fff;
 }
-/* line 139, sass/partials/_about.scss */
+/* line 135, sass/partials/_about.scss */
 .our-principles .row .left .row div p {
   margin-top: 50px;
 }
-/* line 145, sass/partials/_about.scss */
+/* line 141, sass/partials/_about.scss */
 .our-principles .row .right {
   padding: 0;
   margin: 0;
   height: 100%;
 }
-/* line 152, sass/partials/_about.scss */
+/* line 148, sass/partials/_about.scss */
 .our-principles .row .right ul.nav {
   margin-left: 0;
   height: 130px;
   padding: 80px 15% 0 15%;
 }
-/* line 158, sass/partials/_about.scss */
+/* line 154, sass/partials/_about.scss */
 .our-principles .row .right ul.nav li {
   width: 32%;
   display: inline-block;
   text-align: center;
 }
-/* line 165, sass/partials/_about.scss */
+/* line 161, sass/partials/_about.scss */
 .our-principles .row .right ul.nav li.active a,
 .our-principles .row .right ul.nav li:hover a {
   color: #F26E35;
   border-bottom: solid 4px #F26E35;
 }
-/* line 169, sass/partials/_about.scss */
+/* line 165, sass/partials/_about.scss */
 .our-principles .row .right ul.nav li.active a, .our-principles .row .right ul.nav li.active a:hover,
 .our-principles .row .right ul.nav li:hover a,
 .our-principles .row .right ul.nav li:hover a:hover {
   background-color: inherit;
 }
-/* line 174, sass/partials/_about.scss */
+/* line 170, sass/partials/_about.scss */
 .our-principles .row .right .tab-pane {
   margin-top: -130px;
   margin-bottom: -15px;
@@ -10984,91 +10992,91 @@ div.hero-row-2 .resolution-button p {
   height: 720px;
 }
 
-/* line 186, sass/partials/_about.scss */
+/* line 182, sass/partials/_about.scss */
 #principles-tab1 {
   background-color: #c6e5e3;
 }
 
-/* line 189, sass/partials/_about.scss */
+/* line 185, sass/partials/_about.scss */
 #principles-tab2 {
   background-color: #faecc3;
 }
 
-/* line 192, sass/partials/_about.scss */
+/* line 188, sass/partials/_about.scss */
 #principles-tab3 {
   background-color: #dceac5;
 }
 
-@media screen and (max-width: 900px) {
-  /* line 199, sass/partials/_about.scss */
+@media screen and (max-width: 992px) {
+  /* line 195, sass/partials/_about.scss */
   #history-carousel .carousel-inner .item {
     height: 100%;
   }
-  /* line 201, sass/partials/_about.scss */
+  /* line 197, sass/partials/_about.scss */
   #history-carousel .carousel-inner .item img.carousel {
     visibility: hidden;
   }
-  /* line 204, sass/partials/_about.scss */
+  /* line 200, sass/partials/_about.scss */
   #history-carousel .carousel-inner .item .carousel-caption {
     left: 75px;
     right: 75px;
   }
-  /* line 208, sass/partials/_about.scss */
+  /* line 204, sass/partials/_about.scss */
   #history-carousel .carousel-inner .item .carousel-caption h3 {
     font-size: 26px;
     margin-bottom: 50px;
   }
-  /* line 212, sass/partials/_about.scss */
+  /* line 208, sass/partials/_about.scss */
   #history-carousel .carousel-inner .item .carousel-caption p {
     font-size: 18px;
   }
-  /* line 216, sass/partials/_about.scss */
+  /* line 212, sass/partials/_about.scss */
   #history-carousel .carousel-inner .item .carousel-control {
     width: 60px;
   }
-  /* line 219, sass/partials/_about.scss */
+  /* line 215, sass/partials/_about.scss */
   #history-carousel .carousel-inner .item .carousel-control.left {
     left: 15px;
   }
-  /* line 222, sass/partials/_about.scss */
+  /* line 218, sass/partials/_about.scss */
   #history-carousel .carousel-inner .item .carousel-control.right {
     right: -15px;
   }
-  /* line 227, sass/partials/_about.scss */
+  /* line 223, sass/partials/_about.scss */
   #history-carousel .carousel-indicators {
     left: 50%;
   }
 }
 @media screen and (max-width: 992px) {
-  /* line 236, sass/partials/_about.scss */
+  /* line 232, sass/partials/_about.scss */
   .our-principles .row {
     height: auto;
   }
-  /* line 238, sass/partials/_about.scss */
+  /* line 234, sass/partials/_about.scss */
   .our-principles .row .left {
     min-height: 1px;
     height: auto;
     padding-bottom: 50px;
   }
-  /* line 250, sass/partials/_about.scss */
+  /* line 246, sass/partials/_about.scss */
   .our-principles .row .right {
     height: auto;
   }
-  /* line 252, sass/partials/_about.scss */
+  /* line 248, sass/partials/_about.scss */
   .our-principles .row .right ul.nav, .our-principles .row .right .tab-pane {
     padding-right: 15px;
     padding-left: 15px;
   }
-  /* line 256, sass/partials/_about.scss */
+  /* line 252, sass/partials/_about.scss */
   .our-principles .row .right .tab-pane {
     height: auto;
   }
 }
-/* line 265, sass/partials/_about.scss */
+/* line 261, sass/partials/_about.scss */
 .thirteen-point-plan .row {
   padding: 50px 0;
 }
-/* line 267, sass/partials/_about.scss */
+/* line 263, sass/partials/_about.scss */
 .thirteen-point-plan .row .thirteen-circle {
   height: 450px;
   width: 450px;
@@ -11076,82 +11084,82 @@ div.hero-row-2 .resolution-button p {
   background-color: #F26E35;
   color: #fff;
 }
-/* line 273, sass/partials/_about.scss */
+/* line 269, sass/partials/_about.scss */
 .thirteen-point-plan .row .thirteen-circle h2 {
   font-family: "Libre Baskerville", Georgia, serif;
   font-size: 325px;
   padding-top: 15px;
   margin-left: 25px;
 }
-/* line 279, sass/partials/_about.scss */
+/* line 275, sass/partials/_about.scss */
 .thirteen-point-plan .row .thirteen-circle .cta-arrow-link {
   text-align: center;
 }
-/* line 281, sass/partials/_about.scss */
+/* line 277, sass/partials/_about.scss */
 .thirteen-point-plan .row .thirteen-circle .cta-arrow-link a, .thirteen-point-plan .row .thirteen-circle .cta-arrow-link a:visited, .thirteen-point-plan .row .thirteen-circle .cta-arrow-link a:active, .thirteen-point-plan .row .thirteen-circle .cta-arrow-link a:hover {
   color: #fff;
 }
-/* line 284, sass/partials/_about.scss */
+/* line 280, sass/partials/_about.scss */
 .thirteen-point-plan .row .thirteen-circle .cta-arrow-link svg {
   stroke: #fff;
 }
-/* line 289, sass/partials/_about.scss */
+/* line 285, sass/partials/_about.scss */
 .thirteen-point-plan .row .col-md-6 {
   margin-top: 45px;
 }
-/* line 291, sass/partials/_about.scss */
+/* line 287, sass/partials/_about.scss */
 .thirteen-point-plan .row .col-md-6 h3 {
   font-size: 48px;
   margin-bottom: 35px;
 }
 
-/* line 300, sass/partials/_about.scss */
+/* line 296, sass/partials/_about.scss */
 .our-programs .row {
   padding: 50px 0;
 }
-/* line 303, sass/partials/_about.scss */
+/* line 299, sass/partials/_about.scss */
 .our-programs .row .program-list .row {
   padding: 15px 0;
 }
-/* line 306, sass/partials/_about.scss */
+/* line 302, sass/partials/_about.scss */
 .our-programs .row .program-list .row div .feature {
   background-color: #8d8d8d;
   height: 145px;
   width: 100%;
 }
-/* line 313, sass/partials/_about.scss */
+/* line 309, sass/partials/_about.scss */
 .our-programs .row .program-list .row .program-description {
   padding-left: 35px;
   padding-right: 50px;
 }
-/* line 317, sass/partials/_about.scss */
+/* line 313, sass/partials/_about.scss */
 .our-programs .row .program-list .row .program-description h4 {
   font-size: 24px;
   padding-bottom: 15px;
   border-bottom: solid 1px #404040;
 }
-/* line 325, sass/partials/_about.scss */
+/* line 321, sass/partials/_about.scss */
 .our-programs .row .description {
   border-left: solid 1px #404040;
   padding-left: 50px;
   margin-right: 8.3333%;
 }
-/* line 329, sass/partials/_about.scss */
+/* line 325, sass/partials/_about.scss */
 .our-programs .row .description h3 {
   font-size: 48px;
   padding-bottom: 36px;
   border-bottom: solid 1px #404040;
 }
-/* line 334, sass/partials/_about.scss */
+/* line 330, sass/partials/_about.scss */
 .our-programs .row .description p {
   margin-top: 50px;
 }
-/* line 337, sass/partials/_about.scss */
+/* line 333, sass/partials/_about.scss */
 .our-programs .row .description .details-button {
   margin: 50px 0;
   text-align: center;
 }
-/* line 340, sass/partials/_about.scss */
+/* line 336, sass/partials/_about.scss */
 .our-programs .row .description .details-button a {
   border-radius: 50px;
   border: solid 5px #8d8d8d;
@@ -11161,7 +11169,7 @@ div.hero-row-2 .resolution-button p {
 }
 
 @media screen and (max-width: 1000px) {
-  /* line 354, sass/partials/_about.scss */
+  /* line 350, sass/partials/_about.scss */
   .our-programs .row .description {
     border-left: none;
     margin: auto 0;
@@ -11169,12 +11177,12 @@ div.hero-row-2 .resolution-button p {
     padding-left: 15px;
   }
 }
-/* line 366, sass/partials/_about.scss */
+/* line 362, sass/partials/_about.scss */
 .our-team .row {
   padding: 15px;
   display: inline-block;
 }
-/* line 370, sass/partials/_about.scss */
+/* line 366, sass/partials/_about.scss */
 .our-team .row div .team-intro {
   max-width: 450px;
   min-width: 300px;
@@ -11182,37 +11190,37 @@ div.hero-row-2 .resolution-button p {
   vertical-align: top;
   padding-right: 50px;
 }
-/* line 376, sass/partials/_about.scss */
+/* line 372, sass/partials/_about.scss */
 .our-team .row div .team-intro h3 {
   font-size: 48px;
   padding-bottom: 36px;
   border-bottom: solid 1px #404040;
 }
-/* line 381, sass/partials/_about.scss */
+/* line 377, sass/partials/_about.scss */
 .our-team .row div .team-intro p {
   margin-top: 30px;
 }
-/* line 385, sass/partials/_about.scss */
+/* line 381, sass/partials/_about.scss */
 .our-team .row div .team-member {
   max-width: 240px;
   display: inline-block;
   margin: 25px 25px 25px 0;
 }
-/* line 389, sass/partials/_about.scss */
+/* line 385, sass/partials/_about.scss */
 .our-team .row div .team-member img {
   height: 240px;
 }
 
-/* line 399, sass/partials/_about.scss */
+/* line 395, sass/partials/_about.scss */
 .board-of-directors .row {
   padding-bottom: 50px;
 }
-/* line 401, sass/partials/_about.scss */
+/* line 397, sass/partials/_about.scss */
 .board-of-directors .row .board-intro {
   border-right: solid 1px #404040;
   padding-right: 50px;
 }
-/* line 404, sass/partials/_about.scss */
+/* line 400, sass/partials/_about.scss */
 .board-of-directors .row .board-intro h3 {
   font-size: 48px;
 }
@@ -11224,7 +11232,7 @@ div.hero-row-2 .resolution-button p {
 }
 /* line 5, sass/partials/_footer.scss */
 .footer-container .row {
-  padding: 15px 0;
+  padding: 16px 0;
 }
 /* line 8, sass/partials/_footer.scss */
 .footer-container .row .title {
@@ -11256,10 +11264,10 @@ div.hero-row-2 .resolution-button p {
 div.footer-cta a.footer-cta {
   font-size: 20px;
   font-weight: 500;
-  padding: 10px;
+  padding: 8px;
   border: 5px solid #F26E35;
-  width: 175px;
-  margin-bottom: 25px;
+  width: 176px;
+  margin-bottom: 24px;
 }
 
 /* line 44, sass/partials/_footer.scss */
@@ -11267,7 +11275,7 @@ div.footer-cta a.footer-cta {
   color: #ffffff;
   display: block;
   font-weight: 300;
-  margin: 10px 0;
+  margin: 8px 0;
   font-size: 12px;
 }
 /* line 51, sass/partials/_footer.scss */
@@ -11278,7 +11286,7 @@ div.footer-cta a.footer-cta {
 .footer-links a:first-child {
   font-weight: 600;
   font-size: 14px;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 /* line 61, sass/partials/_footer.scss */
@@ -11312,20 +11320,22 @@ a.footer-cta:hover {
 #footer-contact h4 {
   font-family: "Open Sans", Verdana, sans-serif;
   font-weight: 600;
-}
-/* line 94, sass/partials/_footer.scss */
-#footer-contact p {
   font-size: 14px;
+  margin-bottom: 8px;
+}
+/* line 96, sass/partials/_footer.scss */
+#footer-contact p {
+  font-size: 11px;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 100, sass/partials/_footer.scss */
+  /* line 102, sass/partials/_footer.scss */
   div.footer-cta {
     text-align: left;
     padding-left: 0;
-    margin-bottom: 15px;
+    margin-bottom: 16px;
   }
-  /* line 105, sass/partials/_footer.scss */
+  /* line 107, sass/partials/_footer.scss */
   div.footer-cta a.footer-cta {
     width: inherit;
     padding-left: 0;
@@ -11335,7 +11345,7 @@ a.footer-cta:hover {
     color: #F26E35;
     text-transform: none;
   }
-  /* line 114, sass/partials/_footer.scss */
+  /* line 116, sass/partials/_footer.scss */
   div.footer-cta a.footer-cta:visited,
   div.footer-cta a.footer-cta:active,
   div.footer-cta a.footer-cta:focus,

@@ -3,7 +3,7 @@
   color: $body-bg;
   
   .row {
-    padding: 15px 0;
+    padding: grid(2) 0;
     
     .title {
       border-bottom: 1px solid $body-bg;
@@ -33,10 +33,10 @@ div.footer-cta {
   a.footer-cta {
     font-size: 20px;
     font-weight: 500;
-    padding: 10px;
+    padding: grid(1);
     border: 5px solid $dark-cta-color;
-    width: 175px;
-    margin-bottom: 25px;
+    width: grid(22);
+    margin-bottom: grid(3);
   }
 }
 
@@ -45,7 +45,7 @@ div.footer-cta {
     color: $body-bg;
     display: block;
     font-weight: 300;
-    margin: 10px 0;
+    margin: grid(1) 0;
     font-size: 12px;
   }
   a:visited, a:active, a:focus, a:hover {
@@ -54,7 +54,7 @@ div.footer-cta {
   a:first-child {
     font-weight: 600;
     font-size: 14px;
-    margin-bottom: 10px;
+    margin-bottom: grid(1);
   }
 }
 
@@ -90,17 +90,19 @@ a.footer-cta:hover {
   h4 {
     font-family: $font-family-sans-serif;
     font-weight: 600;
+    font-size: 14px;
+    margin-bottom: grid(1);
   }
   p {
-    font-size: 14px;
+    font-size: 11px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: $tabletWidth) {
   div.footer-cta {
     text-align: left;
     padding-left: 0;
-    margin-bottom: 15px;
+    margin-bottom: grid(2);
     
     a.footer-cta {
       width: inherit;

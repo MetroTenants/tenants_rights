@@ -81,7 +81,7 @@
 	background: #55acee;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: $tabletWidth) {
   .events-posts.row {
     margin: 10px 0;
     

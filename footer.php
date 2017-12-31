@@ -75,7 +75,8 @@
                 </div>
               </form>
             </div>
-            <div class="row">
+          </div>
+            <!-- <div class="row">
               <div id="footer-contact">
                 <?php
                   if(is_active_sidebar('footer-contact')){
@@ -89,7 +90,7 @@
                   <?php dynamic_sidebar(7); ?>
               </div>
             </div>
-          </div>
+          </div> -->
           <div class="col-sm-2 footer-links hidden-sm hidden-xs">
             <a href="#">About</a>
             <a href="#">Mission</a>
@@ -107,13 +108,6 @@
             <a href="#">Squared Away</a>
           </div>
           <div class="col-sm-2 footer-links hidden-sm hidden-xs">
-            <a href="#">Partnerships</a>
-            <a href="#">Partner Organizations</a>
-            <a href="#">Building Organizations</a>
-            <a href="#">City of Chicago</a>
-            <a href="#">National Partners</a>
-          </div>
-          <div class="col-sm-2 footer-links hidden-sm hidden-xs">
             <a href="#">Resources</a>
             <a href="#">Guides</a>
             <a href="#">Programs</a>
@@ -122,6 +116,15 @@
             <a href="#">Media</a>
             <a href="#">Toolkit</a>
             <a href="#">Comments</a>
+          </div>
+          <div class="col-sm-2 footer-links">
+              <div id="footer-contact">
+                <?php
+                  if(is_active_sidebar('footer-contact')){
+                    dynamic_sidebar('footer-contact');
+                  }
+                ?>
+              </div>
           </div>
         </div>
       </div>

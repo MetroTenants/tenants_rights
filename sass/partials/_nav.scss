@@ -1,8 +1,8 @@
 #site-logo {
-  margin-left: 25px;
-  margin-right: 15px;
-  width: 75px;
-  height: 70px;
+  margin-left: grid(3);
+  margin-right: grid(2);
+  width: grid(9);
+  height: $searchFormHeight;
   background-image: image-url('mto-logo.svg');
   background-position: center;
   background-repeat: no-repeat;
@@ -10,22 +10,18 @@
 
 .navbar {
   background-color: $body-bg;
-  -moz-box-shadow: 0 2px 5px rgba(0, 0, 0,0.2);
-  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0,0.2);
-  box-shadow: 0 2px 5px rgba(0, 0, 0,0.2);
+  @include shadowDefault;
   font-weight: 600;
 }
 .navbar-collapse {
   background-color: $body-bg;
-  -moz-box-shadow: 0 2px 5px rgba(0, 0, 0,0.2);
-  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0,0.2);
-  box-shadow: 0 2px 5px rgba(0, 0, 0,0.2);
+  @include shadowDefault;
 }
 .navbar-nav {
-  margin-top: 10px;
+  margin-top: grid(1);
 }
 .navbar-toggle {
-  margin-top: 18px;
+  margin-top: grid(2);
   
   span.icon-bar {
     background-color: $brand-primary;
@@ -36,7 +32,7 @@
 .navbar-form .input-group,
 .navbar-form .input-group input,
 .navbar-form .input-group .input-group-btn button {
-  height: 50px;
+  height: grid(6);
   border-radius: 0;
   border: none;
 }
@@ -48,13 +44,13 @@
     // float: right;
     
     input {
-      padding-left: 15px;
+      padding-left: grid(2);
     }
     
     .input-group-btn {
       button {
         background-color: $dark-cta-color;
-        width: 60px;
+        width: grid(7);
         i {
           color: #FFF;
           font-size: 22px;
@@ -70,19 +66,23 @@
 .navbar {
   .pull-right.search-form {
     padding: 0;
-    height: 70px;
+    height: $searchFormHeight;
     background-color: $dark-cta-color;
+
+    input.form-control {
+      height: $searchFormHeight;
+    }
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: $tabletWidth) {
   .navbar {
     .pull-right.search-form {
       margin: 0 -15px;
       width: 100%;
 
       form .input-group {
-        margin-left: -30px;
+        margin-left: grid(-4);
       }
     }
   }
@@ -106,8 +106,7 @@
 }
 .navbar .pull-right.search-form form div input {
   font-size: 16px;
-  padding-left: 45px;
-  border-left: solid 1px $gray-base;
+  padding-left: grid(6);
 }
 
 .navbar .search-submit {
@@ -182,4 +181,8 @@
 
 #content {
   margin-top: 150px;
+}
+
+@media screen and (max-width: 768px) {
+  #content { margin-top: 0 }
 }

@@ -25,7 +25,6 @@
               </div>
               <div class="col-md-12 col-sm-2 col-xs-2">
                 <a href="#" class="read-link">
-                  <img src="<?php echo get_template_directory_uri(); ?>/images/read.svg" />
                   <span>Read</span>
                 </a>
               </div>
@@ -45,7 +44,6 @@
               </div>
               <div class="col-md-12 col-sm-2 col-xs-2">
                 <a href="#" class="read-link">
-                  <img src="<?php echo get_template_directory_uri(); ?>/images/read.svg" />
                   <span>Read</span>
                 </a>
               </div>
@@ -65,7 +63,6 @@
               </div>
               <div class="col-md-12 col-sm-2 col-xs-2">
                 <a href="#" class="read-link">
-                  <img src="<?php echo get_template_directory_uri(); ?>/images/read.svg" />
                   <span>Read</span>
                 </a>
               </div>
@@ -85,7 +82,6 @@
               </div>
               <div class="col-md-12 col-sm-2 col-xs-2">
                 <a href="#" class="read-link">
-                  <img src="<?php echo get_template_directory_uri(); ?>/images/read.svg" />
                   <span>Read</span>
                 </a>
               </div>
