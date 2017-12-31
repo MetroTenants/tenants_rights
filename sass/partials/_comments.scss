@@ -1,9 +1,10 @@
 #comments {
+  margin: 0;
   font-size: 14px;
   font-family: $font-family-sans-serif;
 }
 .comment-body {
-  margin: 15px auto;
+  margin: grid(2) auto;
 }
 .comments-title,
 .comment-reply-title {
@@ -13,4 +14,8 @@
 }
 .form-submit input[type="submit"] {
   font-size: 12px;
+}
+ol.comment-list {
+  height: grid(32);
+  overflow-y: scroll;
 }

@@ -1,7 +1,47 @@
-.tenant-advocacy-board {
-    .left-section {
-        h2 {
-            font-size: 48px;
+.tenant-advocacy-board.container-fluid {
+    margin: 0;
+    padding: 0;
+
+    h2 {
+        margin-left: 10%;
+        font-size: 48px;
+    }
+
+    .row {
+        margin: 0;
+        margin-top: grid(6);
+        background-color: rgba(245, 182, 80, 0.6);
+        padding: grid(5) 10%;
+
+        .cta-arrow-link {
+            a, .arrow-icon {
+                color: #fff;
+                stroke: #fff;
+
+                &:hover, &:hover .arrow-icon {
+                    color: $bright-cta-color;
+                    stroke: $bright-cta-color;
+                }
+            }
+        }
+
+        p {
+            width: 50%;
         }
     }
+}
+
+@media screen and (max-width: $tabletWidth) {
+  .tenant-advocacy-board.container-fluid {
+    h2 {
+        margin-left: grid(2);
+    }
+    .row {
+        padding-left: grid(2);
+
+        p {
+            width: auto;
+        }
+    }
+  }
 }

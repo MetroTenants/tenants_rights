@@ -20,20 +20,12 @@ if ( post_password_required() ) {
 }
 ?>
 
-<div id="comments" class="comments-area">
-
+<div id="comments" class="comments-area row">
 	<?php
 	// You can start editing here -- including this comment!
 	if ( have_comments() ) : ?>
-		<h2 class="comments-title">
-			<?php
-				printf( // WPCS: XSS OK.
-					esc_html( _nx( 'One thought on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo;', get_comments_number(), 'comments title', 'tenants_rights' ) ),
-					number_format_i18n( get_comments_number() ),
-					'<span>' . get_the_title() . '</span>'
-				);
-			?>
-		</h2><!-- .comments-title -->
+	<div class="col-md-6 col-md-push-6">
+		<h2 class="comments-title">All <?php echo get_comments_number() ?> Comments</h2>
 
 		<?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : // Are there comments to navigate through? ?>
 		<nav id="comment-nav-above" class="navigation comment-navigation" role="navigation">
@@ -66,20 +58,26 @@ if ( post_password_required() ) {
 
 			</div><!-- .nav-links -->
 		</nav><!-- #comment-nav-below -->
+	</div>
 		<?php
 		endif; // Check for comment navigation.
-
+		?>
+	</div>
+	<div class="col-md-6 col-md-pull-6">
+		<?php comment_form( array( 'comment_field' => '<p class="comment-form-comment"><label for="comment">' . _x( 'Comment', 'noun' ) . '</label><textarea id="comment" name="comment" cols="45" rows="2" aria-required="true"></textarea></p>')); ?>
+	</div>
+	<?php
+	else: ?>
+	<div class="col-md-12">
+		<?php comment_form( array( 'comment_field' => '<p class="comment-form-comment"><label for="comment">' . _x( 'Comment', 'noun' ) . '</label><textarea id="comment" name="comment" cols="45" rows="2" aria-required="true"></textarea></p>')); ?>
+	</div>
+	<?php
 	endif; // Check for have_comments().
-
 
 	// If comments are closed and there are comments, let's leave a little note, shall we?
 	if ( ! comments_open() && get_comments_number() && post_type_supports( get_post_type(), 'comments' ) ) : ?>
-
 		<p class="no-comments"><?php esc_html_e( 'Comments are closed.', 'tenants_rights' ); ?></p>
 	<?php
 	endif;
-
-	comment_form( array( 'comment_field' => '<p class="comment-form-comment"><label for="comment">' . _x( 'Comment', 'noun' ) . '</label><textarea id="comment" name="comment" cols="45" rows="2" aria-required="true"></textarea></p>'));
 	?>
-
 </div><!-- #comments -->

@@ -191,9 +191,10 @@
 
 @media screen and (max-width: $desktopWidth) {
   #history-carousel {
+    height: auto;
+
     .carousel-inner {
       .item {
-        height: 100%;
         img.carousel {
           visibility: hidden;
         }
@@ -375,16 +376,19 @@
           border-bottom: solid 1px $gray-dark;
         }
         p {
-          margin-top: 30px;
+          margin-top: grid(4);
         }
       }
       .team-member {
-        max-width: 240px;
+        width: grid(20);
         display: inline-block;
-        margin: 25px 25px 25px 0;
+        // margin: 25px 25px 25px 0;
+        margin: grid(5);
+        margin-left: 0;
+        margin-right: grid(8);
         img {
-          height: 240px;
-          // width: 240px;
+          height: grid(20);
+          border-radius: 50%;
         }
       }
     }
@@ -393,10 +397,10 @@
 
 .board-of-directors {
   .row {
-    padding-bottom: 50px;
+    padding-bottom: grid(6);
     .board-intro {
       border-right: solid 1px $gray-dark;
-      padding-right: 50px;
+      padding-right: grid(6);
       h3 {
         font-size: 48px;
       }

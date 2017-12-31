@@ -225,11 +225,15 @@ get_header(); ?>
 		</div>
 		<div class="our-team no-row-margins">
 			<div class="row">
-				<div class="col-md-10 col-md-offset-1">
+				<div class="col-md-10 col-md-offset-2">
 					<div class="team-intro">
 						<h3>Meet Your Team</h3>
 						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
 					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
 					<div class="team-member">
 						<img src="<?php echo get_template_directory_uri(); ?>/images/person.png">
 						<h5>John Bartlett</h5>
