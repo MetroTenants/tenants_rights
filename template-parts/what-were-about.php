@@ -9,7 +9,7 @@
 
 ?>
 
-<div class="what-were-about container-fluid no-row-margins">
+<div class="what-were-about container-fluid no-row-margins" id="what-were-about">
   <div class="row">
     <div class="col-md-10 col-md-offset-1 title">
       <h2>What We're About</h2>
@@ -42,7 +42,7 @@
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
       <div class="cta-arrow-link">
-        <a href="#">
+        <a href="/about">
           <svg class="arrow-icon medium right"
              sversion="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
              viewBox="0 0 110 110" xml:space="preserve">

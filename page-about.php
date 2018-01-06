@@ -151,7 +151,7 @@ get_header(); ?>
 				</div>
 			</div>
 		</div>
-		<div class="thirteen-point-plan no-row-margins">
+		<div class="thirteen-point-plan container-fluid no-row-margins">
 			<div class="row">
 				<div class="col-md-4 col-md-offset-1">
 					<div class="thirteen-circle">
@@ -174,7 +174,7 @@ get_header(); ?>
 				</div>
 			</div>
 		</div>
-		<div class="our-programs no-row-margins">
+		<div class="our-programs container-fluid no-row-margins">
 			<div class="row">
 				<div class="col-md-4 description pull-right">
 					<h3>Our Programs</h3>
@@ -223,7 +223,7 @@ get_header(); ?>
 				</div>
 			</div>
 		</div>
-		<div class="our-team no-row-margins">
+		<div class="our-team container-fluid no-row-margins">
 			<div class="row">
 				<div class="col-md-10 col-md-offset-2">
 					<div class="team-intro">
@@ -300,7 +300,7 @@ get_header(); ?>
 				</div>
 			</div>
 		</div>
-		<div class="board-of-directors no-row-margins">
+		<div class="board-of-directors container-fluid no-row-margins">
 			<div class="row">
 				<div class="col-md-4 col-md-offset-1 board-intro">
 					<h3>2016-2017 Board of Directors</h3>

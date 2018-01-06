@@ -38,7 +38,7 @@ get_header(); ?>
 									<div class="row">
 										<div class="col-sm-12">
 											<div class="cta-arrow-link">
-												<a href="#">
+												<a href="#what-were-about">
 													<svg class="arrow-icon medium down"
 														 sversion="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
 														 viewBox="0 0 110 110" xml:space="preserve">

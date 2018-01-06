@@ -21,6 +21,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script type="text/javascript" src="/wp-content/themes/tenants_rights/js/bootstrap.min.js"></script>
 <script src="https://use.fontawesome.com/d70ddbbdd8.js"></script>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body <?php body_class(); ?>>
@@ -46,7 +47,7 @@
 	        </div>
         </form>
         <button class="donate-button">
-          <a href="#">♥ Donate</a>
+          <a href="https://secure.lglforms.com/form_engine/s/04Wf1V0HnbJkBWTuSfhC6w?t=1463168968"><i class="fa material-icons">favorite</i> Donate</a>
         </button>
       </div>
 		</div>
@@ -61,7 +62,7 @@
 	        </div>
         </form>
         <button class="donate-button">
-          <a href="#">♥ Donate</a>
+          <a href="https://secure.lglforms.com/form_engine/s/04Wf1V0HnbJkBWTuSfhC6w?t=1463168968"><i class="fa material-icons">favorite</i> Donate</a>
         </button>
       </div>
     </div>

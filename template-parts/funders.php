@@ -18,7 +18,7 @@
         feel free to reach out to us.
       </p>
       <div class="cta-arrow-link">
-        <a href="#">
+        <a href="/contact-us/">
           <svg class="arrow-icon medium right"
              sversion="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
              viewBox="0 0 110 110" xml:space="preserve">
