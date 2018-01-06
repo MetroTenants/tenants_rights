@@ -46,9 +46,9 @@
             <input type="text" value="<?php the_search_query(); ?>" class="form-control" placeholder="Search" name="s" id="srch-term">
 	        </div>
         </form>
-        <button class="donate-button">
-          <a href="https://secure.lglforms.com/form_engine/s/04Wf1V0HnbJkBWTuSfhC6w?t=1463168968"><i class="fa material-icons">favorite</i> Donate</a>
-        </button>
+        <a href="https://secure.lglforms.com/form_engine/s/04Wf1V0HnbJkBWTuSfhC6w?t=1463168968">
+          <button class="donate-button"><i class="fa material-icons">favorite</i> Donate</button>
+        </a>
       </div>
 		</div>
     <div id="nav-collapse" class="navbar-collapse collapse navbar-sub-collapse">
@@ -61,9 +61,9 @@
             <input type="text" value="<?php the_search_query(); ?>" class="form-control" placeholder="Search" name="s" id="srch-term">
 	        </div>
         </form>
-        <button class="donate-button">
-          <a href="https://secure.lglforms.com/form_engine/s/04Wf1V0HnbJkBWTuSfhC6w?t=1463168968"><i class="fa material-icons">favorite</i> Donate</a>
-        </button>
+        <a href="https://secure.lglforms.com/form_engine/s/04Wf1V0HnbJkBWTuSfhC6w?t=1463168968">
+          <button class="donate-button"><i class="fa material-icons">favorite</i> Donate</button>
+        </a>
       </div>
     </div>
 	</div>
