@@ -11225,9 +11225,10 @@ div.hero-row-2 .resolution-button p {
 /* line 363, sass/partials/_about.scss */
 .our-team .row {
   padding: 15px;
+  width: 100%;
   display: inline-block;
 }
-/* line 367, sass/partials/_about.scss */
+/* line 368, sass/partials/_about.scss */
 .our-team .row div .team-intro {
   max-width: 450px;
   min-width: 300px;
@@ -11235,40 +11236,50 @@ div.hero-row-2 .resolution-button p {
   vertical-align: top;
   padding-right: 50px;
 }
-/* line 373, sass/partials/_about.scss */
+/* line 374, sass/partials/_about.scss */
 .our-team .row div .team-intro h3 {
   font-size: 48px;
   padding-bottom: 36px;
   border-bottom: solid 1px #404040;
 }
-/* line 378, sass/partials/_about.scss */
+/* line 379, sass/partials/_about.scss */
 .our-team .row div .team-intro p {
   margin-top: 32px;
 }
-/* line 382, sass/partials/_about.scss */
-.our-team .row div .team-member {
-  width: 160px;
-  display: inline-block;
-  margin: 40px;
-  margin-left: 0;
-  margin-right: 64px;
+/* line 386, sass/partials/_about.scss */
+.our-team .row:nth-child(2) div {
+  text-align: center;
 }
 /* line 389, sass/partials/_about.scss */
-.our-team .row div .team-member img {
-  height: 160px;
+.our-team .row:nth-child(2) div .team-member {
+  width: 27%;
+  display: inline-block;
+  margin: 40px;
+  vertical-align: top;
+}
+/* line 394, sass/partials/_about.scss */
+.our-team .row:nth-child(2) div .team-member .profile-img {
   border-radius: 50%;
+  height: 0;
+  padding-bottom: 100%;
 }
 
-/* line 399, sass/partials/_about.scss */
+@media (max-width: 768px) {
+  /* line 405, sass/partials/_about.scss */
+  .our-team .row:nth-child(2) div .team-member {
+    max-width: 30%;
+  }
+}
+/* line 411, sass/partials/_about.scss */
 .board-of-directors .row {
   padding-bottom: 48px;
 }
-/* line 401, sass/partials/_about.scss */
+/* line 413, sass/partials/_about.scss */
 .board-of-directors .row .board-intro {
   border-right: solid 1px #404040;
   padding-right: 48px;
 }
-/* line 404, sass/partials/_about.scss */
+/* line 416, sass/partials/_about.scss */
 .board-of-directors .row .board-intro h3 {
   font-size: 48px;
 }

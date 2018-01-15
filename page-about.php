@@ -234,69 +234,27 @@ get_header(); ?>
 			</div>
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
+				<?php
+				// check if the repeater field has rows of data
+				if( have_rows('staff_list') ):
+					// loop through the rows of data
+					while ( have_rows('staff_list') ) : the_row(); ?>
 					<div class="team-member">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/person.png">
-						<h5>John Bartlett</h5>
-						<p>Executive Director</p>
-						<p>johnb@tenants-rights.org</p>
-						<p>773-292-4980 x 226</p>
-					</div>
-					<div class="team-member">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/person.png">
-						<h5>John Bartlett</h5>
-						<p>Executive Director</p>
-						<p>johnb@tenants-rights.org</p>
-						<p>773-292-4980 x 226</p>
-					</div>
-					<div class="team-member">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/person.png">
-						<h5>John Bartlett</h5>
-						<p>Executive Director</p>
-						<p>johnb@tenants-rights.org</p>
-						<p>773-292-4980 x 226</p>
-					</div>
-					<div class="team-member">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/person.png">
-						<h5>John Bartlett</h5>
-						<p>Executive Director</p>
-						<p>johnb@tenants-rights.org</p>
-						<p>773-292-4980 x 226</p>
-					</div>
-					<div class="team-member">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/person.png">
-						<h5>John Bartlett</h5>
-						<p>Executive Director</p>
-						<p>johnb@tenants-rights.org</p>
-						<p>773-292-4980 x 226</p>
-					</div>
-					<div class="team-member">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/person.png">
-						<h5>John Bartlett</h5>
-						<p>Executive Director</p>
-						<p>johnb@tenants-rights.org</p>
-						<p>773-292-4980 x 226</p>
-					</div>
-					<div class="team-member">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/person.png">
-						<h5>John Bartlett</h5>
-						<p>Executive Director</p>
-						<p>johnb@tenants-rights.org</p>
-						<p>773-292-4980 x 226</p>
-					</div>
-					<div class="team-member">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/person.png">
-						<h5>John Bartlett</h5>
-						<p>Executive Director</p>
-						<p>johnb@tenants-rights.org</p>
-						<p>773-292-4980 x 226</p>
-					</div>
-					<div class="team-member">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/person.png">
-						<h5>John Bartlett</h5>
-						<p>Executive Director</p>
-						<p>johnb@tenants-rights.org</p>
-						<p>773-292-4980 x 226</p>
-					</div>
+						<div class="profile-img"
+							 style="background-image: url(<?php the_sub_field('image'); ?>); background-size: cover; background-position: 50% 0;">
+						</div>
+						<h5><?php the_sub_field('name');?></h5>
+						<p><?php the_sub_field('title');?></p>
+						<?php if(get_sub_field('email')):?>
+							<p><?php the_sub_field('email');?></p>
+						<?php endif; ?>
+						<?php if(get_sub_field('phone')):?>
+							<p><?php the_sub_field('phone');?></p>
+						<?php endif; ?>
+					</div><?php
+					endwhile;
+				endif;
+				?>
 				</div>
 			</div>
 		</div>
