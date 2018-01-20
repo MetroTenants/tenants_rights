@@ -250,6 +250,11 @@
         ul.nav, .tab-pane {
           padding-right: 15px;
           padding-left: 15px;
+
+          li, a {
+            font-size: 14px;
+            padding: 0;
+          }
         }
         .tab-pane {
           height: auto;
@@ -289,6 +294,21 @@
       h3 {
         font-size: 48px;
         margin-bottom: 35px;
+      }
+    }
+  }
+}
+
+@media(max-width: $mobileWidth) {
+  .thirteen-point-plan {
+    .row {
+      .thirteen-circle {
+        height: 300px;
+        width: 300px;
+
+        h2 {
+          font-size: 200px;
+        }
       }
     }
   }
@@ -359,6 +379,11 @@
     }
   }
 }
+@media screen and (max-width: $tabletWidth) {
+  .our-programs .row .program-list .row .program-description {
+    padding: 0;
+  }
+}
 
 .our-team {
   .row {
@@ -411,7 +436,7 @@
 
 @media(max-width: $mobileWidth) {
   .our-team .row:nth-child(2) div .team-member {
-    width: auto;
+    width: 60%;
     margin-bottom: 0;
   }
 }
@@ -426,5 +451,11 @@
         font-size: 48px;
       }
     }
+  }
+}
+
+@media(max-width: $tabletWidth) {
+  .board-of-directors .row .board-intro {
+    border-right: none;
   }
 }

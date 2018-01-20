@@ -11125,15 +11125,20 @@ div.hero-row-2 .resolution-button p {
     padding-left: 15px;
   }
   /* line 254, sass/partials/_about.scss */
+  .our-principles .row .right ul.nav li, .our-principles .row .right ul.nav a, .our-principles .row .right .tab-pane li, .our-principles .row .right .tab-pane a {
+    font-size: 14px;
+    padding: 0;
+  }
+  /* line 259, sass/partials/_about.scss */
   .our-principles .row .right .tab-pane {
     height: auto;
   }
 }
-/* line 263, sass/partials/_about.scss */
+/* line 268, sass/partials/_about.scss */
 .thirteen-point-plan .row {
   padding: 50px 0;
 }
-/* line 265, sass/partials/_about.scss */
+/* line 270, sass/partials/_about.scss */
 .thirteen-point-plan .row .thirteen-circle {
   height: 450px;
   width: 450px;
@@ -11141,82 +11146,93 @@ div.hero-row-2 .resolution-button p {
   background-color: #F26E35;
   color: #fff;
 }
-/* line 271, sass/partials/_about.scss */
+/* line 276, sass/partials/_about.scss */
 .thirteen-point-plan .row .thirteen-circle h2 {
   font-family: "Libre Baskerville", Georgia, serif;
   font-size: 325px;
   padding-top: 15px;
   margin-left: 25px;
 }
-/* line 277, sass/partials/_about.scss */
+/* line 282, sass/partials/_about.scss */
 .thirteen-point-plan .row .thirteen-circle .cta-arrow-link {
   text-align: center;
 }
-/* line 279, sass/partials/_about.scss */
+/* line 284, sass/partials/_about.scss */
 .thirteen-point-plan .row .thirteen-circle .cta-arrow-link a, .thirteen-point-plan .row .thirteen-circle .cta-arrow-link a:visited, .thirteen-point-plan .row .thirteen-circle .cta-arrow-link a:active, .thirteen-point-plan .row .thirteen-circle .cta-arrow-link a:hover {
   color: #fff;
 }
-/* line 282, sass/partials/_about.scss */
+/* line 287, sass/partials/_about.scss */
 .thirteen-point-plan .row .thirteen-circle .cta-arrow-link svg {
   stroke: #fff;
 }
-/* line 287, sass/partials/_about.scss */
+/* line 292, sass/partials/_about.scss */
 .thirteen-point-plan .row .col-md-6 {
   margin-top: 45px;
 }
-/* line 289, sass/partials/_about.scss */
+/* line 294, sass/partials/_about.scss */
 .thirteen-point-plan .row .col-md-6 h3 {
   font-size: 48px;
   margin-bottom: 35px;
 }
 
-/* line 298, sass/partials/_about.scss */
+@media (max-width: 500px) {
+  /* line 305, sass/partials/_about.scss */
+  .thirteen-point-plan .row .thirteen-circle {
+    height: 300px;
+    width: 300px;
+  }
+  /* line 309, sass/partials/_about.scss */
+  .thirteen-point-plan .row .thirteen-circle h2 {
+    font-size: 200px;
+  }
+}
+/* line 318, sass/partials/_about.scss */
 .our-programs .row {
   padding: 50px 0;
 }
-/* line 301, sass/partials/_about.scss */
+/* line 321, sass/partials/_about.scss */
 .our-programs .row .program-list .row {
   padding: 15px 0;
 }
-/* line 304, sass/partials/_about.scss */
+/* line 324, sass/partials/_about.scss */
 .our-programs .row .program-list .row div .feature {
   background-color: #8d8d8d;
   height: 145px;
   width: 100%;
 }
-/* line 311, sass/partials/_about.scss */
+/* line 331, sass/partials/_about.scss */
 .our-programs .row .program-list .row .program-description {
   padding-left: 35px;
   padding-right: 50px;
 }
-/* line 315, sass/partials/_about.scss */
+/* line 335, sass/partials/_about.scss */
 .our-programs .row .program-list .row .program-description h4 {
   font-size: 24px;
   padding-bottom: 15px;
   border-bottom: solid 1px #404040;
 }
-/* line 323, sass/partials/_about.scss */
+/* line 343, sass/partials/_about.scss */
 .our-programs .row .description {
   border-left: solid 1px #404040;
   padding-left: 50px;
   margin-right: 8.3333%;
 }
-/* line 327, sass/partials/_about.scss */
+/* line 347, sass/partials/_about.scss */
 .our-programs .row .description h3 {
   font-size: 48px;
   padding-bottom: 36px;
   border-bottom: solid 1px #404040;
 }
-/* line 332, sass/partials/_about.scss */
+/* line 352, sass/partials/_about.scss */
 .our-programs .row .description p {
   margin-top: 50px;
 }
-/* line 335, sass/partials/_about.scss */
+/* line 355, sass/partials/_about.scss */
 .our-programs .row .description .details-button {
   margin: 50px 0;
   text-align: center;
 }
-/* line 338, sass/partials/_about.scss */
+/* line 358, sass/partials/_about.scss */
 .our-programs .row .description .details-button a {
   border-radius: 50px;
   border: solid 5px #8d8d8d;
@@ -11226,7 +11242,7 @@ div.hero-row-2 .resolution-button p {
 }
 
 @media screen and (max-width: 1000px) {
-  /* line 352, sass/partials/_about.scss */
+  /* line 372, sass/partials/_about.scss */
   .our-programs .row .description {
     border-left: none;
     margin: auto 0;
@@ -11234,13 +11250,19 @@ div.hero-row-2 .resolution-button p {
     padding-left: 15px;
   }
 }
-/* line 364, sass/partials/_about.scss */
+@media screen and (max-width: 768px) {
+  /* line 383, sass/partials/_about.scss */
+  .our-programs .row .program-list .row .program-description {
+    padding: 0;
+  }
+}
+/* line 389, sass/partials/_about.scss */
 .our-team .row {
   padding: 15px;
   width: 100%;
   display: inline-block;
 }
-/* line 369, sass/partials/_about.scss */
+/* line 394, sass/partials/_about.scss */
 .our-team .row div .team-intro {
   max-width: 450px;
   min-width: 300px;
@@ -11248,28 +11270,28 @@ div.hero-row-2 .resolution-button p {
   vertical-align: top;
   padding-right: 50px;
 }
-/* line 375, sass/partials/_about.scss */
+/* line 400, sass/partials/_about.scss */
 .our-team .row div .team-intro h3 {
   font-size: 48px;
   padding-bottom: 36px;
   border-bottom: solid 1px #404040;
 }
-/* line 380, sass/partials/_about.scss */
+/* line 405, sass/partials/_about.scss */
 .our-team .row div .team-intro p {
   margin-top: 32px;
 }
-/* line 387, sass/partials/_about.scss */
+/* line 412, sass/partials/_about.scss */
 .our-team .row:nth-child(2) div {
   text-align: center;
 }
-/* line 390, sass/partials/_about.scss */
+/* line 415, sass/partials/_about.scss */
 .our-team .row:nth-child(2) div .team-member {
   width: 15%;
   display: inline-block;
   margin: 40px;
   vertical-align: top;
 }
-/* line 396, sass/partials/_about.scss */
+/* line 421, sass/partials/_about.scss */
 .our-team .row:nth-child(2) div .team-member .profile-img {
   border-radius: 50%;
   height: 0;
@@ -11277,32 +11299,38 @@ div.hero-row-2 .resolution-button p {
 }
 
 @media (max-width: 768px) {
-  /* line 407, sass/partials/_about.scss */
+  /* line 432, sass/partials/_about.scss */
   .our-team .row:nth-child(2) div .team-member {
     width: 30%;
   }
 }
-@media (max-width: 400px) {
-  /* line 413, sass/partials/_about.scss */
+@media (max-width: 500px) {
+  /* line 438, sass/partials/_about.scss */
   .our-team .row:nth-child(2) div .team-member {
-    width: auto;
+    width: 60%;
     margin-bottom: 0;
   }
 }
-/* line 420, sass/partials/_about.scss */
+/* line 445, sass/partials/_about.scss */
 .board-of-directors .row {
   padding-bottom: 48px;
 }
-/* line 422, sass/partials/_about.scss */
+/* line 447, sass/partials/_about.scss */
 .board-of-directors .row .board-intro {
   border-right: solid 1px #404040;
   padding-right: 48px;
 }
-/* line 425, sass/partials/_about.scss */
+/* line 450, sass/partials/_about.scss */
 .board-of-directors .row .board-intro h3 {
   font-size: 48px;
 }
 
+@media (max-width: 768px) {
+  /* line 458, sass/partials/_about.scss */
+  .board-of-directors .row .board-intro {
+    border-right: none;
+  }
+}
 /* line 1, sass/partials/_footer.scss */
 .footer-container {
   background-color: #666666;
@@ -11677,7 +11705,7 @@ ol.comment-list {
     min-height: inherit;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   /* line 34, sass/partials/_responsive.scss */
   h1 {
     font-size: 30px;
