@@ -14,8 +14,8 @@
     <div class="left-section col-md-4 col-md-offset-1">
       <h2>Upcoming Events &amp; Updates</h2>
       <div class="social-share">
-        <a class="facebook" href="http://www.facebook.com/share.php?u=" target="blank"><i class="fa fa-facebook"></i></a>
-        <a class="twitter" href="http://twitter.com/intent/tweet?status=title+url" target="blank"><i class="fa fa-twitter"></i></a>
+        <a class="facebook" href="https://www.facebook.com/MTOchicago/" target="blank"><i class="fa fa-facebook"></i></a>
+        <a class="twitter" href="https://twitter.com/TenantsRights" target="blank"><i class="fa fa-twitter"></i></a>
       </div>
       <p>
         We also write articles, compose guides, plan events, organize groups, train
