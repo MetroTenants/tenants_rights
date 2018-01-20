@@ -11264,7 +11264,7 @@ div.hero-row-2 .resolution-button p {
 }
 /* line 390, sass/partials/_about.scss */
 .our-team .row:nth-child(2) div .team-member {
-  width: 27%;
+  width: 15%;
   display: inline-block;
   margin: 40px;
   vertical-align: top;
@@ -11279,19 +11279,26 @@ div.hero-row-2 .resolution-button p {
 @media (max-width: 768px) {
   /* line 407, sass/partials/_about.scss */
   .our-team .row:nth-child(2) div .team-member {
-    max-width: 30%;
+    width: 30%;
   }
 }
-/* line 413, sass/partials/_about.scss */
+@media (max-width: 400px) {
+  /* line 413, sass/partials/_about.scss */
+  .our-team .row:nth-child(2) div .team-member {
+    width: auto;
+    margin-bottom: 0;
+  }
+}
+/* line 420, sass/partials/_about.scss */
 .board-of-directors .row {
   padding-bottom: 48px;
 }
-/* line 415, sass/partials/_about.scss */
+/* line 422, sass/partials/_about.scss */
 .board-of-directors .row .board-intro {
   border-right: solid 1px #404040;
   padding-right: 48px;
 }
-/* line 418, sass/partials/_about.scss */
+/* line 425, sass/partials/_about.scss */
 .board-of-directors .row .board-intro h3 {
   font-size: 48px;
 }

@@ -238,16 +238,18 @@ get_header(); ?>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-10 col-md-offset-1">
+				<div class="col-md-12">
 				<?php
 				// check if the repeater field has rows of data
 				if( have_rows('staff_list') ):
 					// loop through the rows of data
 					while ( have_rows('staff_list') ) : the_row(); ?>
 					<div class="team-member">
-						<div class="profile-img"
-							 style="background-image: url(<?php the_sub_field('image'); ?>); background-size: cover; background-position: 50% 0;">
-						</div>
+						<?php if(get_sub_field('image')):?>
+							<div class="profile-img"
+								 style="background-image: url(<?php the_sub_field('image'); ?>); background-size: cover; background-position: 50% 0;">
+							</div>
+						<?php endif; ?>
 						<h5><?php the_sub_field('name');?></h5>
 						<p><?php the_sub_field('title');?></p>
 						<?php if(get_sub_field('email')):?>
