@@ -22,19 +22,19 @@
           <img src="<?php echo get_template_directory_uri(); ?>/images/hand.gif" />
           <h4>Our Mission</h4>
           <p>
-            Our goal is to educate, organize and empower tenants to have a voice 
-            in the affordability and availability of safe housing.
+             Our goal is to educate, organize and empower tenants to have a voice in the decisions
+             that affect the affordability and availability of safe, decent and accessible housing.
           </p>
         </div>
         <div class="col-sm-4">
           <img src="<?php echo get_template_directory_uri(); ?>/images/fist.gif" />
           <h4>Our Advocacy</h4>
-          <p>Talk about ordinance, legislation, etc.</p>
+          <p>Housing Justice is more than a law; it's a platform. It is more than a group; it's a movement. Get involved today.</p>
         </div>
         <div class="col-sm-4">
           <img src="<?php echo get_template_directory_uri(); ?>/images/grab.gif" />
           <h4>Us &amp; You</h4>
-          <p>D2T services</p>
+          <p>MTO can help you find the right resources and tools to document and resolve your housing issue.</p>
         </div>
       </div>
     </div>

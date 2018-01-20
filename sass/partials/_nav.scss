@@ -121,23 +121,24 @@
   z-index: 4;
 }
 
-.donate-button {
-  display: inline-table;
-  vertical-align: top;
-  text-align: center;
-  background: transparent;
-  border-radius: 0;
-  width: 35%;
-  border: none;
-
-  a {
-    color: #fff;
+a.donate {
+  color: #fff;
+  
+  button.donate-button {
+    display: inline-table;
+    vertical-align: top;
+    text-align: center;
+    background: transparent;
+    border-radius: 0;
+    width: 35%;
+    border: none;
 
     i.material-icons {
+      vertical-align: middle;
       font-size: 16px;
     }
   }
-  a:active, a:hover {
+  &:active, &:hover {
     text-decoration: none;
   }
 }

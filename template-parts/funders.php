@@ -14,7 +14,7 @@
     <div class="left-section col-md-4 col-md-offset-1">
       <h2>Sponsors &amp; Partners Support</h2>
       <p>
-        If your organization have interest in becoming a partner or supporter, 
+        If your organization has interest in becoming a partner or supporter, 
         feel free to reach out to us.
       </p>
       <div class="cta-arrow-link">
@@ -43,8 +43,7 @@
       </div>
       <div class="row">
         <div class="col-sm-12">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore dolore magna aliqua.</p>
+          <p>Our work is made possible by the strength of our community partners and the generous support of our funders.</p>
         </div>
       </div>
       <div class="row">

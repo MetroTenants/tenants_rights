@@ -71,13 +71,13 @@
                 <p><?php the_date(); ?></p>
             		<?php the_excerpt(); ?>
               </div>
-              <div class="col-md-12 hidden-sm hidden-xs">
+              <!-- <div class="col-md-12 hidden-sm hidden-xs">
                 <div class="read-link">
                   <a href="<?php the_permalink(); ?>">
                     <span>Read</span>
                   </a>
                 </div>
-              </div>
+              </div> -->
             </div>
           </div>
       	</div>

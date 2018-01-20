@@ -122,30 +122,36 @@ get_header(); ?>
 					<div class="row">
 						<div class="col-md-offset-2">
 							<h2>Our Principles</h2>
-							<p>What are principles?  Why are they important? Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
+							<p>MTO believes that there are 4 key elements to Housing Justice. Housing must be Affordable, Stable, Habitable and Accessible.</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-7 right no-row-margins tab-content">
 					<ul class="nav st-nav-tabs">
 						<li class="active">
-							<a href="#principles-tab1" data-toggle="tab">Affordability</a>
+							<a href="#principles-tab1" data-toggle="tab">Affordable</a>
 						</li>
 						<li>
-							<a href="#principles-tab2" data-toggle="tab">Development</a>
+							<a href="#principles-tab2" data-toggle="tab">Stable</a>
 						</li>
 						<li>
-							<a href="#principles-tab3" data-toggle="tab">Organizing</a>
+							<a href="#principles-tab3" data-toggle="tab">Accessible</a>
+						</li>
+						<li>
+							<a href="#principles-tab4" data-toggle="tab">Habitable</a>
 						</li>
 					</ul>
 					<div class="row tab-pane active" id="principles-tab1">
-						<div>Affordability</div>
+						<p>Affordable means that no one should have to spend all their income on housing. Individuals and families still need resources for food, clothing, education, and more. No one should have to choose between buying food or paying rent. Affordability can be accomplished through controls on rent, increases in subsidies and investment in low- and moderate income housing.</p>
 					</div>
 					<div class="row tab-pane" id="principles-tab2">
-						<div>Development</div>
+						<p>Stable means knowing that when problems arise, one’s home will not be at risk. For many, the loss of a paycheck or a sudden illness can mean the loss of home. Nor should anyone lose their home just because someone with more resources wishes to move into their neighborhood. Neighborhood development should protect affordable housing especially for people with lower incomes. Stability can be accomplished through Just Cause Eviction Ordinances, limits on gentrification, and emergency subsidies.</p>
 					</div>
 					<div class="row tab-pane" id="principles-tab3">
-						<div>Organizing</div>
+						<p>Accessible means that people should have quality choices to determine where their homes will be. People with disabilities, criminal records, families with children, and seniors all deserve to live in areas that have economic opportunity and safety. Accessibility can be accomplished through more protective fair housing laws preventing discrimination, easier to use subsidy programs and modifying and building housing available to people with disabilities.</p>
+					</div>
+					<div class="row tab-pane" id="principles-tab4">
+						<p>Habitable means housing should be decent. We all need homes that are safe and well-maintained. This means homes are dry, ventilated, pest-free, clean, and contaminate free.  Habitability can be accomplished through pre-emptive building inspection programs, subsidies and investment in housing maintenance.</p>
 					</div>
 					</div>
 				</div>
@@ -157,7 +163,7 @@ get_header(); ?>
 					<div class="thirteen-circle">
 						<h2>13</h2>
 						<div class="cta-arrow-link">
-							<a href="#" data-toggle="collapse">
+							<a href="/about/13-point-plan-to-make-housing-a-human-right/" data-toggle="collapse">
 								<svg class="arrow-icon medium right"
 									sversion="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
 									viewBox="0 0 110 110" xml:space="preserve">
@@ -178,46 +184,46 @@ get_header(); ?>
 			<div class="row">
 				<div class="col-md-4 description pull-right">
 					<h3>Our Programs</h3>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
+					<p>Our programs are the building blocks that enable us to organize and empower tenants to have a voice in the decisions that affect the affordability and availability of safe, decent and accessible housing.</p>
 					<div class="details-button">
-						<a href="#">Program details</a>
+						<a href="/programs/">Program details</a>
 					</div>
 				</div>
 				<div class="col-md-6 col-md-offset-1 program-list pull-left">
 					<div class="row">
-						<div class="col-xs-3">
+						<!-- <div class="col-xs-3">
 							<div class="feature"></div>
-						</div>
-						<div class="col-xs-9 program-description">
-							<h4>Legislation</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+						</div> -->
+						<div class="col-xs-12 program-description">
+							<h4>Tenant Stabilization</h4>
+							<p>MTO works directly with individual tenants to resolve landlord and apartment problems. We provide free tools and resources that enable tenants to document issues and seek immediate resolutions.</p>
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-xs-3">
+						<!-- <div class="col-xs-3">
 							<div class="feature"></div>
-						</div>
-						<div class="col-xs-9 program-description">
-							<h4>Building Organizing</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+						</div> -->
+						<div class="col-xs-12 program-description">
+							<a href="/programs/affordable-housing-preservation-program/"><h4>Building Organizing</h4></a>
+							<p>Tenant associations have a long history of creating better circumstances for all renters. Organizing broadens an individual tenant's influence and power. Working with other people facing similar problems offers the best hope for changing the world in which we live and improving our lives and the lives of those around us.</p>
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-xs-3">
+						<!-- <div class="col-xs-3">
 							<div class="feature"></div>
-						</div>
-						<div class="col-xs-9 program-description">
-							<h4>Healthy Homes Program</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+						</div> -->
+						<div class="col-xs-12 program-description">
+							<a href="/programs/legislation/"><h4>Advocacy</h4></a>
+							<p>MTO continually works to strengthen rental laws and create better tenant protections by advocating for new and improved legislation on both the local, state and federal level.</p>
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-xs-3">
+						<!-- <div class="col-xs-3">
 							<div class="feature"></div>
-						</div>
-						<div class="col-xs-9 program-description">
-							<h4>Direct Tenant Services</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+						</div> -->
+						<div class="col-xs-12 program-description">
+							<h4>Tenant Advocacy Board</h4>
+							<p>MTO's Advocacy Board facilitates, oversees, and organizes efforts to make housing a human right. The Advocacy Board promotes and builds campaigns that confront power and win back our human rights to housing, health, education, jobs and the ability to organize.</p>
 						</div>
 					</div>
 				</div>
@@ -228,7 +234,6 @@ get_header(); ?>
 				<div class="col-md-10 col-md-offset-2">
 					<div class="team-intro">
 						<h3>Meet Your Team</h3>
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
 					</div>
 				</div>
 			</div>

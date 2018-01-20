@@ -16,18 +16,21 @@
           <div class="feature-images-section no-row-margins">
             <div class="row">
               <div class="col-md-12 col-sm-10 col-xs-10 feature-header">
-                <h2>Volunteer on MTO's Tenants Rights Hotline</h2>
+                <a href="/get-involved/volunteer/"><h2>Volunteer on MTO's Tenants Rights Hotline</h2></a>
+                <!-- <h2>Volunteer on MTO's Tenants Rights Hotline</h2> -->
               </div>
-              <div class="col-md-12 hidden-sm hidden-xs feature-teaser">
-                <p>Hotline Volunteer Training:</p>
-                <p>March 18, 2017 from 10:00am - 4:00pm</p>
+              <div class="col-xs-12 feature-teaser">
+                <p>Sign up for a Hotline Volunteer Training</p>
+                <!-- <p>March 18, 2017 from 10:00am - 4:00pm</p> -->
                 <p>No experience necessary, anyone can learn!</p>
+                <div class="feature-images-attribution">&copy; Gothamist</div>
               </div>
-              <div class="col-md-12 col-sm-2 col-xs-2">
+              <!-- <div class="col-md-12 col-sm-2 col-xs-2">
                 <a href="#" class="read-link">
                   <span>Read</span>
                 </a>
-              </div>
+                
+              </div> -->
             </div>
           </div>
         </div>
@@ -90,7 +93,7 @@
         </div>
       </div>
     </div>
-    <div class="row tab-row">
+    <!-- <div class="row tab-row">
       <div class="col-md-10 col-md-offset-1">
         <ul class="nav st-nav-tabs feature-images-tabs">
           <li class="active">
@@ -119,6 +122,6 @@
           </li>
         </ul>
       </div>
-    </div>
+    </div> -->
   </div>
 </div>

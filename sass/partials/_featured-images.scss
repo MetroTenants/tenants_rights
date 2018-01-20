@@ -78,7 +78,18 @@
   }
 }
 
+.feature-images-attribution {
+  float: right;
+  color: #fff;
+  font-size: 11px;
+}
+
 .feature-images-section {
+  .feature-header {
+    a:hover, h2:hover {
+      text-decoration: underline;
+    }
+  }
   div.row {
     // margin-top: 75px;
     background-color: rgba(0, 0, 0, 0.8);

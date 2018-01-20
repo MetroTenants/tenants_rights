@@ -27,7 +27,7 @@
       <div class="col-sm-10 col-sm-offset-1 center-items no-row-margins">
         <div class="row">
           <div class="footer-cta col-sm-4">
-            <a href="#" class="footer-cta">Donate</a>
+            <a href="https://secure.lglforms.com/form_engine/s/04Wf1V0HnbJkBWTuSfhC6w?t=1463168968" class="footer-cta">Donate</a>
           </div>
           <div class="footer-cta col-sm-4">
             <a href="/get-involved/become-a-member/" class="footer-cta">Membership</a>
@@ -92,30 +92,28 @@
             </div>
           </div> -->
           <div class="col-sm-2 footer-links hidden-sm hidden-xs">
-            <a href="#">About</a>
-            <a href="#">Mission</a>
-            <a href="#">History</a>
-            <a href="#">Plan &amp; Principles</a>
-            <a href="#">Staff &amp; Volunteers</a>
+            <a href="/about">About</a>
+            <a href="/about/mission-history/">Mission &amp; History</a>
+            <!-- <a href="#">Plan &amp; Principles</a> -->
+            <!-- <a href="#">Staff &amp; Volunteers</a> -->
           </div>
           <div class="col-sm-2 footer-links hidden-sm hidden-xs">
-            <a href="#">Services</a>
-            <a href="#">Building Organizing</a>
-            <a href="#">Healthy Homes Program</a>
-            <a href="#">Legislation</a>
-            <a href="#">Tenant's Rights Hotline</a>
-            <a href="#">Tenant Congress</a>
-            <a href="#">Squared Away</a>
+            <a href="/programs/">Programs</a>
+            <a href="/programs/affordable-housing-preservation-program/">Building Organizing</a>
+            <a href="/programs/healthy-homes-program/">Healthy Homes Program</a>
+            <a href="/programs/legislation/">Legislation</a>
+            <a href="/programs/citywide-tenants-rights-hotline/">Tenant's Rights Hotline</a>
+            <a href="https://squaredawaychicago.com">Squared Away</a>
           </div>
           <div class="col-sm-2 footer-links hidden-sm hidden-xs">
-            <a href="#">Resources</a>
-            <a href="#">Guides</a>
-            <a href="#">Programs</a>
-            <a href="#">Articles</a>
-            <a href="#">F.A.Q.</a>
-            <a href="#">Media</a>
-            <a href="#">Toolkit</a>
-            <a href="#">Comments</a>
+            <!-- <a href="#">Resources</a> -->
+            <!-- <a href="#">Guides</a> -->
+            <!-- <a href="#">Programs</a> -->
+            <a href="/category/latest-news/">Articles</a>
+            <a href="/category/frequently-asked-questions-faq/">F.A.Q.</a>
+            <!-- <a href="#">Media</a> -->
+            <!-- <a href="#">Toolkit</a> -->
+            <!-- <a href="#">Comments</a> -->
           </div>
           <div class="col-sm-2 footer-links">
               <div id="footer-contact">
