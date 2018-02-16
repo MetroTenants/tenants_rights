@@ -268,20 +268,25 @@ get_header(); ?>
 		<div class="board-of-directors container-fluid no-row-margins">
 			<div class="row">
 				<div class="col-md-4 col-md-offset-1 board-intro">
-					<h3>2016-2017 Board of Directors</h3>
+					<h3>Board of Directors</h3>
 				</div>
 				<div class="col-md-3">
-					<p>Ismael Enriquez, President</p>
-					<p>H. Demetrius Bonner, Vice-President</p>
-					<p>Hillory Walker, Treasurer</p>
-					<p>Loreen Targos, Secretary</p>
-					<p>Patricia Hightower</p>
+					<?php
+					if( have_rows('board_column_1') ):
+						while ( have_rows('board_column_1') ) : the_row(); ?>
+						<p><?php the_sub_field('member'); ?></p><?php
+						endwhile;
+					endif;
+					?>
 				</div>
 				<div class="col-md-3">
-					<p>Cynthia Reed-Pearson</p>
-					<p>Betsy Shuman-Moore</p>
-					<p>Mark Swartz</p>
-					<p>Suzanne Niemoth</p>
+					<?php
+					if( have_rows('board_column_2') ):
+						while ( have_rows('board_column_2') ) : the_row(); ?>
+						<p><?php the_sub_field('member'); ?></p><?php
+						endwhile;
+					endif;
+					?>
 				</div>
 			</div>
 		</div>
