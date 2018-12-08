@@ -68,7 +68,6 @@
                 <a href="<?php the_permalink(); ?>">
                   <h5><?php the_title(); ?></h5>
                 </a>
-                <p><?php the_date(); ?></p>
             		<?php the_excerpt(); ?>
               </div>
               <!-- <div class="col-md-12 hidden-sm hidden-xs">
